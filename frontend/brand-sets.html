@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Sets - Diecast Collection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/brand-sets.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="set-brands.html">Back</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+            <input type="search" id="search-bar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <section id="brand-sets">
+            <h2 id="brand-title">Brand Sets</h2>
+            <div class="sort-dropdown">
+                <label for="sort-options">Sort by Year:</label>
+                <select id="sort-options">
+                    <option value="desc" selected>Descending</option>
+                    <option value="asc">Ascending</option>
+                </select>
+                <label for="condense-options">Condense by Year:</label>
+                <select id="condense-options">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                    <option value="yes-by-year">Yes by Year</option>
+                </select>
+            </div>
+            <div id="set-items-container">
+                <!-- Set items will be populated here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+    <script src="js/brand-sets.js"></script>
+</body>
+</html>

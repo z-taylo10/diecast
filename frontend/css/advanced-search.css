@@ -1,0 +1,387 @@
+/* Existing styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#search-bar {
+    visibility: hidden;
+    max-width: 5%;
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    background: #001a33; /* Even darker blue */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5; /* Adjust line height */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Adjust line height */
+}
+
+header input[type="search"] {
+    padding: 5px;
+    margin-left: 20px;
+    flex-grow: 1;
+    max-width: 300px; /* Set a maximum width for larger screens */
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    align-self: center; /* Center the menu icon vertically */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #004080; /* Slightly lighter blue */
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .menu {
+        display: block;
+        margin-bottom: 10px; /* Add some space below the menu icon */
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        position: relative;
+        background-color: #001a33;
+        text-align: center; /* Center the menu items */
+        padding: 0; /* Remove padding */
+    }
+
+    nav ul.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%; /* Ensure full width */
+    }
+
+    nav ul li a {
+        width: 100%; /* Ensure full width */
+        padding: 10% 15%;
+        font-size: 16px; /* Ensure consistent font size */
+    }
+
+    header input[type="search"] {
+        width: calc(100% - 20px); /* Adjust width to fit within the header */
+        margin: 10px 0;
+    }
+
+    #entries {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two items per row */
+        gap: 10px;
+        padding: 20px 0; /* Add padding to avoid interference with the heading */
+    }
+
+    #entries h2 {
+        grid-column: span 2; /* Adjust heading to span two columns */
+    }
+
+    .search-box {
+        display: block; /* Change from flex to block */
+        width: 100%; /* Ensure full width */
+        text-align: center; /* Center content */
+        margin-bottom: 5%; /* Adjust bottom margin as percentage */
+    }
+
+    .filter-box {
+        width: 100%; /* Ensure full width */
+        margin-bottom: 5%; /* Add bottom margin as percentage */
+        margin: 0; /* Remove margin */
+        padding: 0; /* Remove padding */
+    }
+
+    .filter-box + .filter-box {
+        margin-top: 0; /* Remove top margin for the second filter box */
+    }
+
+    .filter-box label, .filter-box select, .filter-box input {
+        width: 100%; /* Ensure full width */
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+        margin: 0; /* Remove margin */
+        padding: 0; /* Remove padding */
+    }
+
+    #search-bar {
+        display: none;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center; /* Center the search bar */
+        width: 100%; /* Ensure full width */
+    }
+
+    .search-bar input[type="text"] {
+        width: calc(100% - 10px); /* Slightly smaller width */
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+
+    .search-bar button {
+        width: auto; /* Keep the button width as is */
+    }
+
+    /* Ensure two cars per row on mobile */
+    .entries-container .entry {
+        width: 100%; /* Ensure full width */
+    }
+
+    #entries .entry {
+        width: calc(91% - 10px); /* Adjust width to fit two entries per row with smaller gap */
+        display: inline-block;
+        margin: 5px; /* Adjust margin to control spacing */
+    }
+    #entries-container h2 {
+        grid-column: span 7; /* Adjust heading to span all columns */
+        text-align: center; /* Center the heading text */
+    }
+}
+
+@media (min-width: 601px) {
+    .menu {
+        display: none; /* Hide hamburger menu on desktop */
+    }
+
+    nav ul {
+        display: flex; /* Display navigation items horizontally on desktop */
+    }
+
+    header input[type="search"] {
+        width: 100%; /* Ensure it takes available space */
+        max-width: 300px; /* Set a maximum width for larger screens */
+    }
+
+    #entries {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr); /* 7 items per row */
+        gap: 10px; /* Adjust the gap between entries as needed */
+        padding: 20px; /* Add padding around the grid */
+    }
+    #entries-container h2 {
+        grid-column: span 7; /* Adjust heading to span all columns */
+        text-align: center; /* Center the heading text */
+    }
+}
+
+main {
+    padding: 20px; /* Add padding to the main content */
+}
+
+#entries-container {
+    padding: 20px 0; /* Add padding to avoid interference with the heading */
+}
+
+#entries-container h2 {
+    width: 100%; /* Ensure full width */
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.entry {
+    background-color: #004080; /* Slightly lighter blue */
+    padding: 10px;
+    border-radius: 5px;
+    border: none; /* Remove white borders */
+    margin: 2%;
+    max-height: 275px; /* Set a max height for collapsed state */
+    overflow: hidden; /* Hide overflow content */
+    transition: max-height 0.9s ease; /* Smooth transition */
+    position: relative; /* For positioning the expand button */
+}
+
+.entry.expanded {
+    max-height: none; /* Remove max height for expanded state */
+}
+
+.entry .expand-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #ecececc1;
+    transition: transform 0.9s ease; /* Smooth transition for rotation */
+}
+
+.entry.expanded .expand-icon {
+    transform: rotate(360deg); /* Rotate the icon when expanded */
+}
+
+.special-entry {
+    background-color: #ffd700; /* Gold color */
+    border-color: #f1c40f; /* Slightly darker gold for the border */
+}
+
+.special-entry p {
+    color: #525252; /* Ensure text color is dark gray for better readability */
+}
+
+.special-entry hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.entry p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001a33; /* Even darker blue */
+    color: white;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5; /* Adjust line height */
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#pagination button:hover {
+    background-color: #0056b3;
+}
+
+#pagination button:focus {
+    outline: none;
+}
+
+.no-results {
+    text-align: center;
+    color: #ff0000; /* Red color for visibility */
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Advanced Search Styles */
+#advanced-search {
+    padding: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center; /* Center the filter boxes */
+    gap: 50px; /* Add gap between the filter boxes */
+    margin-bottom: 40px; /* Increase gap between filters and search bar */
+}
+
+.filter-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px; /* Decrease gap between search bar and results */
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Sort Button Styles */
+.sort-button-container {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.sort-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffa32b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sort-button:hover {
+    background-color: #b37100;
+}
+
+@media (max-width: 600px) {
+    .sort-button-container {
+        margin-bottom: 5%; /* Adjust as needed */
+    }
+}

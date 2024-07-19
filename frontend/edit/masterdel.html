@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Master - Diecast Collection</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/edit.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+        <nav id="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../advanced-search.html">Advanced Search</a></li>
+                <li><a href="../masteredit-page.html">Back</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+            <input type="search" id="search-bar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <section id="entries-container">
+            <h2>Delete Master Item</h2>
+            <div id="entries"></div>
+        </section>
+        <div id="pagination"></div>
+    </main>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+    <script src="js/deleteDiecast.js"></script>
+</body>
+<script>
+    fetch('/check-login')
+        .then(response => response.json())
+        .then(data => {
+            if (!data.loggedIn) {
+                window.location.href = '/login.html';
+            }
+        });
+</script>
+</html>
+

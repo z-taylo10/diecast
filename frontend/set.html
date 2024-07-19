@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Details - Diecast Collection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/set.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="advanced-search.html">Advanced Search</a></li>
+                    <li><a href="javascript:history.back()">Back</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+            <!-- This div remains empty for spacing -->
+        </div>
+    </header>
+    <main>
+        <section id="set-details">
+            <h2 id="set-title">Set Details</h2>
+            <input type="text" id="filter-input" placeholder="Filter cars...">
+            <div id="cars-container" class="entries-container"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+    <script src="js/set.js"></script>
+</body>
+</html>

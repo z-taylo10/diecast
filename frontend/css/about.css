@@ -1,0 +1,39 @@
+#search-bar {
+    visibility: hidden;
+    max-width: 19%;
+}
+
+#inspire-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px auto; /* Updated to auto for horizontal centering */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block; /* Added to make the button a block element */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#inspire-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#inspire-img {
+    display: none; /* Initially hide the image */
+    max-width: 100%; /* Ensures the image does not exceed the width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+#about-info {
+    text-align: center; /* Centers the text inside the about-info section */
+}
+
+@media (max-width: 600px) {
+    #search-bar {
+        display: none;
+    }
+}

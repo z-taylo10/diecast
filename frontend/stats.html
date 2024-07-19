@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection Stats</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stats.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.0.0"></script>
+    <script src="js/colorMapping.js"></script>
+    <script src="js/stats.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="advanced-search.html" class="long-button">Advanced Search</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+        </div>
+    </header>
+    <main>
+        <section id="stats-container">
+            <h2>Collection Stats</h2>
+            <div id="stats">
+                <!-- Stats will be dynamically populated here -->
+                <div class="stat-item">
+                    <h3>Most Popular Diecast Brands:</h3>
+                    <canvas id="brandChart"></canvas>
+                    <button onclick="resetZoom('brandChart')">Reset Zoom</button>
+                </div>
+                <div class="stat-item">
+                    <h3>Most Popular Car Brands:</h3>
+                    <canvas id="makeChart"></canvas>
+                    <button onclick="resetZoom('makeChart')">Reset Zoom</button>
+                </div>
+                <div class="stat-item">
+                    <h3>Most Popular Years by Make:</h3>
+                    <select id="yearSort" onchange="updateYearChart()">
+                        <option value="count">Highest to Lowest</option>
+                        <option value="year">Newest to Oldest</option>
+                    </select>
+                    <canvas id="yearChart"></canvas>
+                    <button onclick="resetZoom('yearChart')">Reset Zoom</button>
+                </div>
+                <div class="stat-item">
+                    <h3>Most Popular Diecast Years:</h3>
+                    <select id="byearSort" onchange="updateByearChart()">
+                        <option value="count">Highest to Lowest</option>
+                        <option value="year">Newest to Oldest</option>
+                    </select>
+                    <canvas id="byearChart"></canvas>
+                    <button onclick="resetZoom('byearChart')">Reset Zoom</button>
+                </div>
+                <div class="stat-item">
+                    <h3>Most Popular Colors:</h3>
+                    <select id="colorSort" onchange="updateColorChart()">
+                        <option value="default">Default</option>
+                        <option value="grouped">Grouped</option>
+                    </select>
+                    <canvas id="colorChart"></canvas>
+                    <button onclick="resetZoom('colorChart')">Reset Zoom</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="carBrandStatsContainer" class="centered">
+        <h2>Car Brand Stats</h2>
+        <button onclick="toggleCarBrandStats()">Show/Hide Car Brand Stats:</button>
+        <div id="carBrandStats" class="hidden">
+            <!-- Car brand stats will be dynamically populated here -->
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+</body>
+</html>

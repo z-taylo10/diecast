@@ -1,0 +1,59 @@
+#brand-sets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#brand-sets h2 {
+    text-align: center;
+}
+
+.sort-dropdown {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sort-dropdown label {
+    margin-right: 10px;
+}
+.sort-dropdown select {
+    margin-right: 10px; /* Adjust the value as needed */
+}
+
+#set-items-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.set-item {
+    width: 60%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffa32b; /* Orange color */
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.set-item:hover {
+    background-color: #b37100;
+}
+
+/* Media query for mobile view */
+@media (max-width: 600px) {
+    .sort-dropdown {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sort-dropdown label,
+    .sort-dropdown select {
+        margin-right: 0;
+        margin-bottom: 10px; /* Add some space between elements */
+    }
+}

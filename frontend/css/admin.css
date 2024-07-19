@@ -1,0 +1,107 @@
+#search-bar {
+    visibility: hidden;
+    max-width: 19%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Center the edit section */
+#edit-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center; /* Center vertically */
+    height: 77vh; 
+}
+
+.admin-box, .double-width {
+    width: 60%; /* Set a fixed width for all buttons */
+    margin: 10px 0; /* Consistent vertical spacing */
+}
+
+#middle-row {
+    display: flex;
+    justify-content: center; /* Center the buttons in the middle row */
+    width: 100%;
+}
+
+.middle-box {
+    width: 30%; /* Adjust to fit two items per row with some space between */
+    margin: 0 2%; /* Reduce the margin to bring them closer */
+}
+
+@media (min-width: 601px) {
+    .admin-box, .double-width, .middle-box {
+        width: 30%; /* Adjust width for larger screens */
+    }
+    #middle-row .middle-box {
+        width: 30%; /* Adjust this value to make the buttons smaller */
+    }
+    #edit-section {
+        justify-content: center; /* Ensure it's centered vertically */
+    }
+}
+
+.admin-box {
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.admin-box:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+#logout-box a {
+    color: white;
+    text-decoration: none;
+}
+
+#logout-box a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    #search-bar {
+        display: none;
+    }
+    #edit-section {
+        flex-direction: column;
+        height: auto;
+    }
+    #middle-row {
+        display: none; /* Hide the entire row containing upload and download buttons */
+    }
+
+    .admin-box {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diecast Collection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+            <nav id="navbar">
+                <ul>
+                    <li><a id="login-link" href="login.html">Login</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="advanced-search.html" class="long-button">Advanced Search</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+            <input type="search" id="search-bar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <section id="welcome">
+            <h2>Welcome to My Diecast Collection</h2>
+            <p>This is a place to showcase and catalog my collection of Hot Wheels. Some fun stats can be found <a id="sasks" href="stats.html">here</a>!</p>
+        </section>
+        <section id="entries-container">
+            <h2>Collection Entries</h2>
+            <div id="entries"></div>
+        </section>
+        <div id="pagination">
+            <button id="prev-page" style="display: none;">&lt;</button>
+            <!-- Existing pagination buttons will be dynamically added here -->
+            <button id="next-page" style="display: none;">&gt;</button>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

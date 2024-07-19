@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Master - Diecast Collection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modifymaster.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="advanced-search.html">Advanced Search</a></li>
+                <li><a href="admin.html">Back</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+            <!-- This div remains empty for spacing or add content as needed -->
+        </div>
+    </header>
+    <main>
+        <div class="button-container">
+            <div class="admin-box" onclick="location.href='masteredit-page.html';">Master</div>
+            <div class="admin-box" onclick="location.href='wishlistedit-page.html';">Wishlist</div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+</body>
+<script>
+    fetch('/check-login')
+        .then(response => response.json())
+        .then(data => {
+            if (!data.loggedIn) {
+                window.location.href = '/login.html';
+            }
+        });
+</script>
+<script src="js/modifymaster.js"></script>
+</html>

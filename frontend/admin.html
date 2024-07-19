@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Diecast Collection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="advanced-search.html">Advanced Search</a></li>
+                    <li><a href="javascript:history.back()">Back</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+            <!-- This div remains empty for spacing or add content as needed -->
+        </div>
+    </header>
+    <main>
+        <section id="edit-section">
+            <div class="double-width admin-box" id="add-delete-box">Modify Master</div>
+            <div id="middle-row">
+                <input type="file" id="file-input" accept=".xlsx" style="display: none;"/>
+                <label for="file-input" class="middle-box admin-box" id="upload-box">Upload Master</label>
+                <div class="middle-box admin-box" id="download-box">Download Master</div>
+            </div>
+            <div class="admin-box" id="logout-box">Logout</div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+    <script src="js/admin.js"></script>
+    <script>
+        fetch('/check-login')
+            .then(response => response.json())
+            .then(data => {
+                if (!data.loggedIn) {
+                    window.location.href = '/login.html';
+                }
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Reset margin and padding for the body to ensure no extra space around the edges */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Ensure the body takes full width */
+    height: 100%; /* Optional: Ensures the body takes full height of the viewport */
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
+/* Center the main content */
+main {
+
+    box-sizing: border-box; /* Include padding and border in the width/height calculations */
+}
+
+/* Ensure the Wishlist title is centered */
+#wishlist-title {
+    text-align: center;
+    width: 100%; /* Full width to ensure center alignment */
+}
+

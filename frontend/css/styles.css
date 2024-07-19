@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 20px; /* Add padding to the main content */
+    flex: 1;
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    background: #001a33; /* Even darker blue */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5; /* Adjust line height */
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Adjust line height */
+}
+
+header input[type="search"] {
+    padding: 5px;
+    margin-left: 20px;
+    flex-grow: 1;
+    max-width: 300px; /* Set a maximum width for larger screens */
+}
+
+/* Menu Styles */
+.menu {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    align-self: center; /* Center the menu icon vertically */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #004080; /* Slightly lighter blue */
+    border-radius: 5px;
+}
+
+/* Entries Styles */
+#entries-container {
+    padding: 20px 0; /* Add padding to avoid interference with the heading */
+}
+
+#entries-container h2 {
+    width: 100%; /* Ensure full width */
+    margin-bottom: 10px; /* Add some space below the heading */
+}
+
+.entry {
+    background-color: #004080; /* Slightly lighter blue */
+    padding: 10px;
+    border-radius: 5px;
+    border: none; /* Remove white borders */
+    margin: 2%;
+}
+
+.special-entry {
+    background-color: #ffd700; /* Gold color */
+    border-color: #f1c40f; /* Slightly darker gold for the border */
+}
+
+.special-entry p {
+    color: #525252; /* Ensure text color is dark gray for better readability */
+}
+
+.special-entry hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry1 {
+    background-color: #6b0081; /* Gold color */
+    border-color: #530064; /* Slightly darker gold for the border */
+}
+
+.special-entry1 hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry2 {
+    background-color: #810000; /* Gold color */
+    border-color: #450000; /* Slightly darker gold for the border */
+}
+
+.special-entry2 hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry2 p {
+    color: #fafafa; /* Ensure text color is dark gray for better readability */
+}
+
+.entry p {
+    margin: 5px 0;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001a33; /* Even darker blue */
+    color: white;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5; /* Adjust line height */
+}
+
+/* Pagination Styles */
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#pagination button:hover {
+    background-color: #0056b3;
+}
+
+#pagination button:focus {
+    outline: none;
+}
+
+/* No Results Styles */
+.no-results {
+    text-align: center;
+    color: #ff0000; /* Red color for visibility */
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+    }
+
+    .menu {
+        display: block;
+        width: 100%; /* Full width to allow centering */
+        text-align: center; /* Center the menu icon */
+        margin-bottom: 10px; /* Add some space below the menu icon */
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: none;
+        position: relative;
+        background-color: #001a33;
+        text-align: center; /* Center the menu items */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+    }
+
+    nav ul.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        margin-left: -3%; /* Move the flexbox to the left */
+    }
+
+    nav ul li {
+        text-align: center; /* Center text */
+        padding: 10px 0;
+        width: 100%; /* Ensure full width */
+    }
+
+    nav ul li a {
+        width: 100%; /* Ensure full width */
+    }
+
+    header input[type="search"] {
+        width: calc(100% - 4%); /* Adjust width to fit within the header */
+        margin: 10px 0;
+    }
+
+    #entries {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Flexible layout */
+        gap: 10px;
+        padding: 20px 0; /* Add padding to avoid interference with the heading */
+    }
+
+    #entries h2 {
+        grid-column: span 1; /* Adjust heading to span single column */
+    }
+    #prev-page,
+    #next-page {
+        display: none !important;
+    }
+}
+
+@media (min-width: 601px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    }
+
+    .middle-header, .right-header {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    .middle-header {
+        flex-grow: 2;
+        flex-shrink: 1;
+        flex-basis: 50%;  /* Adjust basis as needed */
+    }
+
+    .right-header {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 25%;  /* Adjust basis as needed */
+    }
+
+    header input[type="search"] {
+        width: 100%; /* Ensure it takes available space */
+        max-width: 300px; /* Set a maximum width for larger screens */
+    }
+
+    #entries {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr); /* 7 items per row */
+        gap: 10px; /* Adjust the gap between entries as needed */
+        padding: 20px; /* Add padding around the grid */
+    }
+}

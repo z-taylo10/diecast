@@ -1,0 +1,82 @@
+@media (min-width: 601px) {
+
+    #navbar ul {
+        display: flex;
+        justify-content: center; /* Center the navigation links */
+        flex-wrap: nowrap; /* Prevent wrapping */
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    #navbar ul li {
+        margin: 0 10px; /* Adjust spacing between links */
+    }
+    
+    #navbar {
+        flex-grow: 1; /* Allow the navbar to take up available space */
+    }
+    
+    .long-button {
+        white-space: nowrap; /* Prevent text from wrapping */
+    }
+
+    #pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #pagination button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    #pagination button.active {
+        background-color: #0056b3;
+    }
+
+    #pagination button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+
+    .entry {
+        max-height: 275px; /* Set a max height for collapsed state */
+        overflow: hidden; /* Hide overflow content */
+        transition: max-height 0.9s ease; /* Smooth transition */
+        position: relative; /* For positioning the expand button */
+    }
+    
+    .entry.expanded {
+        max-height: none; /* Remove max height for expanded state */
+    }
+    
+    .entry .expand-icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 1.5em;
+        cursor: pointer;
+        color: #ecececc1;
+        transition: transform 0.9s ease; /* Smooth transition for rotation */
+    }
+    
+    .entry.expanded .expand-icon {
+        transform: rotate(360deg); /* Rotate the icon when expanded */
+    }
+}
+
+a {
+    color: #ffcc00; /* Light yellow for better contrast */
+    text-decoration: none;
+}
+
+.sasks:hover {
+    text-decoration: underline;
+}

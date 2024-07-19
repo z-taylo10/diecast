@@ -1,0 +1,150 @@
+.entry {
+    border: 1px solid #004080;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; /* Remove white borders */
+    background-color: #004080; /* Default background color */
+    position: relative; /* Added to position the delete icon */
+}
+
+.delete-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.special-entry {
+    background-color: #ffd700; /* Gold color */
+    border-color: #f1c40f; /* Slightly darker gold for the border */
+}
+
+.special-entry p {
+    color: #525252; /* Ensure text color is dark gray for better readability */
+}
+
+.special-entry hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry1 {
+    background-color: #6b0081; /* Gold color */
+    border-color: #530064; /* Slightly darker gold for the border */
+}
+
+.special-entry1 hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry2 {
+    background-color: #810000; /* Gold color */
+    border-color: #450000; /* Slightly darker gold for the border */
+}
+
+.special-entry2 hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+.special-entry2 p {
+    color: #fafafa; /* Ensure text color is dark gray for better readability */
+}
+
+.no-results {
+    text-align: center;
+    color: #999;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#pagination button.active {
+    background-color: #0056b3;
+}
+
+#pagination button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+h2 {
+    text-align: center;
+}
+
+/* General styles for the form */
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.full-width {
+    grid-column: span 2;
+}
+
+@media (max-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-group.full-width {
+        grid-column: span 1;
+    }
+
+    .left-header, .middle-header, .right-header {
+        padding: 0 10px; /* Adjust padding for mobile view */
+    }
+
+    .menu {
+        margin-right: 10px; /* Adjust margin for the menu icon */
+    }
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist - Diecast Collection</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/wishlist.css">
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <div class="menu" onclick="toggleMenu()">☰</div>
+            <h1>Diecast Collection</h1>
+        </div>
+        <div class="middle-header">
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a id="login-link" href="login.html">Login</a></li>
+                    <li><a href="advanced-search.html">Advanced Search</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right-header">
+            <input type="search" id="search-bar" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <h1 id="wishlist-title">Wishlist</h1>
+        <div id="wishlist-entries"></div> <!-- Container for wishlist entries -->
+        <div id="wishlist-pagination"></div> <!-- Container for pagination, if needed -->
+    </main>
+    <footer>
+        <p>© 2024 Diecast Collection</p>
+    </footer>
+    <script src="js/wishlist.js"></script>
+</body>
+</html>

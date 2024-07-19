@@ -1,0 +1,56 @@
+.brand-section {
+    margin-bottom: 0; /* Remove vertical spacing between blocks */
+    text-align: center; /* Center the brand sections */
+}
+
+.brand-section a {
+    display: inline-block; /* Make the link area fit the content */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color */
+    width: 60%; /* Set the width to 60% to match the brand-sets style */
+}
+
+.brand-section h3 {
+    margin: 10px auto; /* Center the element horizontally */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffa32b; /* Orange color */
+    color: white;
+    cursor: pointer;
+    text-align: center; /* Ensure text is centered */
+}
+
+.brand-section:hover h3 {
+    background-color: #b37100;
+}
+
+.sets-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.sets-list li {
+    padding: 20px;
+    background-color: #004080; /* Slightly lighter blue */
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px; /* Make the text larger */
+}
+
+#set-brands h2 {
+    text-align: center;
+}
+
+#search-bar {
+    visibility: hidden;
+    max-width: 20%;
+}
+
+@media (max-width: 768px) {
+    #search-bar {
+        display: none;
+    }
+}

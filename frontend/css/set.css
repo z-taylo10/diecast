@@ -1,0 +1,57 @@
+#cars-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-item {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #004080; /* Blue color */
+    color: white;
+    text-align: center;
+}
+
+.special-car {
+    background-color: gold; /* Gold color for special cars */
+    color: rgb(47, 47, 47);
+}
+.special-car1 {
+    background-color: #6b0081; /* Purple color */
+}
+.special-car2 {
+    background-color: #810000; /* Red color */
+    color: rgb(255, 255, 255);
+}
+
+#search-bar {
+    visibility: visible;
+    max-width: 19%;
+}
+
+#filter-input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#set-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .car-item {
+        width: 100%;
+    }
+    #search-bar {
+        display: none;
+    }
+}
