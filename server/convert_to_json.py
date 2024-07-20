@@ -4,8 +4,8 @@ import json
 
 def convert_excel_to_json(excel_file, json_file):
     df = pd.read_excel(excel_file)
-    # Ensure ID is a number
-    df['ID'] = pd.to_numeric(df['ID'], errors='coerce')
+    # Add ID column incrementally
+    df['ID'] = range(1, len(df) + 1)
     # Ensure any column with "Year" in its name is a number
     for column in df.columns:
         if 'Year' in column:
