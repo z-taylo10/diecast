@@ -1,6 +1,7 @@
 import sys
 import pandas as pd
 import json
+import numpy as np
 
 def convert_excel_to_json(excel_file, json_file):
     df = pd.read_excel(excel_file)
@@ -10,6 +11,8 @@ def convert_excel_to_json(excel_file, json_file):
     for column in df.columns:
         if 'Year' in column:
             df[column] = pd.to_numeric(df[column], errors='coerce')
+    # Replace NaN values with None
+    df = df.replace({np.nan: None})
     # Convert DataFrame to JSON with NaN as null
     data = df.to_dict(orient='records')
     with open(json_file, 'w') as f:
