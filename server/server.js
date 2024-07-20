@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 const multer = require('multer');
 const { exec } = require('child_process');
 const json2xls = require('json2xls');
+const fetch = require('node-fetch');
 
 const upload = multer({ dest: 'uploads/' });
 
@@ -180,10 +181,19 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
                 diecastCollection = updateDupeColumn(diecastCollection);
                 console.log('Data after updating DUPE column:', diecastCollection);
 
-                fs.writeFile(outputPath, JSON.stringify(diecastCollection, null, 2), (writeErr) => {
+                fs.writeFile(outputPath, JSON.stringify(diecastCollection, null, 2), async (writeErr) => {
                     if (writeErr) {
                         console.error('Error writing JSON file:', writeErr);
                         return res.status(500).send('Error writing JSON file');
+                    }
+
+                    console.log('File successfully written to:', outputPath);
+
+                    try {
+                        await pushToGitHub(outputPath, JSON.stringify(diecastCollection, null, 2));
+                    } catch (err) {
+                        console.error('Error pushing to GitHub:', err);
+                        return res.status(500).send('Error pushing to GitHub');
                     }
 
                     fs.unlink(filePath, (unlinkErr) => {
@@ -198,6 +208,47 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
         });
     });
 });
+
+async function pushToGitHub(filePath, content) {
+    const repo = 'ztaylo10/diecast';
+    const path = 'server/MockDataJS.json';
+    const message = 'Update MockDataJS.json';
+    const token = process.env.GITHUB_TOKEN;
+
+    const url = `https://api.github.com/repos/${repo}/contents/${path}`;
+
+    // Get the SHA of the existing file
+    const response = await fetch(url, {
+        headers: {
+            Authorization: `token ${token}`,
+            Accept: 'application/vnd.github.v3+json',
+        },
+    });
+
+    const data = await response.json();
+    const sha = data.sha;
+
+    // Update the file
+    const updateResponse = await fetch(url, {
+        method: 'PUT',
+        headers: {
+            Authorization: `token ${token}`,
+            Accept: 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            message,
+            content: Buffer.from(content).toString('base64'),
+            sha,
+        }),
+    });
+
+    if (!updateResponse.ok) {
+        throw new Error(`Failed to update file: ${updateResponse.statusText}`);
+    }
+
+    console.log('File successfully pushed to GitHub');
+}
 
 app.get('/download-excel', (req, res) => {
     const jsonPath = path.join(__dirname, 'MockDataJS.json');
@@ -235,7 +286,6 @@ function updateDupeColumn(diecastCollection) {
     });
 
     return diecastCollection;
-
 }
 
 app.post('/api/add-diecast', (req, res) => {
