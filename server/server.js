@@ -13,7 +13,7 @@ const upload = multer({ dest: 'uploads/' });
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(session({
-    secret: 'your_secret_key',
+    secret: process.env.SESSION_SECRET || 'your_secret_key',
     resave: false,
     saveUninitialized: true
 }));
@@ -27,36 +27,48 @@ app.use((req, res, next) => {
 });
 
 app.get('/api/diecast', (req, res) => {
-    fs.readFile('./MockDataJS.json', (err, data) => {
+    const filePath = path.join(__dirname, 'MockDataJS.json');
+    fs.readFile(filePath, (err, data) => {
         if (err) {
             console.error('Error reading JSON file:', err);
             return res.status(500).send('Error reading data');
         }
-        res.json(JSON.parse(data));
+        try {
+            const jsonData = JSON.parse(data);
+            res.json(jsonData);
+        } catch (parseErr) {
+            console.error('Error parsing JSON file:', parseErr);
+            return res.status(500).send('Error parsing data');
+        }
     });
 });
 
 app.get('/api/wishlist', (req, res) => {
-    fs.readFile('./wishlist.json', (err, data) => {
+    const filePath = path.join(__dirname, 'wishlist.json');
+    fs.readFile(filePath, (err, data) => {
         if (err) {
             console.error('Error reading JSON file:', err);
             return res.status(500).send('Error reading data');
         }
-        let wishlist = JSON.parse(data);
-        // Ensure numeric fields are parsed as integers
-        wishlist = wishlist.map(item => ({
-            ...item,
-            ID: parseInt(item.ID, 10),
-            BYEAR: parseInt(item.BYEAR, 10),
-            YEAR: parseInt(item.YEAR, 10)
-        }));
-        res.json(wishlist);
+        try {
+            let wishlist = JSON.parse(data);
+            wishlist = wishlist.map(item => ({
+                ...item,
+                ID: parseInt(item.ID, 10),
+                BYEAR: parseInt(item.BYEAR, 10),
+                YEAR: parseInt(item.YEAR, 10)
+            }));
+            res.json(wishlist);
+        } catch (parseErr) {
+            console.error('Error parsing JSON file:', parseErr);
+            return res.status(500).send('Error parsing data');
+        }
     });
 });
 
 app.get('/api/diecast/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const filePath = './MockDataJS.json';
+    const filePath = path.join(__dirname, 'MockDataJS.json');
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
@@ -64,21 +76,26 @@ app.get('/api/diecast/:id', (req, res) => {
             return res.status(500).json({ success: false, message: 'Error reading file' });
         }
 
-        const diecasts = JSON.parse(data);
-        const diecast = diecasts.find(d => d.ID === id);
+        try {
+            const diecasts = JSON.parse(data);
+            const diecast = diecasts.find(d => d.ID === id);
 
-        if (!diecast) {
-            console.error(`Item with ID ${id} not found`);
-            return res.status(404).json({ success: false, message: 'Item not found' });
+            if (!diecast) {
+                console.error(`Item with ID ${id} not found`);
+                return res.status(404).json({ success: false, message: 'Item not found' });
+            }
+
+            res.json(diecast);
+        } catch (parseErr) {
+            console.error('Error parsing JSON file:', parseErr);
+            return res.status(500).json({ success: false, message: 'Error parsing data' });
         }
-
-        res.json(diecast);
     });
 });
 
 app.get('/api/wishlist/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const filePath = './wishlist.json';
+    const filePath = path.join(__dirname, 'wishlist.json');
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
@@ -86,15 +103,20 @@ app.get('/api/wishlist/:id', (req, res) => {
             return res.status(500).json({ success: false, message: 'Error reading file' });
         }
 
-        const wishlist = JSON.parse(data);
-        const item = wishlist.find(d => d.ID === id);
+        try {
+            const wishlist = JSON.parse(data);
+            const item = wishlist.find(d => d.ID === id);
 
-        if (!item) {
-            console.error(`Item with ID ${id} not found`);
-            return res.status(404).json({ success: false, message: 'Item not found' });
+            if (!item) {
+                console.error(`Item with ID ${id} not found`);
+                return res.status(404).json({ success: false, message: 'Item not found' });
+            }
+
+            res.json(item);
+        } catch (parseErr) {
+            console.error('Error parsing JSON file:', parseErr);
+            return res.status(500).json({ success: false, message: 'Error parsing data' });
         }
-
-        res.json(item);
     });
 });
 
@@ -120,11 +142,11 @@ app.get('/check-login', (req, res) => {
 
 app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
     const filePath = req.file.path;
-    const outputPath = './MockDataJS.json';
-    const backupPath = './backup/MockDataJS.json';
+    const outputPath = path.join(__dirname, 'MockDataJS.json');
+    const backupPath = path.join(__dirname, 'backup/MockDataJS.json');
 
-    if (!fs.existsSync('./backup')) {
-        fs.mkdirSync('./backup');
+    if (!fs.existsSync(path.join(__dirname, 'backup'))) {
+        fs.mkdirSync(path.join(__dirname, 'backup'));
     }
 
     fs.copyFile(outputPath, backupPath, (err) => {
@@ -175,8 +197,8 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
 });
 
 app.get('/download-excel', (req, res) => {
-    const jsonPath = './MockDataJS.json';
-    const excelPath = './Master.xlsx';
+    const jsonPath = path.join(__dirname, 'MockDataJS.json');
+    const excelPath = path.join(__dirname, 'Master.xlsx');
     exec(`python json_to_excel.py ${jsonPath} ${excelPath}`, { windowsHide: true }, (error, stdout, stderr) => {
         if (error) {
             console.error(`Exec error: ${error}`);
@@ -213,7 +235,7 @@ function updateDupeColumn(diecastCollection) {
 app.post('/api/add-diecast', (req, res) => {
     const newDiecast = req.body;
     console.log('Received data:', newDiecast);
-    const filePath = './MockDataJS.json';
+    const filePath = path.join(__dirname, 'MockDataJS.json');
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
@@ -255,20 +277,26 @@ app.post('/api/add-diecast', (req, res) => {
 });
 
 app.get('/api/highest-wishlist-id', (req, res) => {
-    fs.readFile('./wishlist.json', (err, data) => {
+    const filePath = path.join(__dirname, 'wishlist.json');
+    fs.readFile(filePath, (err, data) => {
         if (err) {
             console.error('Error reading JSON file:', err);
             return res.status(500).send('Error reading data');
         }
-        const wishlist = JSON.parse(data);
-        const highestId = wishlist.reduce((max, item) => Math.max(max, parseInt(item.ID, 10)), 0);
-        res.json({ highestId });
+        try {
+            const wishlist = JSON.parse(data);
+            const highestId = wishlist.reduce((max, item) => Math.max(max, parseInt(item.ID, 10)), 0);
+            res.json({ highestId });
+        } catch (parseErr) {
+            console.error('Error parsing JSON file:', parseErr);
+            return res.status(500).send('Error parsing data');
+        }
     });
 });
 
 app.post('/api/add-wishlist', (req, res) => {
     const newItem = req.body;
-    const filePath = './wishlist.json';
+    const filePath = path.join(__dirname, 'wishlist.json');
 
     // Parse year fields as integers
     newItem.BYEAR = parseInt(newItem.BYEAR, 10);
@@ -313,7 +341,7 @@ app.post('/api/add-wishlist', (req, res) => {
 
 app.delete('/api/delete-diecast/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const filePath = './MockDataJS.json';
+    const filePath = path.join(__dirname, 'MockDataJS.json');
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
@@ -345,7 +373,7 @@ app.delete('/api/delete-diecast/:id', (req, res) => {
 
 app.delete('/api/delete-wishlist/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const filePath = './wishlist.json';
+    const filePath = path.join(__dirname, 'wishlist.json');
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
@@ -378,7 +406,7 @@ app.delete('/api/delete-wishlist/:id', (req, res) => {
 app.put('/api/diecast/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const updatedDiecast = req.body;
-    const filePath = './MockDataJS.json';
+    const filePath = path.join(__dirname, 'MockDataJS.json');
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
@@ -409,7 +437,7 @@ app.put('/api/diecast/:id', (req, res) => {
 app.put('/api/wishlist/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const updatedItem = req.body;
-    const filePath = './wishlist.json';
+    const filePath = path.join(__dirname, 'wishlist.json');
 
     // Parse year fields as integers
     updatedItem.BYEAR = parseInt(updatedItem.BYEAR, 10);
