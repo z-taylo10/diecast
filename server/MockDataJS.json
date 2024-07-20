@@ -15526,5 +15526,53 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1294
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (C Case)",
+    "MAKE": "BMW",
+    "MODEL": 507,
+    "YEAR": 1958,
+    "COLOR": "Yellow",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1295
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (C Case)",
+    "MAKE": "BMW",
+    "MODEL": "i8 Roadster",
+    "YEAR": 2016,
+    "COLOR": "Silver",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1296
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Fake HotWheels Brand",
+    "MODEL": "Tooligan",
+    "YEAR": 2009,
+    "COLOR": "Pink",
+    "DUPE": "No",
+    "SPECIAL": "Treasure Hunt",
+    "ID": 1297
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Fake HotWheels Brand",
+    "MODEL": "Tooligan",
+    "YEAR": 2009,
+    "COLOR": "Pink",
+    "DUPE": "Yes",
+    "SPECIAL": "Treasure Hunt",
+    "ID": 1298
   }
 ]
