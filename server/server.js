@@ -171,12 +171,14 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
                 let diecastCollection;
                 try {
                     diecastCollection = JSON.parse(data);
+                    console.log('Data read from JSON file:', diecastCollection);
                 } catch (parseErr) {
                     console.error('Error parsing JSON file:', parseErr);
                     return res.status(500).send('Error parsing JSON file');
                 }
 
                 diecastCollection = updateDupeColumn(diecastCollection);
+                console.log('Data after updating DUPE column:', diecastCollection);
 
                 fs.writeFile(outputPath, JSON.stringify(diecastCollection, null, 2), (writeErr) => {
                     if (writeErr) {
@@ -233,6 +235,7 @@ function updateDupeColumn(diecastCollection) {
     });
 
     return diecastCollection;
+
 }
 
 app.post('/api/add-diecast', (req, res) => {
