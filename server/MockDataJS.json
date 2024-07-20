@@ -15466,5 +15466,65 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1289
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Ford",
+    "MODEL": "Coupe",
+    "YEAR": 1936,
+    "COLOR": "Dark Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1290
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "BMW",
+    "MODEL": "3 Series Touring",
+    "YEAR": 2012,
+    "COLOR": "Gray",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1291
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Dodge",
+    "MODEL": "Charger",
+    "YEAR": 1966,
+    "COLOR": "Dark Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1292
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Ford",
+    "MODEL": "Ranchero",
+    "YEAR": 1970,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1293
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Willys",
+    "MODEL": "Jeepster",
+    "YEAR": 1948,
+    "COLOR": "Dark Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1294
   }
 ]
