@@ -4,10 +4,16 @@ import json
 
 def convert_excel_to_json(excel_file, json_file):
     df = pd.read_excel(excel_file)
+    # Ensure ID is a number
+    df['ID'] = pd.to_numeric(df['ID'], errors='coerce')
+    # Ensure any column with "Year" in its name is a number
+    for column in df.columns:
+        if 'Year' in column:
+            df[column] = pd.to_numeric(df[column], errors='coerce')
     # Convert DataFrame to JSON with NaN as null
-    data = df.to_json(orient='records', date_format='iso', default_handler=str)
+    data = df.to_dict(orient='records')
     with open(json_file, 'w') as f:
-        f.write(data)
+        json.dump(data, f, indent=2)
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
