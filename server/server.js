@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const multer = require('multer');
 const { exec } = require('child_process');
 const json2xls = require('json2xls');
-const fetch = require('node-fetch');
 
 const upload = multer({ dest: 'uploads/' });
 
@@ -216,6 +215,9 @@ async function pushToGitHub(filePath, content) {
     const token = process.env.GITHUB_TOKEN;
 
     const url = `https://api.github.com/repos/${repo}/contents/${path}`;
+
+    // Dynamically import node-fetch
+    const fetch = await import('node-fetch').then(mod => mod.default);
 
     // Get the SHA of the existing file
     const response = await fetch(url, {
