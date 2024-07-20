@@ -144,6 +144,7 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
     const filePath = req.file.path;
     const outputPath = path.join(__dirname, 'MockDataJS.json');
     const backupPath = path.join(__dirname, 'backup/MockDataJS.json');
+    const scriptPath = path.join(__dirname, 'convert_to_json.py');
 
     if (!fs.existsSync(path.join(__dirname, 'backup'))) {
         fs.mkdirSync(path.join(__dirname, 'backup'));
@@ -155,7 +156,7 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
             return res.status(500).send('Error backing up file');
         }
 
-        exec(`python convert_to_json.py ${filePath} ${outputPath}`, { windowsHide: true }, (error, stdout, stderr) => {
+        exec(`python ${scriptPath} ${filePath} ${outputPath}`, { windowsHide: true }, (error, stdout, stderr) => {
             if (error) {
                 console.error(`Exec error: ${error}`);
                 return res.status(500).send(`Error processing file: ${stderr}`);
@@ -199,7 +200,9 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
 app.get('/download-excel', (req, res) => {
     const jsonPath = path.join(__dirname, 'MockDataJS.json');
     const excelPath = path.join(__dirname, 'Master.xlsx');
-    exec(`python json_to_excel.py ${jsonPath} ${excelPath}`, { windowsHide: true }, (error, stdout, stderr) => {
+    const scriptPath = path.join(__dirname, 'json_to_excel.py');
+
+    exec(`python ${scriptPath} ${jsonPath} ${excelPath}`, { windowsHide: true }, (error, stdout, stderr) => {
         if (error) {
             console.error(`Exec error: ${error}`);
             return res.status(500).send(`Error processing file: ${stderr}`);
