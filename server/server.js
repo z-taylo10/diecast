@@ -162,6 +162,9 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
                 return res.status(500).send(`Error processing file: ${stderr}`);
             }
 
+            console.log('Python script output:', stdout);
+            console.error('Python script error output:', stderr);
+
             fs.readFile(outputPath, (readErr, data) => {
                 if (readErr) {
                     console.error('Error reading JSON file:', readErr);
