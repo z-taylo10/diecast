@@ -42,6 +42,7 @@ const colorMapping = {
     "Violet": "Purple",
     "Lavender": "Purple",
     "Indigo": "Purple",
+    "Greenish Blue": "Green",
     // Add more mappings as needed
 };
 
