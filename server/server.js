@@ -174,7 +174,7 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
                 let diecastCollection;
                 try {
                     diecastCollection = JSON.parse(data);
-                    console.log('Data read from JSON file:', diecastCollection);
+                   // console.log('Data read from JSON file:', diecastCollection);
                 } catch (parseErr) {
                     console.error('Error parsing JSON file:', parseErr);
                     return res.status(500).send('Error parsing JSON file');
@@ -280,6 +280,11 @@ function updateDupeColumn(diecastCollection) {
     const seen = new Set();
 
     diecastCollection.forEach((item, index) => {
+        if (item.DUPE === 'Yes') {
+            // Skip checking if DUPE is already manually set to 'Yes'
+            return;
+        }
+
         const rowTuple = columnsToCheck.map(col => item[col]).join('|');
         
         if (seen.has(rowTuple)) {
