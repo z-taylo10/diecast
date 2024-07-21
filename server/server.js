@@ -181,7 +181,6 @@ app.post('/upload-excel', upload.single('excelFile'), (req, res) => {
                 }
 
                 diecastCollection = updateDupeColumn(diecastCollection);
-                console.log('Data after updating DUPE column:', diecastCollection);
 
                 fs.writeFile(outputPath, JSON.stringify(diecastCollection, null, 2), async (writeErr) => {
                     if (writeErr) {
