@@ -31,7 +31,7 @@
     "MODEL": "R390 GT1 Roadcar",
     "YEAR": 1997,
     "COLOR": "Red",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 3
   },
@@ -43,7 +43,7 @@
     "MODEL": "8C Competizione",
     "YEAR": 2008,
     "COLOR": "Silver",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 4
   },
@@ -3295,7 +3295,7 @@
     "MODEL": "2D",
     "YEAR": 1967,
     "COLOR": "White #7",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 275
   },
@@ -6907,7 +6907,7 @@
     "MODEL": "R390 GT1 Roadcar",
     "YEAR": 1997,
     "COLOR": "Red",
-    "DUPE": "Yes",
+    "DUPE": "No",
     "SPECIAL": null,
     "ID": 576
   },
@@ -8359,7 +8359,7 @@
     "MODEL": "Gemera",
     "YEAR": 2021,
     "COLOR": "Gray",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 697
   },
@@ -8479,7 +8479,7 @@
     "MODEL": "WRX STI",
     "YEAR": 2009,
     "COLOR": "White",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 707
   },
@@ -8551,7 +8551,7 @@
     "MODEL": "Repu",
     "YEAR": 1974,
     "COLOR": "Cyan #2",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 713
   },
@@ -8683,7 +8683,7 @@
     "MODEL": "500e",
     "YEAR": 2018,
     "COLOR": "Light Blue",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 724
   },
@@ -9547,7 +9547,7 @@
     "MODEL": "Pacifica",
     "YEAR": 2020,
     "COLOR": "Blue",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 796
   },
@@ -9571,7 +9571,7 @@
     "MODEL": "Corvette Grand Sport",
     "YEAR": 1963,
     "COLOR": "Blue #9",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 798
   },
@@ -9859,7 +9859,7 @@
     "MODEL": "Corvette C7.R",
     "YEAR": 2015,
     "COLOR": "Blue",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 822
   },
@@ -10147,7 +10147,7 @@
     "MODEL": "Dart",
     "YEAR": 1968,
     "COLOR": "Blue",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 846
   },
@@ -10351,7 +10351,7 @@
     "MODEL": "Gemera",
     "YEAR": 2021,
     "COLOR": "Gray",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 863
   },
@@ -10807,7 +10807,7 @@
     "MODEL": "Copo Corvette",
     "YEAR": 1969,
     "COLOR": "Blue #69",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 901
   },
@@ -12379,7 +12379,7 @@
     "MODEL": "Bel Air Gasser",
     "YEAR": 1955,
     "COLOR": "White #52",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 1032
   },
@@ -13711,7 +13711,7 @@
     "MODEL": "Bone Shaker",
     "YEAR": 2015,
     "COLOR": "Black",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 1143
   },
@@ -14467,7 +14467,7 @@
     "MODEL": 500,
     "YEAR": 2016,
     "COLOR": "Orange #01",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 1206
   },
@@ -15379,7 +15379,7 @@
     "MODEL": "Chevelle SS Wagon",
     "YEAR": 1970,
     "COLOR": "Silver #03",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 1282
   },
@@ -15547,7 +15547,7 @@
     "MODEL": "i8 Roadster",
     "YEAR": 2016,
     "COLOR": "Silver",
-    "DUPE": "No",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 1296
   },
