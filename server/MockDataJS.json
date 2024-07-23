@@ -16078,5 +16078,41 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1340
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (G Case)",
+    "MAKE": "Jaguar",
+    "MODEL": "F-Type Project 7",
+    "YEAR": 2015,
+    "COLOR": "Yellow",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1341
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Land Rover",
+    "MODEL": "Defender 90",
+    "YEAR": 2020,
+    "COLOR": "Black",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1342
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Morris",
+    "MODEL": "Minor Saloon",
+    "YEAR": 1954,
+    "COLOR": "Dark Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1343
   }
 ]
