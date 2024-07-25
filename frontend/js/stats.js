@@ -29,7 +29,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const colorCounts = {};
             const groupedColorCounts = {};
 
+            let totalDiecast = 0;
+            let totalBoulevards = 0;
+            let totalTreasureHunts = 0;
+
             data.forEach(entry => {
+                totalDiecast++;
+                if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('boulevard')) {
+                    totalBoulevards++;
+                }
+                if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('treasure hunt')) {
+                    totalTreasureHunts++;
+                }
+
                 // Count brands
                 const brands = typeof entry.BRAND === 'string' ? entry.BRAND.split(' | ') : [entry.BRAND];
                 brands.forEach(brand => {
@@ -90,6 +102,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
             });
+
+            // Update the metrics in the DOM
+            document.getElementById('total-diecast').textContent = totalDiecast;
+            document.getElementById('total-boulevards').textContent = totalBoulevards;
+            document.getElementById('total-treasure-hunts').textContent = totalTreasureHunts;
 
             // Convert counts to arrays for Chart.js and sort them
             const sortedBrandCounts = sortCounts(brandCounts);
