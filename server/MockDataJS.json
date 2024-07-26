@@ -16150,5 +16150,29 @@
     "DUPE": "No",
     "SPECIAL": "Boulevard #100",
     "ID": 1346
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Team Transport",
+    "MAKE": "Honda | Fake HotWheelsBrand",
+    "MODEL": "Accord | Fleet Street",
+    "YEAR": "1996 | 2024",
+    "COLOR": "Black #16 | Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1347
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Collectors",
+    "MAKE": "Audi",
+    "MODEL": "100 Coupe S",
+    "YEAR": 1969,
+    "COLOR": "Gray",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1348
   }
 ]
