@@ -16174,5 +16174,65 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1348
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Ultra Hots",
+    "MAKE": "Ford",
+    "MODEL": "Thunderbird Pro Stock",
+    "YEAR": 1986,
+    "COLOR": "Dark Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1349
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Porsche",
+    "MODEL": "911 GT3",
+    "YEAR": 2011,
+    "COLOR": "White",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1350
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Mitsubishi",
+    "MODEL": "3000GT",
+    "YEAR": 1994,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1351
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Volkswagen",
+    "MODEL": "Golf MK 1",
+    "YEAR": 1979,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1352
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Audi",
+    "MODEL": "E-Tron",
+    "YEAR": 2022,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1353
   }
 ]
