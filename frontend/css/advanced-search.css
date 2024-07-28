@@ -385,3 +385,21 @@ footer {
         margin-bottom: 5%; /* Adjust as needed */
     }
 }
+
+.filter-box select, .filter-box input, .search-bar input[type="text"], .search-bar button {
+    background-color: #004080; /* Slightly lighter blue */
+    color: white;
+    border: 1px solid #003366; /* Dark blue border */
+    border-radius: 5px;
+    padding: 10px 15px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 5px 0; /* Add some margin for spacing */
+}
+
+.filter-box select:hover, .filter-box input:hover, .search-bar input[type="text"]:hover, .search-bar button:hover {
+    background-color: #003366; /* Darker blue on hover */
+}
+
+.search-bar button {
+    cursor: pointer;
+}
