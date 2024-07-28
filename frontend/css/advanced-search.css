@@ -34,16 +34,10 @@ header h1 {
 }
 
 header input[type="search"] {
-    padding: 10px; /* Add padding for better spacing */
+    padding: 5px;
     margin-left: 20px;
     flex-grow: 1;
     max-width: 300px; /* Set a maximum width for larger screens */
-    background-color: white; /* White background */
-    color: black; /* Black text color */
-    border: 1px solid #666666; /* Darker gray border */
-    border-radius: 5px; /* Rounded corners */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    margin: 5px 0; /* Add some margin for spacing */
 }
 
 .menu {
@@ -168,7 +162,7 @@ nav ul li a:hover {
         width: 100%; /* Ensure full width */
     }
 
-    .search-bar input[type="text"] {
+    .search-bar input[type="search"] {
         width: calc(100% - 10px); /* Slightly smaller width */
         box-sizing: border-box; /* Include padding and border in the element's total width and height */
     }
@@ -347,7 +341,7 @@ footer {
     margin-bottom: 20px; /* Decrease gap between search bar and results */
 }
 
-.search-bar input[type="text"] {
+.search-bar input[type="search"] {
     padding: 10px;
     width: 300px;
     background-color: white; /* Revert to white background */
@@ -408,7 +402,7 @@ footer {
     margin: 5px 0; /* Add some margin for spacing */
 }
 
-.filter-box select::placeholder, .filter-box input::placeholder, .search-bar input[type="text"]::placeholder {
+.filter-box select::placeholder, .filter-box input::placeholder, .search-bar input[type="search"]::placeholder {
     color: #cccccc; /* Lighter gray for placeholder text */
 }
 
