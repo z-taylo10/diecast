@@ -126,23 +126,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const topColorCounts = sortedColorCounts.slice(0, 40);
             const topGroupedColorCounts = sortedGroupedColorCounts.slice(0, 40);
 
-            const brandLabels = sortedBrandCounts.map(item => item[0]);
-            const brandData = sortedBrandCounts.map(item => item[1]);
+            let brandLabels = sortedBrandCounts.map(item => item[0]);
+            let brandData = sortedBrandCounts.map(item => item[1]);
 
-            const makeLabels = topMakeCounts.map(item => item[0]);
-            const makeData = topMakeCounts.map(item => item[1]);
+            let makeLabels = topMakeCounts.map(item => item[0]);
+            let makeData = topMakeCounts.map(item => item[1]);
 
-            yearLabels = sortedYearCounts.map(item => item[0]);
-            yearData = sortedYearCounts.map(item => item[1]);
+            let yearLabels = sortedYearCounts.map(item => item[0]);
+            let yearData = sortedYearCounts.map(item => item[1]);
 
-            byearLabels = sortedByearCounts.map(item => item[0]);
-            byearData = sortedByearCounts.map(item => item[1]);
+            let byearLabels = sortedByearCounts.map(item => item[0]);
+            let byearData = sortedByearCounts.map(item => item[1]);
 
-            colorLabels = topColorCounts.map(item => item[0]);
-            colorData = topColorCounts.map(item => item[1]);
+            let colorLabels = topColorCounts.map(item => item[0]);
+            let colorData = topColorCounts.map(item => item[1]);
 
-            groupedColorLabels = topGroupedColorCounts.map(item => item[0]);
-            groupedColorData = topGroupedColorCounts.map(item => item[1]);
+            let groupedColorLabels = topGroupedColorCounts.map(item => item[0]);
+            let groupedColorData = topGroupedColorCounts.map(item => item[1]);
 
             // Limit the number of items shown in the charts to the top 7 for mobile view
             if (window.innerWidth <= 600) {
@@ -154,6 +154,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 yearData = yearData.slice(0, 7);
                 byearLabels = byearLabels.slice(0, 7);
                 byearData = byearData.slice(0, 7);
+                colorLabels = colorLabels.slice(0, 7);
+                colorData = colorData.slice(0, 7);
+                groupedColorLabels = groupedColorLabels.slice(0, 7);
+                groupedColorData = groupedColorData.slice(0, 7);
             }
 
             // Create charts
@@ -162,6 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
             createYearChart(yearLabels, yearData);
             createByearChart(byearLabels, byearData);
             createColorChart(colorLabels, colorData);
+            createGroupedColorChart(groupedColorLabels, groupedColorData);
 
             // Display car brand stats in numerical format
             const carBrandStatsContainer = document.getElementById('carBrandStats');
@@ -393,6 +398,57 @@ function createColorChart(labels, data) {
                 data: data,
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            },
+            plugins: {
+                zoom: {
+                    pan: {
+                        enabled: true,
+                        mode: 'x',
+                        threshold: 0
+                    },
+                    zoom: {
+                        wheel: {
+                            enabled: true
+                        },
+                        drag: {
+                            enabled: true,
+                            threshold: 0,
+                            mode: 'x'
+                        },
+                        pinch: {
+                            enabled: true
+                        },
+                        mode: 'x'
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Function to create the grouped color chart
+function createGroupedColorChart(labels, data) {
+    const groupedColorCtx = document.getElementById('groupedColorChart').getContext('2d');
+    if (colorChartInstance) {
+        colorChartInstance.destroy();
+    }
+    colorChartInstance = new Chart(groupedColorCtx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Count',
+                data: data,
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
                 borderWidth: 1
             }]
         },
