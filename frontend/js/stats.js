@@ -116,9 +116,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Convert counts to arrays for Chart.js and sort them
             const sortedBrandCounts = sortCounts(brandCounts);
             const sortedMakeCounts = sortCounts(makeCounts);
-            sortedYearCounts = sortCounts(yearCounts);
-            sortedByearCounts = sortCounts(byearCounts);
-            sortedColorCounts = sortCounts(colorCounts);
+            const sortedYearCounts = sortCounts(yearCounts);
+            const sortedByearCounts = sortCounts(byearCounts);
+            const sortedColorCounts = sortCounts(colorCounts);
             const sortedGroupedColorCounts = sortCounts(groupedColorCounts);
 
             // Slice the top 40 for the graph
