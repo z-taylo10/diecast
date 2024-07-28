@@ -116,9 +116,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Convert counts to arrays for Chart.js and sort them
             const sortedBrandCounts = sortCounts(brandCounts);
             const sortedMakeCounts = sortCounts(makeCounts);
-            const sortedYearCounts = sortCounts(yearCounts);
-            const sortedByearCounts = sortCounts(byearCounts);
-            const sortedColorCounts = sortCounts(colorCounts);
+            sortedYearCounts = sortCounts(yearCounts);
+            sortedByearCounts = sortCounts(byearCounts);
+            sortedColorCounts = sortCounts(colorCounts);
             const sortedGroupedColorCounts = sortCounts(groupedColorCounts);
 
             // Slice the top 40 for the graph
@@ -126,59 +126,148 @@ document.addEventListener('DOMContentLoaded', () => {
             const topColorCounts = sortedColorCounts.slice(0, 40);
             const topGroupedColorCounts = sortedGroupedColorCounts.slice(0, 40);
 
-            let brandLabels = sortedBrandCounts.map(item => item[0]);
-            let brandData = sortedBrandCounts.map(item => item[1]);
+            const brandLabels = sortedBrandCounts.map(item => item[0]);
+            const brandData = sortedBrandCounts.map(item => item[1]);
 
-            let makeLabels = topMakeCounts.map(item => item[0]);
-            let makeData = topMakeCounts.map(item => item[1]);
+            const makeLabels = topMakeCounts.map(item => item[0]);
+            const makeData = topMakeCounts.map(item => item[1]);
 
-            let yearLabels = sortedYearCounts.map(item => item[0]);
-            let yearData = sortedYearCounts.map(item => item[1]);
+            yearLabels = sortedYearCounts.map(item => item[0]);
+            yearData = sortedYearCounts.map(item => item[1]);
 
-            let byearLabels = sortedByearCounts.map(item => item[0]);
-            let byearData = sortedByearCounts.map(item => item[1]);
+            byearLabels = sortedByearCounts.map(item => item[0]);
+            byearData = sortedByearCounts.map(item => item[1]);
 
-            let colorLabels = topColorCounts.map(item => item[0]);
-            let colorData = topColorCounts.map(item => item[1]);
+            colorLabels = topColorCounts.map(item => item[0]);
+            colorData = topColorCounts.map(item => item[1]);
 
-            let groupedColorLabels = topGroupedColorCounts.map(item => item[0]);
-            let groupedColorData = topGroupedColorCounts.map(item => item[1]);
+            groupedColorLabels = topGroupedColorCounts.map(item => item[0]);
+            groupedColorData = topGroupedColorCounts.map(item => item[1]);
 
-            // Limit the number of items shown in the charts to the top 7 for mobile view
-            if (window.innerWidth <= 600) {
-                brandLabels = brandLabels.slice(0, 7);
-                brandData = brandData.slice(0, 7);
-                makeLabels = makeLabels.slice(0, 7);
-                makeData = makeData.slice(0, 7);
-                yearLabels = yearLabels.slice(0, 7);
-                yearData = yearData.slice(0, 7);
-                byearLabels = byearLabels.slice(0, 7);
-                byearData = byearData.slice(0, 7);
-                colorLabels = colorLabels.slice(0, 7);
-                colorData = colorData.slice(0, 7);
-                groupedColorLabels = groupedColorLabels.slice(0, 7);
-                groupedColorData = groupedColorData.slice(0, 7);
-            }
+            // Create brand chart
+            const brandCtx = document.getElementById('brandChart').getContext('2d');
+            new Chart(brandCtx, {
+                type: 'bar',
+                data: {
+                    labels: brandLabels,
+                    datasets: [{
+                        label: 'Count',
+                        data: brandData,
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        zoom: {
+                            pan: {
+                                enabled: true,
+                                mode: 'x', // Pan only on the x-axis
+                                threshold: 0 // Set threshold to 0 for immediate response
+                            },
+                            zoom: {
+                                wheel: {
+                                    enabled: true
+                                },
+                                drag: {
+                                    enabled: true,
+                                    threshold: 0, // Set threshold to 0 for immediate response
+                                    mode: 'x' // Drag only on the x-axis
+                                },
+                                pinch: {
+                                    enabled: true
+                                },
+                                mode: 'x' // Zoom only on the x-axis
+                            }
+                        }
+                    }
+                }
+            });
 
-            // Create charts only if the canvas elements exist
-            if (document.getElementById('brandChart')) {
-                createBrandChart(brandLabels, brandData);
-            }
-            if (document.getElementById('makeChart')) {
-                createMakeChart(makeLabels, makeData);
-            }
-            if (document.getElementById('yearChart')) {
-                createYearChart(yearLabels, yearData);
-            }
-            if (document.getElementById('byearChart')) {
-                createByearChart(byearLabels, byearData);
-            }
-            if (document.getElementById('colorChart')) {
-                createColorChart(colorLabels, colorData);
-            }
-            if (document.getElementById('groupedColorChart')) {
-                createGroupedColorChart(groupedColorLabels, groupedColorData);
-            }
+            // Create make chart
+            const makeCtx = document.getElementById('makeChart').getContext('2d');
+            new Chart(makeCtx, {
+                type: 'bar',
+                data: {
+                    labels: makeLabels,
+                    datasets: [{
+                        label: 'Count',
+                        data: makeData,
+                        backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                        borderColor: 'rgba(153, 102, 255, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        zoom: {
+                            pan: {
+                                enabled: true,
+                                mode: 'x', // Pan only on the x-axis
+                                threshold: 0 // Set threshold to 0 for immediate response
+                            },
+                            zoom: {
+                                wheel: {
+                                    enabled: true
+                                },
+                                drag: {
+                                    enabled: true,
+                                    threshold: 0, // Set threshold to 0 for immediate response
+                                    mode: 'x' // Drag only on the x-axis
+                                },
+                                pinch: {
+                                    enabled: true
+                                },
+                                mode: 'x' // Zoom only on the x-axis
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Create year chart with filtered data
+            const excludedMakes = ['Fake HotWheels Brand','Fake Generic Brand','Fake Matchbox Brand']; // Add makes to exclude here
+            const filteredYearData = filterExcludedMakes(data, excludedMakes);
+
+            filteredYearCounts = {};
+            filteredYearData.forEach(entry => {
+                const years = typeof entry.YEAR === 'string' ? entry.YEAR.split(' | ') : [entry.YEAR];
+                years.forEach(year => {
+                    if (filteredYearCounts[year]) {
+                        filteredYearCounts[year]++;
+                    } else {
+                        filteredYearCounts[year] = 1;
+                    }
+                });
+            });
+
+            console.log('Filtered Year Counts:', filteredYearCounts);
+
+            const sortedFilteredYearCounts = sortCounts(filteredYearCounts);
+            filteredYearLabels = sortedFilteredYearCounts.map(item => item[0]);
+            filteredYearDataCounts = sortedFilteredYearCounts.map(item => item[1]);
+
+            console.log('Initial Filtered Year Labels:', filteredYearLabels);
+            console.log('Initial Filtered Year Data Counts:', filteredYearDataCounts);
+
+            createYearChart(filteredYearLabels, filteredYearDataCounts);
+
+            // Create BYEAR chart
+            createByearChart(byearLabels, byearData);
+
+            // Create color chart
+            createColorChart(colorLabels, colorData);
 
             // Display car brand stats in numerical format
             const carBrandStatsContainer = document.getElementById('carBrandStats');
@@ -190,108 +279,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching stats:', error));
 });
-
-// Function to create the brand chart
-function createBrandChart(labels, data) {
-    const brandCtx = document.getElementById('brandChart').getContext('2d');
-    if (yearChartInstance) {
-        yearChartInstance.destroy();
-    }
-    yearChartInstance = new Chart(brandCtx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Count',
-                data: data,
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            },
-            plugins: {
-                zoom: {
-                    pan: {
-                        enabled: true,
-                        mode: 'x',
-                        threshold: 0
-                    },
-                    zoom: {
-                        wheel: {
-                            enabled: true
-                        },
-                        drag: {
-                            enabled: true,
-                            threshold: 0,
-                            mode: 'x'
-                        },
-                        pinch: {
-                            enabled: true
-                        },
-                        mode: 'x'
-                    }
-                }
-            }
-        }
-    });
-}
-
-// Function to create the make chart
-function createMakeChart(labels, data) {
-    const makeCtx = document.getElementById('makeChart').getContext('2d');
-    if (byearChartInstance) {
-        byearChartInstance.destroy();
-    }
-    byearChartInstance = new Chart(makeCtx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Count',
-                data: data,
-                backgroundColor: 'rgba(153, 102, 255, 0.2)',
-                borderColor: 'rgba(153, 102, 255, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            },
-            plugins: {
-                zoom: {
-                    pan: {
-                        enabled: true,
-                        mode: 'x',
-                        threshold: 0
-                    },
-                    zoom: {
-                        wheel: {
-                            enabled: true
-                        },
-                        drag: {
-                            enabled: true,
-                            threshold: 0,
-                            mode: 'x'
-                        },
-                        pinch: {
-                            enabled: true
-                        },
-                        mode: 'x'
-                    }
-                }
-            }
-        }
-    });
-}
 
 // Function to create the year chart
 function createYearChart(labels, data) {
@@ -410,57 +397,6 @@ function createColorChart(labels, data) {
                 data: data,
                 backgroundColor: 'rgba(255, 99, 132, 0.2)',
                 borderColor: 'rgba(255, 99, 132, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            },
-            plugins: {
-                zoom: {
-                    pan: {
-                        enabled: true,
-                        mode: 'x',
-                        threshold: 0
-                    },
-                    zoom: {
-                        wheel: {
-                            enabled: true
-                        },
-                        drag: {
-                            enabled: true,
-                            threshold: 0,
-                            mode: 'x'
-                        },
-                        pinch: {
-                            enabled: true
-                        },
-                        mode: 'x'
-                    }
-                }
-            }
-        }
-    });
-}
-
-// Function to create the grouped color chart
-function createGroupedColorChart(labels, data) {
-    const groupedColorCtx = document.getElementById('groupedColorChart').getContext('2d');
-    if (colorChartInstance) {
-        colorChartInstance.destroy();
-    }
-    colorChartInstance = new Chart(groupedColorCtx, {
-        type: 'bar',
-        data: {
-            labels: labels,
-            datasets: [{
-                label: 'Count',
-                data: data,
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
                 borderWidth: 1
             }]
         },
