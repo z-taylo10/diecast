@@ -123,6 +123,30 @@ nav ul li a:hover {
         margin-bottom: 10px;
         text-align: center;
     }
+
+    #stats-container h2 {
+        text-align: center; /* Center "Collection Stats" */
+    }
+
+    .stat-item {
+        width: 90%; /* Reduce width for better fit on mobile */
+    }
+
+    canvas {
+        width: 100% !important; /* Ensure canvas takes full width on mobile */
+    }
+
+    #stats {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .stat-item canvas {
+        transform: rotate(90deg); /* Rotate the canvas for horizontal bars */
+        transform-origin: left top; /* Adjust the origin for rotation */
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 
 #stats {
@@ -130,13 +154,6 @@ nav ul li a:hover {
     flex-direction: column;
     gap: 20px;
     align-items: center; /* Center the stat items */
-}
-
-@media (max-width: 600px) {
-    #stats {
-        width: 100%;
-        padding: 0 10px;
-    }
 }
 
 .stat-item {
@@ -148,22 +165,10 @@ nav ul li a:hover {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-@media (max-width: 600px) {
-    .stat-item {
-        width: 90%; /* Reduce width for better fit on mobile */
-    }
-}
-
 canvas {
     width: 85% !important; /* Set the canvas to take full width of the parent */
     height: auto !important;
     margin: 0 auto; /* Center the canvas elements */
-}
-
-@media (max-width: 600px) {
-    canvas {
-        width: 100% !important; /* Ensure canvas takes full width on mobile */
-    }
 }
 
 .centered {
