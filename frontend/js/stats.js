@@ -30,11 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const groupedColorCounts = {};
 
             let totalDiecast = 0;
+            let totalDiecastCars = 0;
             let totalBoulevards = 0;
             let totalTreasureHunts = 0;
 
             data.forEach(entry => {
                 totalDiecast++;
+                const cars = typeof entry.MODEL === 'string' ? entry.MODEL.split(' | ') : [entry.MODEL];
+                totalDiecastCars += cars.length;
+
                 if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('boulevard')) {
                     totalBoulevards++;
                 }
@@ -105,6 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Update the metrics in the DOM
             document.getElementById('total-diecast').textContent = totalDiecast;
+            document.getElementById('total-diecast-cars').textContent = totalDiecastCars;
             document.getElementById('total-boulevards').textContent = totalBoulevards;
             document.getElementById('total-treasure-hunts').textContent = totalTreasureHunts;
 
