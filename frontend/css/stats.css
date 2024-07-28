@@ -113,11 +113,30 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
+@media (max-width: 600px) {
+    #metrics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #metrics p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
 #stats {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center; /* Center the stat items */
+}
+
+@media (max-width: 600px) {
+    #stats {
+        width: 100%;
+        padding: 0 10px;
+    }
 }
 
 .stat-item {
@@ -129,10 +148,22 @@ nav ul li a:hover {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
+@media (max-width: 600px) {
+    .stat-item {
+        width: 90%; /* Reduce width for better fit on mobile */
+    }
+}
+
 canvas {
     width: 85% !important; /* Set the canvas to take full width of the parent */
     height: auto !important;
     margin: 0 auto; /* Center the canvas elements */
+}
+
+@media (max-width: 600px) {
+    canvas {
+        width: 100% !important; /* Ensure canvas takes full width on mobile */
+    }
 }
 
 .centered {
