@@ -344,6 +344,12 @@ footer {
 .search-bar input[type="text"] {
     padding: 10px;
     width: 300px;
+    background-color: white; /* Revert to white background */
+    color: black; /* Ensure text color is black */
+    border: 1px solid #666666; /* Darker gray border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 5px 0; /* Add some margin for spacing */
 }
 
 .search-bar button {
@@ -387,17 +393,21 @@ footer {
 }
 
 .filter-box select, .filter-box input, .search-bar input[type="text"], .search-bar button {
-    background-color: #808080; /* Gray background */
+    background-color: #a0a0a0; /* Slightly brighter gray background */
     color: white;
-    border: 1px solid #666666; /* Darker gray border */
+    border: 1px solid #888888; /* Slightly darker gray border */
     border-radius: 5px;
     padding: 10px 15px;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
     margin: 5px 0; /* Add some margin for spacing */
 }
 
+.filter-box select::placeholder, .filter-box input::placeholder, .search-bar input[type="text"]::placeholder {
+    color: #cccccc; /* Lighter gray for placeholder text */
+}
+
 .filter-box select:hover, .filter-box input:hover, .search-bar input[type="text"]:hover, .search-bar button:hover {
-    background-color: #666666; /* Darker gray on hover */
+    background-color: #888888; /* Darker gray on hover */
 }
 
 .search-bar button {
