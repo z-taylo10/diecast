@@ -131,6 +131,7 @@ nav ul li a:hover {
     .stat-item {
         width: 90%; /* Reduce width for better fit on mobile */
         margin: 0 auto; /* Center the stat items */
+        display: none; /* Hide the stat items (charts) on mobile */
     }
 
     canvas {
