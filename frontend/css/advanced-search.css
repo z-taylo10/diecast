@@ -406,15 +406,10 @@ footer {
     color: #cccccc; /* Lighter gray for placeholder text */
 }
 
-.filter-box select:hover, .filter-box input:hover, .search-bar input[type="text"]:hover, .search-bar button:hover {
+.filter-box select:hover, .filter-box input:hover {
     background-color: #888888; /* Darker gray on hover */
 }
 
 .search-bar button {
     cursor: pointer;
-}
-
-input[type="search"]::-webkit-search-cancel-button {
-    -webkit-appearance: none;
-    appearance: none;
 }
