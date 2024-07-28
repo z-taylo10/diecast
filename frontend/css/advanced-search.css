@@ -34,10 +34,16 @@ header h1 {
 }
 
 header input[type="search"] {
-    padding: 5px;
+    padding: 10px; /* Add padding for better spacing */
     margin-left: 20px;
     flex-grow: 1;
     max-width: 300px; /* Set a maximum width for larger screens */
+    background-color: white; /* White background */
+    color: black; /* Black text color */
+    border: 1px solid #666666; /* Darker gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 5px 0; /* Add some margin for spacing */
 }
 
 .menu {
