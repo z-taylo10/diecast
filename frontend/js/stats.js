@@ -144,129 +144,23 @@ document.addEventListener('DOMContentLoaded', () => {
             groupedColorLabels = topGroupedColorCounts.map(item => item[0]);
             groupedColorData = topGroupedColorCounts.map(item => item[1]);
 
-            // Create brand chart
-            const brandCtx = document.getElementById('brandChart').getContext('2d');
-            new Chart(brandCtx, {
-                type: 'bar',
-                data: {
-                    labels: brandLabels,
-                    datasets: [{
-                        label: 'Count',
-                        data: brandData,
-                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                        borderColor: 'rgba(75, 192, 192, 1)',
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    },
-                    plugins: {
-                        zoom: {
-                            pan: {
-                                enabled: true,
-                                mode: 'x', // Pan only on the x-axis
-                                threshold: 0 // Set threshold to 0 for immediate response
-                            },
-                            zoom: {
-                                wheel: {
-                                    enabled: true
-                                },
-                                drag: {
-                                    enabled: true,
-                                    threshold: 0, // Set threshold to 0 for immediate response
-                                    mode: 'x' // Drag only on the x-axis
-                                },
-                                pinch: {
-                                    enabled: true
-                                },
-                                mode: 'x' // Zoom only on the x-axis
-                            }
-                        }
-                    }
-                }
-            });
+            // Limit the number of items shown in the charts to the top 7 for mobile view
+            if (window.innerWidth <= 600) {
+                brandLabels = brandLabels.slice(0, 7);
+                brandData = brandData.slice(0, 7);
+                makeLabels = makeLabels.slice(0, 7);
+                makeData = makeData.slice(0, 7);
+                yearLabels = yearLabels.slice(0, 7);
+                yearData = yearData.slice(0, 7);
+                byearLabels = byearLabels.slice(0, 7);
+                byearData = byearData.slice(0, 7);
+            }
 
-            // Create make chart
-            const makeCtx = document.getElementById('makeChart').getContext('2d');
-            new Chart(makeCtx, {
-                type: 'bar',
-                data: {
-                    labels: makeLabels,
-                    datasets: [{
-                        label: 'Count',
-                        data: makeData,
-                        backgroundColor: 'rgba(153, 102, 255, 0.2)',
-                        borderColor: 'rgba(153, 102, 255, 1)',
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    },
-                    plugins: {
-                        zoom: {
-                            pan: {
-                                enabled: true,
-                                mode: 'x', // Pan only on the x-axis
-                                threshold: 0 // Set threshold to 0 for immediate response
-                            },
-                            zoom: {
-                                wheel: {
-                                    enabled: true
-                                },
-                                drag: {
-                                    enabled: true,
-                                    threshold: 0, // Set threshold to 0 for immediate response
-                                    mode: 'x' // Drag only on the x-axis
-                                },
-                                pinch: {
-                                    enabled: true
-                                },
-                                mode: 'x' // Zoom only on the x-axis
-                            }
-                        }
-                    }
-                }
-            });
-
-            // Create year chart with filtered data
-            const excludedMakes = ['Fake HotWheels Brand','Fake Generic Brand','Fake Matchbox Brand']; // Add makes to exclude here
-            const filteredYearData = filterExcludedMakes(data, excludedMakes);
-
-            filteredYearCounts = {};
-            filteredYearData.forEach(entry => {
-                const years = typeof entry.YEAR === 'string' ? entry.YEAR.split(' | ') : [entry.YEAR];
-                years.forEach(year => {
-                    if (filteredYearCounts[year]) {
-                        filteredYearCounts[year]++;
-                    } else {
-                        filteredYearCounts[year] = 1;
-                    }
-                });
-            });
-
-            console.log('Filtered Year Counts:', filteredYearCounts);
-
-            const sortedFilteredYearCounts = sortCounts(filteredYearCounts);
-            filteredYearLabels = sortedFilteredYearCounts.map(item => item[0]);
-            filteredYearDataCounts = sortedFilteredYearCounts.map(item => item[1]);
-
-            console.log('Initial Filtered Year Labels:', filteredYearLabels);
-            console.log('Initial Filtered Year Data Counts:', filteredYearDataCounts);
-
-            createYearChart(filteredYearLabels, filteredYearDataCounts);
-
-            // Create BYEAR chart
+            // Create charts
+            createBrandChart(brandLabels, brandData);
+            createMakeChart(makeLabels, makeData);
+            createYearChart(yearLabels, yearData);
             createByearChart(byearLabels, byearData);
-
-            // Create color chart
             createColorChart(colorLabels, colorData);
 
             // Display car brand stats in numerical format
@@ -279,6 +173,108 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching stats:', error));
 });
+
+// Function to create the brand chart
+function createBrandChart(labels, data) {
+    const brandCtx = document.getElementById('brandChart').getContext('2d');
+    if (yearChartInstance) {
+        yearChartInstance.destroy();
+    }
+    yearChartInstance = new Chart(brandCtx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Count',
+                data: data,
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            },
+            plugins: {
+                zoom: {
+                    pan: {
+                        enabled: true,
+                        mode: 'x',
+                        threshold: 0
+                    },
+                    zoom: {
+                        wheel: {
+                            enabled: true
+                        },
+                        drag: {
+                            enabled: true,
+                            threshold: 0,
+                            mode: 'x'
+                        },
+                        pinch: {
+                            enabled: true
+                        },
+                        mode: 'x'
+                    }
+                }
+            }
+        }
+    });
+}
+
+// Function to create the make chart
+function createMakeChart(labels, data) {
+    const makeCtx = document.getElementById('makeChart').getContext('2d');
+    if (byearChartInstance) {
+        byearChartInstance.destroy();
+    }
+    byearChartInstance = new Chart(makeCtx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Count',
+                data: data,
+                backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                borderColor: 'rgba(153, 102, 255, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            },
+            plugins: {
+                zoom: {
+                    pan: {
+                        enabled: true,
+                        mode: 'x',
+                        threshold: 0
+                    },
+                    zoom: {
+                        wheel: {
+                            enabled: true
+                        },
+                        drag: {
+                            enabled: true,
+                            threshold: 0,
+                            mode: 'x'
+                        },
+                        pinch: {
+                            enabled: true
+                        },
+                        mode: 'x'
+                    }
+                }
+            }
+        }
+    });
+}
 
 // Function to create the year chart
 function createYearChart(labels, data) {
