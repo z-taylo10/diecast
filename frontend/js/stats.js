@@ -160,13 +160,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 groupedColorData = groupedColorData.slice(0, 7);
             }
 
-            // Create charts
-            createBrandChart(brandLabels, brandData);
-            createMakeChart(makeLabels, makeData);
-            createYearChart(yearLabels, yearData);
-            createByearChart(byearLabels, byearData);
-            createColorChart(colorLabels, colorData);
-            createGroupedColorChart(groupedColorLabels, groupedColorData);
+            // Create charts only if the canvas elements exist
+            if (document.getElementById('brandChart')) {
+                createBrandChart(brandLabels, brandData);
+            }
+            if (document.getElementById('makeChart')) {
+                createMakeChart(makeLabels, makeData);
+            }
+            if (document.getElementById('yearChart')) {
+                createYearChart(yearLabels, yearData);
+            }
+            if (document.getElementById('byearChart')) {
+                createByearChart(byearLabels, byearData);
+            }
+            if (document.getElementById('colorChart')) {
+                createColorChart(colorLabels, colorData);
+            }
+            if (document.getElementById('groupedColorChart')) {
+                createGroupedColorChart(groupedColorLabels, groupedColorData);
+            }
 
             // Display car brand stats in numerical format
             const carBrandStatsContainer = document.getElementById('carBrandStats');

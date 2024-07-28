@@ -157,6 +157,7 @@ nav ul li a:hover {
     width: 100%; /* Ensure the stat item takes full width */
     max-width: 1200px; /* Set a maximum width for the stat item */
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0 auto; /* Center the stat items */
 }
 
 canvas {
