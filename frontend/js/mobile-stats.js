@@ -106,6 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const groupedColorLabels = topGroupedColorCounts.map(item => item[0]);
             const groupedColorData = topGroupedColorCounts.map(item => item[1]);
 
+            // Check if the ctAxisTitle plugin is available
+            const ctAxisTitlePlugin = Chartist.plugins && Chartist.plugins.ctAxisTitle ? Chartist.plugins.ctAxisTitle : null;
+
             // Create brand chart
             new Chartist.Bar('#mobileBrandChart', {
                 labels: brandLabels,
@@ -115,8 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     onlyInteger: true,
                     offset: 20
                 },
-                plugins: [
-                    Chartist.plugins.ctAxisTitle({
+                plugins: ctAxisTitlePlugin ? [
+                    ctAxisTitlePlugin({
                         axisX: {
                             axisTitle: 'Brand',
                             axisClass: 'ct-axis-title',
@@ -137,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ]
+                ] : []
             });
 
             // Create make chart
@@ -149,8 +152,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     onlyInteger: true,
                     offset: 20
                 },
-                plugins: [
-                    Chartist.plugins.ctAxisTitle({
+                plugins: ctAxisTitlePlugin ? [
+                    ctAxisTitlePlugin({
                         axisX: {
                             axisTitle: 'Make',
                             axisClass: 'ct-axis-title',
@@ -171,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ]
+                ] : []
             });
 
             // Create year chart
@@ -183,8 +186,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     onlyInteger: true,
                     offset: 20
                 },
-                plugins: [
-                    Chartist.plugins.ctAxisTitle({
+                plugins: ctAxisTitlePlugin ? [
+                    ctAxisTitlePlugin({
                         axisX: {
                             axisTitle: 'Year',
                             axisClass: 'ct-axis-title',
@@ -205,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ]
+                ] : []
             });
 
             // Create BYEAR chart
@@ -217,8 +220,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     onlyInteger: true,
                     offset: 20
                 },
-                plugins: [
-                    Chartist.plugins.ctAxisTitle({
+                plugins: ctAxisTitlePlugin ? [
+                    ctAxisTitlePlugin({
                         axisX: {
                             axisTitle: 'BYEAR',
                             axisClass: 'ct-axis-title',
@@ -239,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ]
+                ] : []
             });
 
             // Create color chart
@@ -251,8 +254,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     onlyInteger: true,
                     offset: 20
                 },
-                plugins: [
-                    Chartist.plugins.ctAxisTitle({
+                plugins: ctAxisTitlePlugin ? [
+                    ctAxisTitlePlugin({
                         axisX: {
                             axisTitle: 'Color',
                             axisClass: 'ct-axis-title',
@@ -273,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ]
+                ] : []
             });
         })
         .catch(error => console.error('Error fetching data:', error));
