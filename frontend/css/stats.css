@@ -96,11 +96,13 @@ nav ul li a:hover {
 
 #stats-container {
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #metrics {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
     background-color: #004080; /* Slightly lighter blue */
     border-radius: 5px;
@@ -111,6 +113,9 @@ nav ul li a:hover {
 #metrics p {
     margin: 0;
     font-size: 18px;
+    padding: 10px;
+    background-color: #004080; /* Slightly lighter blue */
+    border-radius: 5px;
 }
 
 @media (max-width: 600px) {
@@ -129,7 +134,7 @@ nav ul li a:hover {
     }
 
     .stat-item {
-        width: 90%; /* Reduce width for better fit on mobile */
+        width: 100%; /* Full width for mobile */
         margin: 0 auto; /* Center the stat items */
         display: none; /* Hide the stat items (charts) on mobile */
     }
@@ -146,7 +151,8 @@ nav ul li a:hover {
 
 #stats {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
     align-items: center; /* Center the stat items */
 }
@@ -216,6 +222,7 @@ button:hover {
 
     .mobile-chart {
         display: block; /* Show mobile charts */
+        width: 100%; /* Ensure full width */
     }
 }
 
