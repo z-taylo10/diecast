@@ -142,11 +142,6 @@ nav ul li a:hover {
     canvas {
         width: 100% !important; /* Ensure canvas takes full width on mobile */
     }
-
-    #stats {
-        width: 100%;
-        padding: 0 10px;
-    }
 }
 
 #stats {
@@ -226,7 +221,3 @@ button:hover {
     }
 }
 
-/* Hide mobile charts by default */
-.mobile-chart {
-    display: none;
-}
