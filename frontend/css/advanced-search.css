@@ -393,8 +393,8 @@ footer {
 }
 
 .filter-box select, .filter-box input{
-    background-color: #a0a0a0; /* Slightly brighter gray background */
-    color: white;
+    background-color: #f0f0f0; /* Light gray background */
+    color: black; /* Black text color */
     border: 1px solid #888888; /* Slightly darker gray border */
     border-radius: 5px;
     padding: 10px 15px;
@@ -407,7 +407,7 @@ footer {
 }
 
 .filter-box select:hover, .filter-box input:hover {
-    background-color: #888888; /* Darker gray on hover */
+    background-color: #e0e0e0; /* Slightly darker gray on hover */
 }
 
 .search-bar button {
