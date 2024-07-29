@@ -140,7 +140,21 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ] : []
+                ] : [],
+                height: '300px', // Adjust height for better readability
+                width: '100%', // Ensure full width
+                chartPadding: {
+                    top: 20,
+                    right: 20,
+                    bottom: 20,
+                    left: 20
+                },
+                seriesBarDistance: 10, // Adjust bar distance
+                axisX: {
+                    labelInterpolationFnc: function(value) {
+                        return value.length > 5 ? value.slice(0, 5) + '...' : value; // Truncate long labels
+                    }
+                }
             });
 
             // Create make chart
@@ -174,7 +188,21 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ] : []
+                ] : [],
+                height: '300px', // Adjust height for better readability
+                width: '100%', // Ensure full width
+                chartPadding: {
+                    top: 20,
+                    right: 20,
+                    bottom: 20,
+                    left: 20
+                },
+                seriesBarDistance: 10, // Adjust bar distance
+                axisX: {
+                    labelInterpolationFnc: function(value) {
+                        return value.length > 5 ? value.slice(0, 5) + '...' : value; // Truncate long labels
+                    }
+                }
             });
 
             // Create year chart
@@ -208,7 +236,21 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ] : []
+                ] : [],
+                height: '300px', // Adjust height for better readability
+                width: '100%', // Ensure full width
+                chartPadding: {
+                    top: 20,
+                    right: 20,
+                    bottom: 20,
+                    left: 20
+                },
+                seriesBarDistance: 10, // Adjust bar distance
+                axisX: {
+                    labelInterpolationFnc: function(value) {
+                        return value.length > 5 ? value.slice(0, 5) + '...' : value; // Truncate long labels
+                    }
+                }
             });
 
             // Create BYEAR chart
@@ -242,7 +284,21 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ] : []
+                ] : [],
+                height: '300px', // Adjust height for better readability
+                width: '100%', // Ensure full width
+                chartPadding: {
+                    top: 20,
+                    right: 20,
+                    bottom: 20,
+                    left: 20
+                },
+                seriesBarDistance: 10, // Adjust bar distance
+                axisX: {
+                    labelInterpolationFnc: function(value) {
+                        return value.length > 5 ? value.slice(0, 5) + '...' : value; // Truncate long labels
+                    }
+                }
             });
 
             // Create color chart
@@ -276,7 +332,21 @@ document.addEventListener('DOMContentLoaded', () => {
                             flipTitle: true
                         }
                     })
-                ] : []
+                ] : [],
+                height: '300px', // Adjust height for better readability
+                width: '100%', // Ensure full width
+                chartPadding: {
+                    top: 20,
+                    right: 20,
+                    bottom: 20,
+                    left: 20
+                },
+                seriesBarDistance: 10, // Adjust bar distance
+                axisX: {
+                    labelInterpolationFnc: function(value) {
+                        return value.length > 5 ? value.slice(0, 5) + '...' : value; // Truncate long labels
+                    }
+                }
             });
         })
         .catch(error => console.error('Error fetching data:', error));
