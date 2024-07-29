@@ -96,46 +96,109 @@ nav ul li a:hover {
 
 #stats-container {
     padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 #metrics {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #004080; /* Slightly lighter blue */
+    border-radius: 5px;
     margin-bottom: 20px;
+    color: white;
 }
 
 #metrics p {
     margin: 0;
-    padding: 10px;
-    background-color: #004080; /* Slightly lighter blue */
-    border-radius: 5px;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    #metrics {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #metrics p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #stats-container h2 {
+        text-align: center; /* Center "Collection Stats" */
+    }
+
+    .stat-item {
+        width: 90%; /* Reduce width for better fit on mobile */
+        margin: 0 auto; /* Center the stat items */
+        display: none; /* Hide the stat items (charts) on mobile */
+    }
+
+    canvas {
+        width: 100% !important; /* Ensure canvas takes full width on mobile */
+    }
+
+    #stats {
+        width: 100%;
+        padding: 0 10px;
+    }
 }
 
 #stats {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center; /* Center the stat items */
 }
 
 .stat-item {
     background-color: #004080; /* Slightly lighter blue */
-    border-radius: 5px;
     padding: 20px;
-    margin-bottom: 20px;
-    width: 100%; /* Full width for mobile */
-    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%; /* Ensure the stat item takes full width */
+    max-width: 1200px; /* Set a maximum width for the stat item */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 0 auto; /* Center the stat items */
 }
 
-.stat-item h3 {
-    margin-top: 0;
+canvas {
+    width: 85% !important; /* Set the canvas to take full width of the parent */
+    height: auto !important;
+    margin: 0 auto; /* Center the canvas elements */
+}
+
+.centered {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#carBrandStats p {
+    margin: 5px 0;
+    text-align: left; /* Align text to the left */
+    padding-left: 10px; /* Add some padding for better readability */
+}
+
+#yearSort, #byearSort, #colorSort {
+    background-color: #004080; /* Slightly lighter blue */
+    color: white;
+    border: 1px solid #003366; /* Dark blue border */
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#yearSort:hover, #byearSort:hover, #colorSort:hover {
+    background-color: #003366; /* Darker blue on hover */
 }
 
 button {
-    background-color: #0059b3; /* Blue button */
+    background-color: #004080; /* Slightly lighter blue */
     color: white;
-    border: none;
+    border: 1px solid #003366; /* Dark blue border */
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
