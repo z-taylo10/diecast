@@ -207,3 +207,19 @@ button {
 button:hover {
     background-color: #003366; /* Darker blue on hover */
 }
+
+/* Hide desktop charts and show mobile charts on mobile devices */
+@media (max-width: 600px) {
+    .stat-item {
+        display: none; /* Hide desktop charts */
+    }
+
+    .mobile-chart {
+        display: block; /* Show mobile charts */
+    }
+}
+
+/* Hide mobile charts by default */
+.mobile-chart {
+    display: none;
+}

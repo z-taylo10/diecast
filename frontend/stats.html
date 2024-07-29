@@ -10,6 +10,9 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.0.0"></script>
     <script src="js/colorMapping.js"></script>
     <script src="js/stats.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <script src="js/mobile-stats.js" defer></script>
 </head>
 <body>
     <header>
@@ -39,7 +42,7 @@
                 <p>Total Treasure Hunts: <span id="total-treasure-hunts">0</span></p>
             </div>
             <div id="stats">
-                <!-- Stats will be dynamically populated here -->
+                <!-- Desktop charts -->
                 <div class="stat-item">
                     <h3>Most Popular Diecast Brands:</h3>
                     <canvas id="brandChart"></canvas>
@@ -76,6 +79,28 @@
                     </select>
                     <canvas id="colorChart"></canvas>
                     <button onclick="resetZoom('colorChart')">Reset Zoom</button>
+                </div>
+
+                <!-- Mobile charts -->
+                <div class="stat-item mobile-chart">
+                    <h3>Most Popular Diecast Brands:</h3>
+                    <div id="mobileBrandChart"></div>
+                </div>
+                <div class="stat-item mobile-chart">
+                    <h3>Most Popular Car Brands:</h3>
+                    <div id="mobileMakeChart"></div>
+                </div>
+                <div class="stat-item mobile-chart">
+                    <h3>Most Popular Years by Make:</h3>
+                    <div id="mobileYearChart"></div>
+                </div>
+                <div class="stat-item mobile-chart">
+                    <h3>Most Popular Diecast Years:</h3>
+                    <div id="mobileByearChart"></div>
+                </div>
+                <div class="stat-item mobile-chart">
+                    <h3>Most Popular Colors:</h3>
+                    <div id="mobileColorChart"></div>
                 </div>
             </div>
         </section>
