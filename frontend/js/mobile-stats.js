@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
             data.sort((a, b) => b.ID - a.ID);
 
             // Convert counts to arrays for Chartist.js and sort them
-            const sortedBrandCounts = sortCounts(brandCounts);
-            const sortedMakeCounts = sortCounts(makeCounts);
-            const sortedYearCounts = sortCounts(yearCounts);
-            const sortedByearCounts = sortCounts(byearCounts);
-            const sortedColorCounts = sortCounts(colorCounts);
-            const sortedGroupedColorCounts = sortCounts(groupedColorCounts);
+            const sortedBrandCounts = sortCountsMobile(brandCounts);
+            const sortedMakeCounts = sortCountsMobile(makeCounts);
+            const sortedYearCounts = sortCountsMobile(yearCounts);
+            const sortedByearCounts = sortCountsMobile(byearCounts);
+            const sortedColorCounts = sortCountsMobile(colorCounts);
+            const sortedGroupedColorCounts = sortCountsMobile(groupedColorCounts);
 
             // Slice the top 10 for the mobile graph
             const topMakeCounts = sortedMakeCounts.slice(0, 10);
@@ -210,6 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Function to sort counts
-const sortCounts = (counts) => {
+const sortCountsMobile = (counts) => {
     return Object.entries(counts).sort((a, b) => b[1] - a[1]);
 };
