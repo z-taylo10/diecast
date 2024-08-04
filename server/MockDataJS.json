@@ -1956,7 +1956,7 @@
     "ID": 163
   },
   {
-    "BRAND": "Official Licensed",
+    "BRAND": "Officially Licensed",
     "BYEAR": 2022,
     "SET": "Subaru",
     "MAKE": "Subaru",
@@ -1968,7 +1968,7 @@
     "ID": 164
   },
   {
-    "BRAND": "Official Licensed",
+    "BRAND": "Officially Licensed",
     "BYEAR": 2022,
     "SET": "Subaru",
     "MAKE": "Subaru",
@@ -1980,7 +1980,7 @@
     "ID": 165
   },
   {
-    "BRAND": "Official Licensed",
+    "BRAND": "Officially Licensed",
     "BYEAR": 2022,
     "SET": "Subaru",
     "MAKE": "Subaru",
@@ -16234,5 +16234,125 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1353
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2011,
+    "SET": "Boulevard",
+    "MAKE": "Vector",
+    "MODEL": "W8 Twin Turbo",
+    "YEAR": 1993,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard Classic",
+    "ID": 1354
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (E Case)",
+    "MAKE": "Mazda",
+    "MODEL": "Cosmo Sport",
+    "YEAR": 1968,
+    "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": "Super Treasure Hunt",
+    "ID": 1355
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 1997,
+    "SET": "Mainline",
+    "MAKE": "Ford",
+    "MODEL": "GT-40",
+    "YEAR": 1966,
+    "COLOR": "Blue #59",
+    "DUPE": "No",
+    "SPECIAL": "Japanese",
+    "ID": 1356
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2000,
+    "SET": "Mainline",
+    "MAKE": "Panoz",
+    "MODEL": "LMP-1 Roadster S",
+    "YEAR": 1999,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1357
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2001,
+    "SET": "Mainline",
+    "MAKE": "Hyundai",
+    "MODEL": "Spyder Concept",
+    "YEAR": 2000,
+    "COLOR": "Gold",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1358
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2008,
+    "SET": "Mainline",
+    "MAKE": "Lotus",
+    "MODEL": "Evora",
+    "YEAR": 2008,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1359
+  },
+  {
+    "BRAND": "Tomica",
+    "BYEAR": 2024,
+    "SET": "Premium",
+    "MAKE": "Ferrari",
+    "MODEL": "Enzo",
+    "YEAR": 2002,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1360
+  },
+  {
+    "BRAND": "Officially Licensed",
+    "BYEAR": 2012,
+    "SET": "Shelby",
+    "MAKE": "Shelby",
+    "MODEL": "Cobra Super Snake",
+    "YEAR": 1965,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1361
+  },
+  {
+    "BRAND": "Johnny Lightning",
+    "BYEAR": 2022,
+    "SET": "Classic Gold (Rel 3)",
+    "MAKE": "Chevy",
+    "MODEL": "SSR",
+    "YEAR": 2005,
+    "COLOR": "Bermuda Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1362
+  },
+  {
+    "BRAND": "Mini GT",
+    "BYEAR": 2024,
+    "SET": "Mijo Exclusives",
+    "MAKE": "Shelby",
+    "MODEL": "GT500 SE Widebody",
+    "YEAR": 2020,
+    "COLOR": "Pepper Gray Metallic",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1363
   }
 ]
