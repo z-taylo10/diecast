@@ -16354,5 +16354,53 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1363
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (B Case)",
+    "MAKE": "Honda",
+    "MODEL": "Civic Si",
+    "YEAR": 1998,
+    "COLOR": "Gold",
+    "DUPE": "Yes",
+    "SPECIAL": null,
+    "ID": 1364
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (B Case)",
+    "MAKE": "Honda",
+    "MODEL": "Civic Si",
+    "YEAR": 1998,
+    "COLOR": "Gold",
+    "DUPE": "Yes",
+    "SPECIAL": null,
+    "ID": 1365
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Ford",
+    "MODEL": "Bronco Sport",
+    "YEAR": 2022,
+    "COLOR": "Pastel Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1366
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "HWP: Fast & Furious",
+    "MAKE": "Mercedes-Benz",
+    "MODEL": "500 SEL",
+    "YEAR": 1991,
+    "COLOR": "Silver",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1367
   }
 ]
