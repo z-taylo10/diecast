@@ -16402,5 +16402,29 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1367
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Nissan",
+    "MODEL": "400Z",
+    "YEAR": 2023,
+    "COLOR": "Gray",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1368
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (A Case)",
+    "MAKE": "Chevy",
+    "MODEL": "Corvette",
+    "YEAR": 1956,
+    "COLOR": "Pastel Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1369
   }
 ]
