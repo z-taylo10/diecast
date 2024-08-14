@@ -162,6 +162,10 @@ nav ul li a:hover {
     margin: 0 auto; /* Center the stat items */
 }
 
+.mobile-chart {
+    display: none; /* Show mobile charts */
+}
+
 canvas {
     width: 85% !important; /* Set the canvas to take full width of the parent */
     height: auto !important;
