@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('boulevard')) {
                     totalBoulevards++;
                 }
-                if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('treasure hunt')) {
+                if (entry.SPECIAL && (entry.SPECIAL.toLowerCase().includes('treasure hunt') || entry.SPECIAL.toLowerCase().includes('super treasure hunt'))) {
                     totalTreasureHunts++;
                 }
 
