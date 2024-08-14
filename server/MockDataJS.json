@@ -16570,5 +16570,89 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1381
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Ultra Hots",
+    "MAKE": "Honda",
+    "MODEL": "City Turbo II",
+    "YEAR": 1985,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1382
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Vintage Racing Club",
+    "MAKE": "Lamborghini",
+    "MODEL": "Miura SV",
+    "YEAR": 1971,
+    "COLOR": "Gold #32",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1383
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Vintage Racing Club",
+    "MAKE": "Mercedes-Benz",
+    "MODEL": "300 SL",
+    "YEAR": 1954,
+    "COLOR": "White #24",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1384
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Ford",
+    "MODEL": "GT40",
+    "YEAR": 1966,
+    "COLOR": "Yellow #8",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1385
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Ford",
+    "MODEL": "Sierra Cosworth",
+    "YEAR": 1987,
+    "COLOR": "Yellow #87",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1386
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Volvo",
+    "MODEL": "XC40 Recharge",
+    "YEAR": 2021,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1387
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Plymouth",
+    "MODEL": "Barracuda",
+    "YEAR": 1970,
+    "COLOR": "Yellow",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1388
   }
 ]
