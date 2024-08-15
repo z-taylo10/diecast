@@ -77,6 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('redline')) {
                         entryDiv.classList.add('special-entry4');
                     }
+                    if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('super treasure hunt')) {
+                        entryDiv.classList.add('special-entry-super-treasure-hunt');
+                    }
                     entryDiv.innerHTML = `
                         <p><strong>Brand:</strong> ${entry.BRAND}</p>
                         <p><strong>Set:</strong> ${entry.SET}</p>

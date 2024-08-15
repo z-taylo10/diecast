@@ -158,6 +158,31 @@ nav ul li a:hover {
     color: #fafafa; 
 }
 
+.special-entry-super-treasure-hunt {
+    background-color: #ffd700; /* Gold color */
+    border-color: #f1c40f; /* Slightly darker gold for the border */
+    position: relative; /* Required for the sparkling effect */
+    animation: sparkle 2s infinite; /* Apply the sparkle animation */
+}
+
+.special-entry-super-treasure-hunt p {
+    color: #525252; /* Ensure text color is dark gray for better readability */
+}
+
+.special-entry-super-treasure-hunt hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffd700, 0 0 20px #ffd700, 0 0 25px #ffd700, 0 0 30px #ffd700, 0 0 35px #ffd700;
+    }
+    50% {
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #ffd700, 0 0 15px #ffd700, 0 0 20px #ffd700, 0 0 25px #ffd700, 0 0 30px #ffd700;
+    }
+}
+
 .entry p {
     margin: 5px 0;
 }
