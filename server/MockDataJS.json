@@ -1998,9 +1998,9 @@
     "MAKE": "McLaren",
     "MODEL": "Solus GT",
     "YEAR": 2023,
-    "COLOR": "Silver",
+    "COLOR": "Metal",
     "DUPE": "No",
-    "SPECIAL": null,
+    "SPECIAL": "Store Exclusive (Walmart)",
     "ID": 167
   },
   {
@@ -16088,7 +16088,7 @@
     "YEAR": 2015,
     "COLOR": "Yellow",
     "DUPE": "No",
-    "SPECIAL": null,
+    "SPECIAL": "Store Exclusive (Dollar General)",
     "ID": 1341
   },
   {
@@ -16412,7 +16412,7 @@
     "YEAR": 2023,
     "COLOR": "Gray",
     "DUPE": "No",
-    "SPECIAL": null,
+    "SPECIAL": "Store Exclusive (Kroger)",
     "ID": 1368
   },
   {
@@ -16616,7 +16616,7 @@
     "YEAR": 1966,
     "COLOR": "Yellow #8",
     "DUPE": "No",
-    "SPECIAL": "Store Exclusive",
+    "SPECIAL": "Store Exclusive (Kroger)",
     "ID": 1385
   },
   {
@@ -16628,7 +16628,7 @@
     "YEAR": 1987,
     "COLOR": "Yellow #87",
     "DUPE": "No",
-    "SPECIAL": null,
+    "SPECIAL": "Store Exclusive (Kroger)",
     "ID": 1386
   },
   {
@@ -16640,7 +16640,7 @@
     "YEAR": 2021,
     "COLOR": "Red",
     "DUPE": "No",
-    "SPECIAL": null,
+    "SPECIAL": "Store Exclusive (Kroger)",
     "ID": 1387
   },
   {
@@ -16652,7 +16652,7 @@
     "YEAR": 1970,
     "COLOR": "Yellow",
     "DUPE": "No",
-    "SPECIAL": null,
+    "SPECIAL": "Store Exclusive (Kroger)",
     "ID": 1388
   }
 ]
