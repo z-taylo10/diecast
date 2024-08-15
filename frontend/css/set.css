@@ -26,6 +26,11 @@
     background-color: #810000; /* Red color */
     color: rgb(255, 255, 255);
 }
+.special-car3 {
+    background-color: #2cac2c; /* Red color */
+    color: rgb(255, 255, 255);
+}
+
 
 #search-bar {
     visibility: visible;

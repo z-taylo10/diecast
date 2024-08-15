@@ -90,6 +90,9 @@ function populateCars(data) {
         if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('damaged')) {
             carDiv.classList.add('special-car2');
         }
+        if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('store exclusive')) {
+            carDiv.classList.add('special-car3');
+        }
 
         carDiv.innerHTML = `
             ${makeModel}
