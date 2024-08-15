@@ -81,7 +81,7 @@ function populateCars(data) {
 
         const carDiv = document.createElement('div');
         carDiv.classList.add('car-item');
-        if (item.SPECIAL && !item.SPECIAL.toLowerCase().includes('boulevard') || !item.SPECIAL.toLowerCase().includes('chase')) {
+        if (item.SPECIAL && !item.SPECIAL.toLowerCase().includes('boulevard') && !item.SPECIAL.toLowerCase().includes('chase')) {
             carDiv.classList.add('special-car');
         }
         if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('boulevard')) {
