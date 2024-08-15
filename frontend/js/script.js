@@ -71,6 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('damaged')) {
                         entryDiv.classList.add('special-entry2');
                     }
+                    if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('store exclusive')) {
+                        entryDiv.classList.add('special-entry3');
+                    }
                     entryDiv.innerHTML = `
                         <p><strong>Brand:</strong> ${entry.BRAND}</p>
                         <p><strong>Set:</strong> ${entry.SET}</p>

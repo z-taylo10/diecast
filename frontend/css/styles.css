@@ -130,6 +130,20 @@ nav ul li a:hover {
     color: #fafafa; /* Ensure text color is dark gray for better readability */
 }
 
+.special-entry3 {
+    background-color: #008000; /* Green color */
+    border-color: #006400; /* Slightly darker green for the border */
+}
+
+.special-entry3 hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry3 p {
+    color: #fafafa; /* Ensure text color is light gray for better readability */
+}
+
 .entry p {
     margin: 5px 0;
 }
