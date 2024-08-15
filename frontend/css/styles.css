@@ -117,8 +117,8 @@ nav ul li a:hover {
 }
 
 .special-entry2 {
-    background-color: #810000; /* Gold color */
-    border-color: #450000; /* Slightly darker gold for the border */
+    background-color: #ce5d00; /* Orange color for the damaged cars */
+    border-color: #be5600; /* Slightly darker orange color for the border */
 }
 
 .special-entry2 hr {
@@ -142,6 +142,20 @@ nav ul li a:hover {
 
 .special-entry3 p {
     color: #fafafa; /* Ensure text color is light gray for better readability */
+}
+
+.special-entry4 {
+    background-color: #ce0f1f; /* Red color for the Redline cars */
+    border-color: #bf0f1d; /* Slightly darker red color for the border */
+}
+
+.special-entry4 hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry4 p {
+    color: #fafafa; 
 }
 
 .entry p {
