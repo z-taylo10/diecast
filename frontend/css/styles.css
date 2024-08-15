@@ -131,8 +131,8 @@ nav ul li a:hover {
 }
 
 .special-entry3 {
-    background-color: #2cac2c; /* Green color */
-    border-color: #28a128; /* Slightly darker green for the border */
+    background-color: #008000; /* Green color */
+    border-color: #006400; /* Slightly darker green for the border */
 }
 
 .special-entry3 hr {
@@ -161,6 +161,8 @@ nav ul li a:hover {
 .special-entry5 {
     background-color: #383838; /* Black / Dark Grey color for the Chase cars */
     border-color: #262626; /* Slightly darker black / dark grey color for the border */
+    position: relative; /* Required for the sparkling effect */
+    animation: sparkle-chase 2s infinite; /* Apply the sparkle animation */
 }
 
 .special-entry5 hr {
@@ -194,6 +196,15 @@ nav ul li a:hover {
     }
     50% {
         box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #ffd700, 0 0 15px #ffd700, 0 0 20px #ffd700, 0 0 25px #ffd700, 0 0 30px #ffd700;
+    }
+}
+
+@keyframes sparkle-chase {
+    0%, 100% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #383838, 0 0 20px #383838, 0 0 25px #383838, 0 0 30px #383838, 0 0 35px #383838;
+    }
+    50% {
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #383838, 0 0 15px #383838, 0 0 20px #383838, 0 0 25px #383838, 0 0 30px #383838;
     }
 }
 
