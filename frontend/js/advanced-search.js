@@ -111,6 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('redline')) {
                         entryDiv.classList.add('special-entry4');
                     }
+                    if (entry.SPECIAL && entry.SPECIAL.toLowerCase().includes('chase')) {
+                        entryDiv.classList.add('special-entry5');
+                    }
                     entryDiv.innerHTML = `
                         <p><strong>Brand:</strong> ${entry.BRAND}</p>
                         <p><strong>Set:</strong> ${entry.SET}</p>

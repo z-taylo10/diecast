@@ -96,6 +96,12 @@ function populateCars(data) {
         if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('redline')) {
             carDiv.classList.add('special-car4');
         }
+        if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('chase')) {
+            carDiv.classList.add('special-car-chase');
+        }
+        if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('super treasure hunt')) {
+            carDiv.classList.add('special-car-super-treasure-hunt');
+        }
 
         carDiv.innerHTML = `
             ${makeModel}

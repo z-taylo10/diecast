@@ -35,7 +35,55 @@
     color: rgb(255, 255, 255);
 }
 
+.special-car-super-treasure-hunt {
+    background-color: #ffd700; /* Gold color */
+    border-color: #f1c40f; /* Slightly darker gold for the border */
+    position: relative; /* Required for the sparkling effect */
+    animation: sparkle 2s infinite; /* Apply the sparkle animation */
+}
 
+.special-car-super-treasure-hunt p {
+    color: #525252; /* Ensure text color is dark gray for better readability */
+}
+
+.special-car-super-treasure-hunt hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-car-chase {
+    background-color: #383838; /* Black / Dark Grey color for the Chase cars */
+    border-color: #262626; /* Slightly darker black / dark grey color for the border */
+    position: relative; /* Required for the sparkling effect */
+    animation: sparkle-chase 2s infinite; /* Apply the sparkle animation */
+}
+
+.special-car-chase hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-car-chase p {
+    color: #fafafa; 
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #ffd700, 0 0 20px #ffd700, 0 0 25px #ffd700, 0 0 30px #ffd700, 0 0 35px #ffd700;
+    }
+    50% {
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #ffd700, 0 0 15px #ffd700, 0 0 20px #ffd700, 0 0 25px #ffd700, 0 0 30px #ffd700;
+    }
+}
+
+@keyframes sparkle-chase {
+    0%, 100% {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #383838, 0 0 20px #383838, 0 0 25px #383838, 0 0 30px #383838, 0 0 35px #383838;
+    }
+    50% {
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #383838, 0 0 15px #383838, 0 0 20px #383838, 0 0 25px #383838, 0 0 30px #383838;
+    }
+}
 
 #search-bar {
     visibility: visible;
