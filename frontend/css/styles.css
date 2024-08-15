@@ -158,6 +158,20 @@ nav ul li a:hover {
     color: #fafafa; 
 }
 
+.special-entry5 {
+    background-color: #383838; /* Black / Dark Grey color for the Chase cars */
+    border-color: #262626; /* Slightly darker black / dark grey color for the border */
+}
+
+.special-entry5 hr {
+    border-color: white; /* White line color */
+    border-width: 1px; /* Ensure the border width is consistent */
+}
+
+.special-entry5 p {
+    color: #fafafa; 
+}
+
 .special-entry-super-treasure-hunt {
     background-color: #ffd700; /* Gold color */
     border-color: #f1c40f; /* Slightly darker gold for the border */
