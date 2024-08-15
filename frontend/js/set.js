@@ -93,6 +93,9 @@ function populateCars(data) {
         if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('store exclusive')) {
             carDiv.classList.add('special-car3');
         }
+        if (item.SPECIAL && item.SPECIAL.toLowerCase().includes('redline')) {
+            carDiv.classList.add('special-car4');
+        }
 
         carDiv.innerHTML = `
             ${makeModel}

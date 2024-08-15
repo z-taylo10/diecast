@@ -23,13 +23,18 @@
     background-color: #6b0081; /* Purple color */
 }
 .special-car2 {
-    background-color: #810000; /* Red color */
+    background-color: #ce5d00; /* Orange color (damaged) */
     color: rgb(255, 255, 255);
 }
 .special-car3 {
-    background-color: #2cac2c; /* Red color */
+    background-color: #2cac2c; /* Green color (store exclusive) */
     color: rgb(255, 255, 255);
 }
+.special-car4 {
+    background-color: #ce0f1f; /* Red color (redline) */
+    color: rgb(255, 255, 255);
+}
+
 
 
 #search-bar {
