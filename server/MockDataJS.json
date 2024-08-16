@@ -16834,5 +16834,65 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1403
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Chevy",
+    "MODEL": "Corvette Grand Sport Roadster",
+    "YEAR": 1963,
+    "COLOR": "Red #39",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Kroger)",
+    "ID": 1404
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Pontiac",
+    "MODEL": "Firebird",
+    "YEAR": 1970,
+    "COLOR": "Orange #70",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Kroger)",
+    "ID": 1405
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2024,
+    "SET": "Mainline",
+    "MAKE": "Lincoln",
+    "MODEL": "Continental",
+    "YEAR": 1964,
+    "COLOR": "Black",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1406
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Porsche",
+    "MODEL": "918 Spyder",
+    "YEAR": 2015,
+    "COLOR": "Lime Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1407
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (L Case)",
+    "MAKE": "Volkswagen",
+    "MODEL": "ID. Buzz",
+    "YEAR": 2025,
+    "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1408
   }
 ]
