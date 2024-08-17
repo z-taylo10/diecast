@@ -16894,5 +16894,65 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1408
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2021,
+    "SET": "Mainline Mini",
+    "MAKE": "Dodge",
+    "MODEL": "Viper RT/10",
+    "YEAR": 1992,
+    "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1409
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline Mini",
+    "MAKE": "Renault",
+    "MODEL": "Twizy",
+    "YEAR": 2022,
+    "COLOR": "Light Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1410
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline Mini",
+    "MAKE": "Honda",
+    "MODEL": "N600 Off Road",
+    "YEAR": 1970,
+    "COLOR": "White #55",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1411
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline Mini",
+    "MAKE": "Mazda",
+    "MODEL": "Autozam AZ-1",
+    "YEAR": 1992,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1412
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2020,
+    "SET": "Boulevard",
+    "MAKE": "Volkswagen",
+    "MODEL": "Caddy",
+    "YEAR": 1984,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #67",
+    "ID": 1413
   }
 ]
