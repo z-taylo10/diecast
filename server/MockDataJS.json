@@ -16978,5 +16978,17 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1415
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Nissan",
+    "MODEL": "Patrol Custom",
+    "YEAR": 1983,
+    "COLOR": "White",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Kroger)",
+    "ID": 1416
   }
 ]
