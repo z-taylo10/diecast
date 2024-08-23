@@ -16990,5 +16990,89 @@
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
     "ID": 1416
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (L Case)",
+    "MAKE": "Formula E",
+    "MODEL": "Gen3",
+    "YEAR": 2022,
+    "COLOR": "Black",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1417
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: World Tour",
+    "MAKE": "Alfa Romeo",
+    "MODEL": "GTV6 3.0",
+    "YEAR": 1985,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1418
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: World Tour",
+    "MAKE": "Volkswagen",
+    "MODEL": "Brasilia",
+    "YEAR": 1981,
+    "COLOR": "Light Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1419
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Fake HotWheels Brand",
+    "MODEL": "Max Steel",
+    "YEAR": 2021,
+    "COLOR": "Black #29",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Target)",
+    "ID": 1420
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Fiat",
+    "MODEL": "500e",
+    "YEAR": 2021,
+    "COLOR": "Red #5",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Target)",
+    "ID": 1421
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (F Case)",
+    "MAKE": "Delorean",
+    "MODEL": "Alpha5",
+    "YEAR": 2024,
+    "COLOR": "Black",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Target)",
+    "ID": 1422
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline Mini",
+    "MAKE": "Pagani",
+    "MODEL": "Utopia",
+    "YEAR": 2024,
+    "COLOR": "Silver",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1423
   }
 ]
