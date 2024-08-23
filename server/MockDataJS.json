@@ -17074,5 +17074,29 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1423
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (J Case)",
+    "MAKE": "Mazda",
+    "MODEL": "RX-3",
+    "YEAR": 1973,
+    "COLOR": "Orange",
+    "DUPE": "Yes",
+    "SPECIAL": null,
+    "ID": 1424
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (K Case)",
+    "MAKE": "Fake Generic Brand",
+    "MODEL": "Grumobile",
+    "YEAR": 2010,
+    "COLOR": "Silver",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1425
   }
 ]
