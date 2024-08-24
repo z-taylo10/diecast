@@ -17098,5 +17098,29 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1425
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline Mini",
+    "MAKE": "Mazda",
+    "MODEL": "787B",
+    "YEAR": 1991,
+    "COLOR": "Orange #55",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1426
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline Mini",
+    "MAKE": "Nissan",
+    "MODEL": "Skyline 2000GT-R LBWK",
+    "YEAR": 1973,
+    "COLOR": "Gray",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1427
   }
 ]
