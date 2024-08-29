@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                              (specialSelect === 'yes' && hasSpecial && 
                                               entry.SPECIAL.toLowerCase().includes('boulevard classic')) ||
                                              (specialSelect === 'yes-all-boulevards' && hasSpecial && 
-                                              !entry.SPECIAL.toLowerCase().includes('damaged')) ||
+                                              !entry.SPECIAL.toLowerCase().includes('damaged') && !entry.SPECIAL.toLowerCase().includes('store exclusive')) ||
                                              (specialSelect === 'yes-store-exclusives' && hasSpecial && 
                                               entry.SPECIAL.toLowerCase().includes('store exclusive')) ||
                                              (specialSelect === 'no' && !hasSpecial); // Updated condition for "No"
