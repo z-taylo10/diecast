@@ -17146,5 +17146,41 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1429
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Aston Martin",
+    "MODEL": "Vantage GTE",
+    "YEAR": 2018,
+    "COLOR": "Cream #99",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1430
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Chevy",
+    "MODEL": "Nova Wagon",
+    "YEAR": 1964,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1431
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Honda",
+    "MODEL": "Civic Type R",
+    "YEAR": 2018,
+    "COLOR": "White Police",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1432
   }
 ]
