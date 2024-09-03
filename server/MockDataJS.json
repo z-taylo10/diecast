@@ -17182,5 +17182,53 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1432
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Fake HotWheels Brand",
+    "MODEL": "Time Shifter",
+    "YEAR": 2023,
+    "COLOR": "Gray",
+    "DUPE": "No",
+    "SPECIAL": "Treasure Hunt",
+    "ID": 1433
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "J-Imports",
+    "MAKE": "Toyota",
+    "MODEL": "Starlet KP61",
+    "YEAR": 1981,
+    "COLOR": "Light Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1434
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "J-Imports",
+    "MAKE": "Honda",
+    "MODEL": "CR-X",
+    "YEAR": 1985,
+    "COLOR": "Yellow #5",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1435
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Ford",
+    "MODEL": "Bronco Sport",
+    "YEAR": 2022,
+    "COLOR": "Dark Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1436
   }
 ]
