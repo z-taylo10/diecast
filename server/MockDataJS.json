@@ -17230,5 +17230,89 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1436
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (D Case)",
+    "MAKE": "Ford",
+    "MODEL": "Maverick Custom",
+    "YEAR": 1969,
+    "COLOR": "Light Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1437
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (D Case)",
+    "MAKE": "Mazda",
+    "MODEL": "Savanna RX-7 FC3S",
+    "YEAR": 1989,
+    "COLOR": "Lime Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1438
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (D Case)",
+    "MAKE": "Nissan",
+    "MODEL": "Skyline GT-R (BNR32)",
+    "YEAR": 1994,
+    "COLOR": "White 'Godzilla'",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1439
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (D Case)",
+    "MAKE": "Chevy",
+    "MODEL": "El Camino",
+    "YEAR": 1980,
+    "COLOR": "Yellow",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1440
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (D Case)",
+    "MAKE": "Mazda",
+    "MODEL": "787B",
+    "YEAR": 1991,
+    "COLOR": "Black #79",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Dollar General)",
+    "ID": 1441
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (D Case)",
+    "MAKE": "Chevy",
+    "MODEL": "Corvette C7 Z06 Convertible",
+    "YEAR": 2016,
+    "COLOR": "Lime Green",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1442
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "Mainline (D Case)",
+    "MAKE": "McLaren",
+    "MODEL": "Elva",
+    "YEAR": 2020,
+    "COLOR": "Gold",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1443
   }
 ]
