@@ -17318,13 +17318,73 @@
   {
     "BRAND": "HotWheels",
     "BYEAR": 2023,
-    "SET": "Vintage Racing Club",
-    "MAKE": "Toyota",
-    "MODEL": "2000GT",
-    "YEAR": 1969,
-    "COLOR": "Red #3",
+    "SET": "Ultra Hots",
+    "MAKE": "Porsche",
+    "MODEL": "935-78",
+    "YEAR": 1978,
+    "COLOR": "Metal",
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1444
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline",
+    "MAKE": "Chevy",
+    "MODEL": "C10",
+    "YEAR": 1967,
+    "COLOR": "Tan",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1445
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Vespa",
+    "MODEL": "90 SS Super Sprint",
+    "YEAR": 1966,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1446
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Cadillac",
+    "MODEL": "Project GTP Hypercar",
+    "YEAR": 2024,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1447
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (M Case)",
+    "MAKE": "Chevy",
+    "MODEL": "Stingray",
+    "YEAR": 1969,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1448
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Mainline",
+    "MAKE": "Ford",
+    "MODEL": "Custom 300",
+    "YEAR": 1957,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1449
   }
 ]
