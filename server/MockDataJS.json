@@ -17386,5 +17386,65 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1449
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "Ford",
+    "MODEL": "Thunderbird Pro Stock",
+    "YEAR": 1986,
+    "COLOR": "Purple",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #104",
+    "ID": 1450
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "Ford",
+    "MODEL": "F-150 SVT Lightning",
+    "YEAR": 1999,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #102",
+    "ID": 1451
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "Plymouth",
+    "MODEL": "Savoy",
+    "YEAR": 1955,
+    "COLOR": "Brown",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #101",
+    "ID": 1452
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "Porsche",
+    "MODEL": 964,
+    "YEAR": 1993,
+    "COLOR": "Cyan",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #103",
+    "ID": 1453
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "Honda",
+    "MODEL": "Civic Type R",
+    "YEAR": 2024,
+    "COLOR": "Light Blue #95",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #105",
+    "ID": 1454
   }
 ]
