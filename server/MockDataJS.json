@@ -17446,5 +17446,17 @@
     "DUPE": "No",
     "SPECIAL": "Boulevard #105",
     "ID": 1454
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Japan Historics 4",
+    "MAKE": "Honda",
+    "MODEL": "Civic Custom",
+    "YEAR": 1973,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1455
   }
 ]
