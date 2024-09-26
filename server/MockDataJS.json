@@ -17458,5 +17458,113 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1455
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Dodge",
+    "MODEL": "Ram 1500",
+    "YEAR": 2023,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1456
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Ford",
+    "MODEL": "GT Race",
+    "YEAR": 2016,
+    "COLOR": "Lime Green #17",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1457
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Toyota",
+    "MODEL": "GR86 Cup",
+    "YEAR": 2022,
+    "COLOR": "Blue #70",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1458
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Bugatti",
+    "MODEL": "Chiron",
+    "YEAR": 2016,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1459
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Porsche",
+    "MODEL": "911 Rallye",
+    "YEAR": 2023,
+    "COLOR": "Blue #953",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1460
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Ford",
+    "MODEL": "GT40 Mk.IV",
+    "YEAR": 1967,
+    "COLOR": "Dark Green #27",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1461
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Lamborghini",
+    "MODEL": "Huracan Sterrato",
+    "YEAR": 2024,
+    "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1462
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "DMC",
+    "MODEL": "Delorean",
+    "YEAR": 1982,
+    "COLOR": "Metal",
+    "DUPE": "No",
+    "SPECIAL": "Treasure Hunt",
+    "ID": 1463
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Fake HotWheels Brand",
+    "MODEL": "Celero GT",
+    "YEAR": 2023,
+    "COLOR": "Purple #9",
+    "DUPE": "No",
+    "SPECIAL": "Super Treasure Hunt",
+    "ID": 1464
   }
 ]
