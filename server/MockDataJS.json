@@ -17602,5 +17602,53 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1467
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: World Tour",
+    "MAKE": "Audi",
+    "MODEL": "S4 Quattro",
+    "YEAR": 2004,
+    "COLOR": "Silver",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1468
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: World Tour",
+    "MAKE": "Toyota",
+    "MODEL": "Supra",
+    "YEAR": 1982,
+    "COLOR": "Cream",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1469
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: World Tour",
+    "MAKE": "Volkswagen",
+    "MODEL": "Golf MK7",
+    "YEAR": 2020,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1470
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HW: Speed Graphics",
+    "MAKE": "Porsche",
+    "MODEL": "914 Safari",
+    "YEAR": 1972,
+    "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1471
   }
 ]
