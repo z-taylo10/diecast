@@ -17650,5 +17650,65 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1471
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Japan Historics 4",
+    "MAKE": "Nissan",
+    "MODEL": "Prince Skyline GT",
+    "YEAR": 1964,
+    "COLOR": "Blue #39",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1472
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Japan Historics 4",
+    "MAKE": "Toyota",
+    "MODEL": "Corolla Levin",
+    "YEAR": 1972,
+    "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1473
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Japan Historics 4",
+    "MAKE": "Nissan",
+    "MODEL": "Fairlady Z",
+    "YEAR": 1969,
+    "COLOR": "Dark Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1474
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Japan Historics 4",
+    "MAKE": "Mazda",
+    "MODEL": "RX-3",
+    "YEAR": 1973,
+    "COLOR": "Yellow #3",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1475
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2023,
+    "SET": "HWP: Fast & Furious",
+    "MAKE": "Honda",
+    "MODEL": "Integra Sedan GSR",
+    "YEAR": 1999,
+    "COLOR": "Light Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1476
   }
 ]
