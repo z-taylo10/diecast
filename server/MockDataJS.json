@@ -17710,5 +17710,17 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1476
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (F Case)",
+    "MAKE": "Chevy",
+    "MODEL": "El Camino",
+    "YEAR": 1971,
+    "COLOR": "Dark Purple",
+    "DUPE": "No",
+    "SPECIAL": "Super Treasure Hunt",
+    "ID": 1477
   }
 ]
