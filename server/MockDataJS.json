@@ -10970,18 +10970,6 @@
   {
     "BRAND": "HotWheels",
     "BYEAR": 2024,
-    "SET": "HWP: Exotic Envy",
-    "MAKE": "Porsche",
-    "MODEL": 911,
-    "YEAR": 1971,
-    "COLOR": "Black #71",
-    "DUPE": "Yes",
-    "SPECIAL": "Chase",
-    "ID": 915
-  },
-  {
-    "BRAND": "HotWheels",
-    "BYEAR": 2024,
     "SET": "Mainline (F Case)",
     "MAKE": "Ford",
     "MODEL": "\"Mustang\" Mach-E 1400",
@@ -10989,7 +10977,7 @@
     "COLOR": "Blue",
     "DUPE": "Yes",
     "SPECIAL": "Treasure Hunt",
-    "ID": 916
+    "ID": 915
   },
   {
     "BRAND": "HotWheels",
@@ -11001,7 +10989,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 917
+    "ID": 916
   },
   {
     "BRAND": "HotWheels",
@@ -11013,7 +11001,7 @@
     "COLOR": "Pink",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 918
+    "ID": 917
   },
   {
     "BRAND": "HotWheels",
@@ -11025,7 +11013,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 919
+    "ID": 918
   },
   {
     "BRAND": "Auto World",
@@ -11037,7 +11025,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 920
+    "ID": 919
   },
   {
     "BRAND": "HotWheels",
@@ -11049,7 +11037,7 @@
     "COLOR": "Silver D2 #7",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 921
+    "ID": 920
   },
   {
     "BRAND": "HotWheels",
@@ -11061,7 +11049,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 922
+    "ID": 921
   },
   {
     "BRAND": "HotWheels",
@@ -11073,7 +11061,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 923
+    "ID": 922
   },
   {
     "BRAND": "Matchbox",
@@ -11085,7 +11073,7 @@
     "COLOR": "Dark Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 924
+    "ID": 923
   },
   {
     "BRAND": "HotWheels",
@@ -11097,7 +11085,7 @@
     "COLOR": "Dark Purple",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 925
+    "ID": 924
   },
   {
     "BRAND": "HotWheels",
@@ -11109,7 +11097,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 926
+    "ID": 925
   },
   {
     "BRAND": "HotWheels",
@@ -11121,7 +11109,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 927
+    "ID": 926
   },
   {
     "BRAND": "HotWheels",
@@ -11133,7 +11121,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": "Boulevard #19",
-    "ID": 928
+    "ID": 927
   },
   {
     "BRAND": "HotWheels",
@@ -11145,7 +11133,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 929
+    "ID": 928
   },
   {
     "BRAND": "HotWheels",
@@ -11157,7 +11145,7 @@
     "COLOR": "White #23",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 930
+    "ID": 929
   },
   {
     "BRAND": "HotWheels",
@@ -11169,7 +11157,7 @@
     "COLOR": "White #5",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 931
+    "ID": 930
   },
   {
     "BRAND": "HotWheels",
@@ -11181,7 +11169,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 932
+    "ID": 931
   },
   {
     "BRAND": "HotWheels",
@@ -11193,7 +11181,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 933
+    "ID": 932
   },
   {
     "BRAND": "HotWheels",
@@ -11205,7 +11193,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 934
+    "ID": 933
   },
   {
     "BRAND": "HotWheels",
@@ -11217,7 +11205,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 935
+    "ID": 934
   },
   {
     "BRAND": "Matchbox",
@@ -11229,7 +11217,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 936
+    "ID": 935
   },
   {
     "BRAND": "Matchbox",
@@ -11241,7 +11229,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 937
+    "ID": 936
   },
   {
     "BRAND": "Matchbox",
@@ -11253,7 +11241,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 938
+    "ID": 937
   },
   {
     "BRAND": "Matchbox",
@@ -11265,7 +11253,7 @@
     "COLOR": "Pastel Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 939
+    "ID": 938
   },
   {
     "BRAND": "Matchbox",
@@ -11277,7 +11265,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 940
+    "ID": 939
   },
   {
     "BRAND": "Matchbox",
@@ -11289,7 +11277,7 @@
     "COLOR": "Red #3",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 941
+    "ID": 940
   },
   {
     "BRAND": "HotWheels",
@@ -11301,7 +11289,7 @@
     "COLOR": "Brown",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 942
+    "ID": 941
   },
   {
     "BRAND": "HotWheels",
@@ -11313,7 +11301,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 943
+    "ID": 942
   },
   {
     "BRAND": "HotWheels",
@@ -11325,7 +11313,7 @@
     "COLOR": "Gray #14",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 944
+    "ID": 943
   },
   {
     "BRAND": "HotWheels",
@@ -11337,7 +11325,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 945
+    "ID": 944
   },
   {
     "BRAND": "HotWheels",
@@ -11349,7 +11337,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 946
+    "ID": 945
   },
   {
     "BRAND": "HotWheels",
@@ -11361,7 +11349,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 947
+    "ID": 946
   },
   {
     "BRAND": "HotWheels",
@@ -11373,7 +11361,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 948
+    "ID": 947
   },
   {
     "BRAND": "HotWheels",
@@ -11385,7 +11373,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 949
+    "ID": 948
   },
   {
     "BRAND": "HotWheels",
@@ -11397,7 +11385,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 950
+    "ID": 949
   },
   {
     "BRAND": "HotWheels",
@@ -11409,7 +11397,7 @@
     "COLOR": "White #52",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 951
+    "ID": 950
   },
   {
     "BRAND": "HotWheels",
@@ -11421,7 +11409,7 @@
     "COLOR": "White #52",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 952
+    "ID": 951
   },
   {
     "BRAND": "HotWheels",
@@ -11433,7 +11421,7 @@
     "COLOR": "White #52",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 953
+    "ID": 952
   },
   {
     "BRAND": "HotWheels",
@@ -11445,7 +11433,7 @@
     "COLOR": "Black #67",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 954
+    "ID": 953
   },
   {
     "BRAND": "HotWheels",
@@ -11457,7 +11445,7 @@
     "COLOR": "White #52",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 955
+    "ID": 954
   },
   {
     "BRAND": "HotWheels",
@@ -11469,7 +11457,7 @@
     "COLOR": "White #52",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 956
+    "ID": 955
   },
   {
     "BRAND": "HotWheels",
@@ -11481,7 +11469,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 957
+    "ID": 956
   },
   {
     "BRAND": "HotWheels",
@@ -11493,7 +11481,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 958
+    "ID": 957
   },
   {
     "BRAND": "HotWheels",
@@ -11505,7 +11493,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 959
+    "ID": 958
   },
   {
     "BRAND": "HotWheels",
@@ -11517,7 +11505,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 960
+    "ID": 959
   },
   {
     "BRAND": "HotWheels",
@@ -11529,7 +11517,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 961
+    "ID": 960
   },
   {
     "BRAND": "HotWheels",
@@ -11541,7 +11529,7 @@
     "COLOR": "Yellow",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 962
+    "ID": 961
   },
   {
     "BRAND": "HotWheels",
@@ -11553,7 +11541,7 @@
     "COLOR": "Gray #14",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 963
+    "ID": 962
   },
   {
     "BRAND": "HotWheels",
@@ -11565,7 +11553,7 @@
     "COLOR": "Blue",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 964
+    "ID": 963
   },
   {
     "BRAND": "HotWheels",
@@ -11577,7 +11565,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 965
+    "ID": 964
   },
   {
     "BRAND": "HotWheels",
@@ -11589,7 +11577,7 @@
     "COLOR": "White #4",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 966
+    "ID": 965
   },
   {
     "BRAND": "HotWheels",
@@ -11601,7 +11589,7 @@
     "COLOR": "Yellow #8",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 967
+    "ID": 966
   },
   {
     "BRAND": "HotWheels",
@@ -11613,7 +11601,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 968
+    "ID": 967
   },
   {
     "BRAND": "HotWheels",
@@ -11625,7 +11613,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 969
+    "ID": 968
   },
   {
     "BRAND": "HotWheels",
@@ -11637,7 +11625,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 970
+    "ID": 969
   },
   {
     "BRAND": "Greenlight",
@@ -11649,7 +11637,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 971
+    "ID": 970
   },
   {
     "BRAND": "Matchbox",
@@ -11661,7 +11649,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 972
+    "ID": 971
   },
   {
     "BRAND": "Matchbox",
@@ -11673,7 +11661,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 973
+    "ID": 972
   },
   {
     "BRAND": "Matchbox",
@@ -11685,7 +11673,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 974
+    "ID": 973
   },
   {
     "BRAND": "Matchbox",
@@ -11697,7 +11685,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 975
+    "ID": 974
   },
   {
     "BRAND": "Matchbox",
@@ -11709,7 +11697,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 976
+    "ID": 975
   },
   {
     "BRAND": "Matchbox",
@@ -11721,7 +11709,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 977
+    "ID": 976
   },
   {
     "BRAND": "HotWheels",
@@ -11733,7 +11721,7 @@
     "COLOR": "White",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 978
+    "ID": 977
   },
   {
     "BRAND": "HotWheels",
@@ -11745,7 +11733,7 @@
     "COLOR": "Blue",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 979
+    "ID": 978
   },
   {
     "BRAND": "HotWheels",
@@ -11757,7 +11745,7 @@
     "COLOR": "White",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 980
+    "ID": 979
   },
   {
     "BRAND": "HotWheels",
@@ -11769,7 +11757,7 @@
     "COLOR": "Silver",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 981
+    "ID": 980
   },
   {
     "BRAND": "HotWheels",
@@ -11781,7 +11769,7 @@
     "COLOR": "Silver",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 982
+    "ID": 981
   },
   {
     "BRAND": "HotWheels",
@@ -11793,7 +11781,7 @@
     "COLOR": "Blue",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 983
+    "ID": 982
   },
   {
     "BRAND": "HotWheels",
@@ -11805,7 +11793,7 @@
     "COLOR": "Red",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 984
+    "ID": 983
   },
   {
     "BRAND": "HotWheels",
@@ -11817,7 +11805,7 @@
     "COLOR": "White #2",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 985
+    "ID": 984
   },
   {
     "BRAND": "HotWheels",
@@ -11829,7 +11817,7 @@
     "COLOR": "Silver #59",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 986
+    "ID": 985
   },
   {
     "BRAND": "HotWheels",
@@ -11841,7 +11829,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 987
+    "ID": 986
   },
   {
     "BRAND": "HotWheels",
@@ -11853,7 +11841,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 988
+    "ID": 987
   },
   {
     "BRAND": "HotWheels",
@@ -11865,7 +11853,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 989
+    "ID": 988
   },
   {
     "BRAND": "HotWheels",
@@ -11877,7 +11865,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 990
+    "ID": 989
   },
   {
     "BRAND": "HotWheels",
@@ -11889,7 +11877,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 991
+    "ID": 990
   },
   {
     "BRAND": "HotWheels",
@@ -11901,7 +11889,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 992
+    "ID": 991
   },
   {
     "BRAND": "HotWheels",
@@ -11913,7 +11901,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 993
+    "ID": 992
   },
   {
     "BRAND": "HotWheels",
@@ -11925,7 +11913,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 994
+    "ID": 993
   },
   {
     "BRAND": "HotWheels",
@@ -11937,7 +11925,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 995
+    "ID": 994
   },
   {
     "BRAND": "HotWheels",
@@ -11949,7 +11937,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 996
+    "ID": 995
   },
   {
     "BRAND": "HotWheels",
@@ -11961,7 +11949,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 997
+    "ID": 996
   },
   {
     "BRAND": "HotWheels",
@@ -11973,7 +11961,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 998
+    "ID": 997
   },
   {
     "BRAND": "HotWheels",
@@ -11985,7 +11973,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 999
+    "ID": 998
   },
   {
     "BRAND": "M2",
@@ -11997,7 +11985,7 @@
     "COLOR": "Gold #5",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1000
+    "ID": 999
   },
   {
     "BRAND": "HotWheels",
@@ -12009,7 +11997,7 @@
     "COLOR": "Dark Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1001
+    "ID": 1000
   },
   {
     "BRAND": "HotWheels",
@@ -12021,7 +12009,7 @@
     "COLOR": "Pink",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1002
+    "ID": 1001
   },
   {
     "BRAND": "HotWheels",
@@ -12033,7 +12021,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1003
+    "ID": 1002
   },
   {
     "BRAND": "HotWheels",
@@ -12045,7 +12033,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1004
+    "ID": 1003
   },
   {
     "BRAND": "HotWheels",
@@ -12057,7 +12045,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1005
+    "ID": 1004
   },
   {
     "BRAND": "Matchbox",
@@ -12069,7 +12057,7 @@
     "COLOR": "Dark Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1006
+    "ID": 1005
   },
   {
     "BRAND": "HotWheels",
@@ -12081,7 +12069,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1007
+    "ID": 1006
   },
   {
     "BRAND": "HotWheels",
@@ -12093,7 +12081,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1008
+    "ID": 1007
   },
   {
     "BRAND": "HotWheels",
@@ -12105,7 +12093,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1009
+    "ID": 1008
   },
   {
     "BRAND": "HotWheels",
@@ -12117,7 +12105,7 @@
     "COLOR": "Tan",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1010
+    "ID": 1009
   },
   {
     "BRAND": "HotWheels",
@@ -12129,7 +12117,7 @@
     "COLOR": "Pink",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1011
+    "ID": 1010
   },
   {
     "BRAND": "HotWheels",
@@ -12141,7 +12129,7 @@
     "COLOR": "Chrome",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1012
+    "ID": 1011
   },
   {
     "BRAND": "HotWheels",
@@ -12153,7 +12141,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1013
+    "ID": 1012
   },
   {
     "BRAND": "HotWheels",
@@ -12165,7 +12153,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1014
+    "ID": 1013
   },
   {
     "BRAND": "HotWheels",
@@ -12177,7 +12165,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1015
+    "ID": 1014
   },
   {
     "BRAND": "HotWheels",
@@ -12189,7 +12177,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1016
+    "ID": 1015
   },
   {
     "BRAND": "HotWheels",
@@ -12201,7 +12189,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1017
+    "ID": 1016
   },
   {
     "BRAND": "HotWheels",
@@ -12213,7 +12201,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1018
+    "ID": 1017
   },
   {
     "BRAND": "HotWheels",
@@ -12225,7 +12213,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1019
+    "ID": 1018
   },
   {
     "BRAND": "HotWheels",
@@ -12237,7 +12225,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1020
+    "ID": 1019
   },
   {
     "BRAND": "HotWheels",
@@ -12249,7 +12237,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1021
+    "ID": 1020
   },
   {
     "BRAND": "HotWheels",
@@ -12261,7 +12249,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1022
+    "ID": 1021
   },
   {
     "BRAND": "HotWheels",
@@ -12273,7 +12261,7 @@
     "COLOR": "Green #46",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1023
+    "ID": 1022
   },
   {
     "BRAND": "HotWheels",
@@ -12285,7 +12273,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1024
+    "ID": 1023
   },
   {
     "BRAND": "HotWheels",
@@ -12297,7 +12285,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1025
+    "ID": 1024
   },
   {
     "BRAND": "HotWheels",
@@ -12309,7 +12297,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1026
+    "ID": 1025
   },
   {
     "BRAND": "HotWheels",
@@ -12321,7 +12309,7 @@
     "COLOR": "White #52",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1027
+    "ID": 1026
   },
   {
     "BRAND": "HotWheels",
@@ -12333,7 +12321,7 @@
     "COLOR": "White #52",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1028
+    "ID": 1027
   },
   {
     "BRAND": "HotWheels",
@@ -12345,7 +12333,7 @@
     "COLOR": "White #52",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1029
+    "ID": 1028
   },
   {
     "BRAND": "HotWheels",
@@ -12357,7 +12345,7 @@
     "COLOR": "White #52",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1030
+    "ID": 1029
   },
   {
     "BRAND": "HotWheels",
@@ -12369,7 +12357,7 @@
     "COLOR": "White #52",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1031
+    "ID": 1030
   },
   {
     "BRAND": "HotWheels",
@@ -12381,7 +12369,7 @@
     "COLOR": "White #52",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1032
+    "ID": 1031
   },
   {
     "BRAND": "HotWheels",
@@ -12393,7 +12381,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1033
+    "ID": 1032
   },
   {
     "BRAND": "HotWheels",
@@ -12405,7 +12393,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1034
+    "ID": 1033
   },
   {
     "BRAND": "HotWheels",
@@ -12417,7 +12405,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1035
+    "ID": 1034
   },
   {
     "BRAND": "HotWheels",
@@ -12429,7 +12417,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1036
+    "ID": 1035
   },
   {
     "BRAND": "HotWheels",
@@ -12441,7 +12429,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1037
+    "ID": 1036
   },
   {
     "BRAND": "HotWheels",
@@ -12453,7 +12441,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1038
+    "ID": 1037
   },
   {
     "BRAND": "HotWheels",
@@ -12465,7 +12453,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1039
+    "ID": 1038
   },
   {
     "BRAND": "HotWheels",
@@ -12477,7 +12465,7 @@
     "COLOR": "Cream #500",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1040
+    "ID": 1039
   },
   {
     "BRAND": "HotWheels",
@@ -12489,7 +12477,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1041
+    "ID": 1040
   },
   {
     "BRAND": "HotWheels",
@@ -12501,7 +12489,7 @@
     "COLOR": "White #432",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1042
+    "ID": 1041
   },
   {
     "BRAND": "HotWheels",
@@ -12513,7 +12501,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1043
+    "ID": 1042
   },
   {
     "BRAND": "HotWheels",
@@ -12525,7 +12513,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1044
+    "ID": 1043
   },
   {
     "BRAND": "HotWheels",
@@ -12537,7 +12525,7 @@
     "COLOR": "Yellow #84",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1045
+    "ID": 1044
   },
   {
     "BRAND": "HotWheels",
@@ -12549,7 +12537,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1046
+    "ID": 1045
   },
   {
     "BRAND": "HotWheels",
@@ -12561,7 +12549,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1047
+    "ID": 1046
   },
   {
     "BRAND": "HotWheels",
@@ -12571,6 +12559,18 @@
     "MODEL": "Murcielago",
     "YEAR": 2008,
     "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1047
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2016,
+    "SET": "Fast & Furious",
+    "MAKE": "Chevy",
+    "MODEL": "Chevelle SS",
+    "YEAR": 1970,
+    "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1048
@@ -12583,21 +12583,9 @@
     "MODEL": "Chevelle SS",
     "YEAR": 1970,
     "COLOR": "Gray",
-    "DUPE": "No",
-    "SPECIAL": null,
-    "ID": 1049
-  },
-  {
-    "BRAND": "HotWheels",
-    "BYEAR": 2016,
-    "SET": "Fast & Furious",
-    "MAKE": "Chevy",
-    "MODEL": "Chevelle SS",
-    "YEAR": 1970,
-    "COLOR": "Gray",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1050
+    "ID": 1049
   },
   {
     "BRAND": "HotWheels",
@@ -12609,7 +12597,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1051
+    "ID": 1050
   },
   {
     "BRAND": "HotWheels",
@@ -12621,7 +12609,7 @@
     "COLOR": "Dark Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1052
+    "ID": 1051
   },
   {
     "BRAND": "HotWheels",
@@ -12633,7 +12621,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1053
+    "ID": 1052
   },
   {
     "BRAND": "HotWheels",
@@ -12645,7 +12633,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1054
+    "ID": 1053
   },
   {
     "BRAND": "HotWheels",
@@ -12657,7 +12645,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1055
+    "ID": 1054
   },
   {
     "BRAND": "HotWheels",
@@ -12669,7 +12657,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1056
+    "ID": 1055
   },
   {
     "BRAND": "HotWheels",
@@ -12681,7 +12669,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1057
+    "ID": 1056
   },
   {
     "BRAND": "HotWheels",
@@ -12693,7 +12681,7 @@
     "COLOR": "Pastel Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1058
+    "ID": 1057
   },
   {
     "BRAND": "HotWheels",
@@ -12705,7 +12693,7 @@
     "COLOR": "Silver (Paul Walker)",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1059
+    "ID": 1058
   },
   {
     "BRAND": "HotWheels",
@@ -12717,7 +12705,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1060
+    "ID": 1059
   },
   {
     "BRAND": "HotWheels",
@@ -12729,7 +12717,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1061
+    "ID": 1060
   },
   {
     "BRAND": "HotWheels",
@@ -12741,7 +12729,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1062
+    "ID": 1061
   },
   {
     "BRAND": "HotWheels",
@@ -12753,7 +12741,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1063
+    "ID": 1062
   },
   {
     "BRAND": "HotWheels",
@@ -12765,7 +12753,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1064
+    "ID": 1063
   },
   {
     "BRAND": "HotWheels",
@@ -12777,7 +12765,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1065
+    "ID": 1064
   },
   {
     "BRAND": "HotWheels",
@@ -12789,7 +12777,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1066
+    "ID": 1065
   },
   {
     "BRAND": "HotWheels",
@@ -12801,7 +12789,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1067
+    "ID": 1066
   },
   {
     "BRAND": "HotWheels",
@@ -12813,7 +12801,7 @@
     "COLOR": "Blue #16",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1068
+    "ID": 1067
   },
   {
     "BRAND": "HotWheels",
@@ -12825,7 +12813,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1069
+    "ID": 1068
   },
   {
     "BRAND": "HotWheels",
@@ -12837,7 +12825,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1070
+    "ID": 1069
   },
   {
     "BRAND": "HotWheels",
@@ -12849,7 +12837,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1071
+    "ID": 1070
   },
   {
     "BRAND": "HotWheels",
@@ -12861,7 +12849,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1072
+    "ID": 1071
   },
   {
     "BRAND": "HotWheels",
@@ -12873,7 +12861,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1073
+    "ID": 1072
   },
   {
     "BRAND": "HotWheels",
@@ -12885,7 +12873,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1074
+    "ID": 1073
   },
   {
     "BRAND": "HotWheels",
@@ -12897,7 +12885,7 @@
     "COLOR": "Bronze",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1075
+    "ID": 1074
   },
   {
     "BRAND": "HotWheels",
@@ -12909,7 +12897,7 @@
     "COLOR": "Dark Purple",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1076
+    "ID": 1075
   },
   {
     "BRAND": "HotWheels",
@@ -12921,7 +12909,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1077
+    "ID": 1076
   },
   {
     "BRAND": "HotWheels",
@@ -12933,7 +12921,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1078
+    "ID": 1077
   },
   {
     "BRAND": "HotWheels",
@@ -12945,7 +12933,7 @@
     "COLOR": "Bronze",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1079
+    "ID": 1078
   },
   {
     "BRAND": "HotWheels",
@@ -12957,7 +12945,7 @@
     "COLOR": "Dark Purple",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1080
+    "ID": 1079
   },
   {
     "BRAND": "HotWheels",
@@ -12969,7 +12957,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1081
+    "ID": 1080
   },
   {
     "BRAND": "HotWheels",
@@ -12981,7 +12969,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1082
+    "ID": 1081
   },
   {
     "BRAND": "HotWheels",
@@ -12993,7 +12981,7 @@
     "COLOR": "White #4",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1083
+    "ID": 1082
   },
   {
     "BRAND": "HotWheels",
@@ -13005,7 +12993,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1084
+    "ID": 1083
   },
   {
     "BRAND": "HotWheels",
@@ -13017,7 +13005,7 @@
     "COLOR": "Orange #50",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1085
+    "ID": 1084
   },
   {
     "BRAND": "HotWheels",
@@ -13029,7 +13017,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1086
+    "ID": 1085
   },
   {
     "BRAND": "HotWheels",
@@ -13041,7 +13029,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1087
+    "ID": 1086
   },
   {
     "BRAND": "HotWheels",
@@ -13053,7 +13041,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1088
+    "ID": 1087
   },
   {
     "BRAND": "HotWheels",
@@ -13065,7 +13053,7 @@
     "COLOR": "Gray",
     "DUPE": "Yes",
     "SPECIAL": "Damaged",
-    "ID": 1089
+    "ID": 1088
   },
   {
     "BRAND": "HotWheels",
@@ -13077,7 +13065,7 @@
     "COLOR": "Green #003",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1090
+    "ID": 1089
   },
   {
     "BRAND": "HotWheels",
@@ -13089,7 +13077,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1091
+    "ID": 1090
   },
   {
     "BRAND": "HotWheels",
@@ -13101,7 +13089,7 @@
     "COLOR": "Blue #001",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1092
+    "ID": 1091
   },
   {
     "BRAND": "HotWheels",
@@ -13113,7 +13101,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1093
+    "ID": 1092
   },
   {
     "BRAND": "HotWheels",
@@ -13125,7 +13113,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1094
+    "ID": 1093
   },
   {
     "BRAND": "HotWheels",
@@ -13137,7 +13125,7 @@
     "COLOR": "White #18",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1095
+    "ID": 1094
   },
   {
     "BRAND": "HotWheels",
@@ -13149,7 +13137,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1096
+    "ID": 1095
   },
   {
     "BRAND": "HotWheels",
@@ -13161,7 +13149,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1097
+    "ID": 1096
   },
   {
     "BRAND": "HotWheels",
@@ -13173,7 +13161,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1098
+    "ID": 1097
   },
   {
     "BRAND": "HotWheels",
@@ -13185,7 +13173,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1099
+    "ID": 1098
   },
   {
     "BRAND": "HotWheels",
@@ -13197,7 +13185,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": "Damaged",
-    "ID": 1100
+    "ID": 1099
   },
   {
     "BRAND": "HotWheels",
@@ -13209,7 +13197,7 @@
     "COLOR": "Black #6",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1101
+    "ID": 1100
   },
   {
     "BRAND": "HotWheels",
@@ -13221,7 +13209,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1102
+    "ID": 1101
   },
   {
     "BRAND": "HotWheels",
@@ -13233,7 +13221,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1103
+    "ID": 1102
   },
   {
     "BRAND": "HotWheels",
@@ -13245,7 +13233,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1104
+    "ID": 1103
   },
   {
     "BRAND": "HotWheels",
@@ -13257,7 +13245,7 @@
     "COLOR": "Blue | Red | Green | Orange | Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1105
+    "ID": 1104
   },
   {
     "BRAND": "HotWheels",
@@ -13269,7 +13257,7 @@
     "COLOR": "Gold | Green | Red | Blue | Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1106
+    "ID": 1105
   },
   {
     "BRAND": "HotWheels",
@@ -13281,7 +13269,7 @@
     "COLOR": "Cyan #72 | Red | Dark Purple | White | Orange #80",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1107
+    "ID": 1106
   },
   {
     "BRAND": "HotWheels",
@@ -13293,7 +13281,7 @@
     "COLOR": "White | Blue | Lime Green | Black | Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1108
+    "ID": 1107
   },
   {
     "BRAND": "HotWheels",
@@ -13305,7 +13293,7 @@
     "COLOR": "Jade Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1109
+    "ID": 1108
   },
   {
     "BRAND": "HotWheels",
@@ -13317,7 +13305,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1110
+    "ID": 1109
   },
   {
     "BRAND": "HotWheels",
@@ -13329,7 +13317,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1111
+    "ID": 1110
   },
   {
     "BRAND": "HotWheels",
@@ -13341,7 +13329,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1112
+    "ID": 1111
   },
   {
     "BRAND": "HotWheels",
@@ -13353,7 +13341,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1113
+    "ID": 1112
   },
   {
     "BRAND": "HotWheels",
@@ -13365,7 +13353,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1114
+    "ID": 1113
   },
   {
     "BRAND": "HotWheels",
@@ -13377,7 +13365,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1115
+    "ID": 1114
   },
   {
     "BRAND": "HotWheels",
@@ -13389,7 +13377,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1116
+    "ID": 1115
   },
   {
     "BRAND": "HotWheels",
@@ -13401,7 +13389,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1117
+    "ID": 1116
   },
   {
     "BRAND": "HotWheels",
@@ -13413,7 +13401,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1118
+    "ID": 1117
   },
   {
     "BRAND": "HotWheels",
@@ -13425,7 +13413,7 @@
     "COLOR": "Orange #01",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1119
+    "ID": 1118
   },
   {
     "BRAND": "HotWheels",
@@ -13437,7 +13425,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1120
+    "ID": 1119
   },
   {
     "BRAND": "HotWheels",
@@ -13449,7 +13437,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": "Treasure Hunt",
-    "ID": 1121
+    "ID": 1120
   },
   {
     "BRAND": "HotWheels",
@@ -13461,7 +13449,7 @@
     "COLOR": "Brown",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1122
+    "ID": 1121
   },
   {
     "BRAND": "HotWheels",
@@ -13473,7 +13461,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1123
+    "ID": 1122
   },
   {
     "BRAND": "HotWheels",
@@ -13485,7 +13473,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1124
+    "ID": 1123
   },
   {
     "BRAND": "HotWheels",
@@ -13497,7 +13485,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1125
+    "ID": 1124
   },
   {
     "BRAND": "HotWheels",
@@ -13509,7 +13497,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1126
+    "ID": 1125
   },
   {
     "BRAND": "HotWheels",
@@ -13521,7 +13509,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1127
+    "ID": 1126
   },
   {
     "BRAND": "HotWheels",
@@ -13533,7 +13521,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1128
+    "ID": 1127
   },
   {
     "BRAND": "HotWheels",
@@ -13545,7 +13533,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1129
+    "ID": 1128
   },
   {
     "BRAND": "HotWheels",
@@ -13557,7 +13545,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1130
+    "ID": 1129
   },
   {
     "BRAND": "HotWheels",
@@ -13569,7 +13557,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1131
+    "ID": 1130
   },
   {
     "BRAND": "HotWheels",
@@ -13581,7 +13569,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1132
+    "ID": 1131
   },
   {
     "BRAND": "HotWheels",
@@ -13593,7 +13581,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1133
+    "ID": 1132
   },
   {
     "BRAND": "HotWheels",
@@ -13605,7 +13593,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1134
+    "ID": 1133
   },
   {
     "BRAND": "HotWheels",
@@ -13617,7 +13605,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1135
+    "ID": 1134
   },
   {
     "BRAND": "HotWheels",
@@ -13629,7 +13617,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1136
+    "ID": 1135
   },
   {
     "BRAND": "HotWheels",
@@ -13641,7 +13629,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1137
+    "ID": 1136
   },
   {
     "BRAND": "HotWheels",
@@ -13653,7 +13641,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1138
+    "ID": 1137
   },
   {
     "BRAND": "HotWheels",
@@ -13665,7 +13653,7 @@
     "COLOR": "Purple",
     "DUPE": "No",
     "SPECIAL": "Treasure Hunt",
-    "ID": 1139
+    "ID": 1138
   },
   {
     "BRAND": "HotWheels",
@@ -13677,7 +13665,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1140
+    "ID": 1139
   },
   {
     "BRAND": "HotWheels",
@@ -13689,7 +13677,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1141
+    "ID": 1140
   },
   {
     "BRAND": "HotWheels",
@@ -13701,7 +13689,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1142
+    "ID": 1141
   },
   {
     "BRAND": "HotWheels",
@@ -13713,7 +13701,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1143
+    "ID": 1142
   },
   {
     "BRAND": "HotWheels",
@@ -13725,7 +13713,7 @@
     "COLOR": "Light Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1144
+    "ID": 1143
   },
   {
     "BRAND": "HotWheels",
@@ -13737,7 +13725,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1145
+    "ID": 1144
   },
   {
     "BRAND": "HotWheels",
@@ -13749,7 +13737,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1146
+    "ID": 1145
   },
   {
     "BRAND": "HotWheels",
@@ -13761,7 +13749,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1147
+    "ID": 1146
   },
   {
     "BRAND": "HotWheels",
@@ -13773,7 +13761,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1148
+    "ID": 1147
   },
   {
     "BRAND": "HotWheels",
@@ -13785,7 +13773,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1149
+    "ID": 1148
   },
   {
     "BRAND": "HotWheels",
@@ -13797,7 +13785,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1150
+    "ID": 1149
   },
   {
     "BRAND": "HotWheels",
@@ -13809,7 +13797,7 @@
     "COLOR": "Cream",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1151
+    "ID": 1150
   },
   {
     "BRAND": "HotWheels",
@@ -13821,7 +13809,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1152
+    "ID": 1151
   },
   {
     "BRAND": "HotWheels",
@@ -13833,7 +13821,7 @@
     "COLOR": "Pink #59",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1153
+    "ID": 1152
   },
   {
     "BRAND": "HotWheels",
@@ -13845,7 +13833,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1154
+    "ID": 1153
   },
   {
     "BRAND": "HotWheels",
@@ -13857,7 +13845,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1155
+    "ID": 1154
   },
   {
     "BRAND": "HotWheels",
@@ -13869,7 +13857,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1156
+    "ID": 1155
   },
   {
     "BRAND": "HotWheels",
@@ -13881,7 +13869,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1157
+    "ID": 1156
   },
   {
     "BRAND": "HotWheels",
@@ -13893,7 +13881,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1158
+    "ID": 1157
   },
   {
     "BRAND": "HotWheels",
@@ -13905,7 +13893,7 @@
     "COLOR": "Black #16",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1159
+    "ID": 1158
   },
   {
     "BRAND": "HotWheels",
@@ -13917,7 +13905,7 @@
     "COLOR": "Light Purple",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1160
+    "ID": 1159
   },
   {
     "BRAND": "HotWheels",
@@ -13929,7 +13917,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1161
+    "ID": 1160
   },
   {
     "BRAND": "HotWheels",
@@ -13941,7 +13929,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1162
+    "ID": 1161
   },
   {
     "BRAND": "HotWheels",
@@ -13953,7 +13941,7 @@
     "COLOR": "Red #03",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1163
+    "ID": 1162
   },
   {
     "BRAND": "HotWheels",
@@ -13965,7 +13953,7 @@
     "COLOR": "Pastel Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1164
+    "ID": 1163
   },
   {
     "BRAND": "HotWheels",
@@ -13977,7 +13965,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1165
+    "ID": 1164
   },
   {
     "BRAND": "HotWheels",
@@ -13989,7 +13977,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1166
+    "ID": 1165
   },
   {
     "BRAND": "HotWheels",
@@ -14001,7 +13989,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1167
+    "ID": 1166
   },
   {
     "BRAND": "HotWheels",
@@ -14013,7 +14001,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1168
+    "ID": 1167
   },
   {
     "BRAND": "HotWheels",
@@ -14025,7 +14013,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1169
+    "ID": 1168
   },
   {
     "BRAND": "HotWheels",
@@ -14037,7 +14025,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1170
+    "ID": 1169
   },
   {
     "BRAND": "HotWheels",
@@ -14049,7 +14037,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1171
+    "ID": 1170
   },
   {
     "BRAND": "HotWheels",
@@ -14061,7 +14049,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1172
+    "ID": 1171
   },
   {
     "BRAND": "HotWheels",
@@ -14073,7 +14061,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1173
+    "ID": 1172
   },
   {
     "BRAND": "HotWheels",
@@ -14085,7 +14073,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1174
+    "ID": 1173
   },
   {
     "BRAND": "HotWheels",
@@ -14097,7 +14085,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1175
+    "ID": 1174
   },
   {
     "BRAND": "HotWheels",
@@ -14109,7 +14097,7 @@
     "COLOR": "Red #04",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1176
+    "ID": 1175
   },
   {
     "BRAND": "HotWheels",
@@ -14121,7 +14109,7 @@
     "COLOR": "Silverish Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1177
+    "ID": 1176
   },
   {
     "BRAND": "HotWheels",
@@ -14133,7 +14121,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1178
+    "ID": 1177
   },
   {
     "BRAND": "HotWheels",
@@ -14145,7 +14133,7 @@
     "COLOR": "Dark Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1179
+    "ID": 1178
   },
   {
     "BRAND": "HotWheels",
@@ -14157,7 +14145,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1180
+    "ID": 1179
   },
   {
     "BRAND": "HotWheels",
@@ -14169,7 +14157,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1181
+    "ID": 1180
   },
   {
     "BRAND": "HotWheels",
@@ -14181,7 +14169,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1182
+    "ID": 1181
   },
   {
     "BRAND": "HotWheels",
@@ -14193,7 +14181,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1183
+    "ID": 1182
   },
   {
     "BRAND": "HotWheels",
@@ -14205,7 +14193,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1184
+    "ID": 1183
   },
   {
     "BRAND": "HotWheels",
@@ -14217,7 +14205,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1185
+    "ID": 1184
   },
   {
     "BRAND": "HotWheels",
@@ -14229,7 +14217,7 @@
     "COLOR": "Purple",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1186
+    "ID": 1185
   },
   {
     "BRAND": "HotWheels",
@@ -14241,7 +14229,7 @@
     "COLOR": "Red #5",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1187
+    "ID": 1186
   },
   {
     "BRAND": "HotWheels",
@@ -14253,7 +14241,7 @@
     "COLOR": "White #01",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1188
+    "ID": 1187
   },
   {
     "BRAND": "HotWheels",
@@ -14265,7 +14253,7 @@
     "COLOR": "Yellow #17",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1189
+    "ID": 1188
   },
   {
     "BRAND": "HotWheels",
@@ -14277,7 +14265,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1190
+    "ID": 1189
   },
   {
     "BRAND": "HotWheels",
@@ -14289,7 +14277,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1191
+    "ID": 1190
   },
   {
     "BRAND": "HotWheels",
@@ -14301,7 +14289,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1192
+    "ID": 1191
   },
   {
     "BRAND": "HotWheels",
@@ -14313,7 +14301,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1193
+    "ID": 1192
   },
   {
     "BRAND": "HotWheels",
@@ -14325,7 +14313,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1194
+    "ID": 1193
   },
   {
     "BRAND": "HotWheels",
@@ -14337,7 +14325,7 @@
     "COLOR": "Red #03",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1195
+    "ID": 1194
   },
   {
     "BRAND": "HotWheels",
@@ -14349,7 +14337,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1196
+    "ID": 1195
   },
   {
     "BRAND": "HotWheels",
@@ -14361,7 +14349,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1197
+    "ID": 1196
   },
   {
     "BRAND": "HotWheels",
@@ -14373,7 +14361,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1198
+    "ID": 1197
   },
   {
     "BRAND": "HotWheels",
@@ -14385,7 +14373,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1199
+    "ID": 1198
   },
   {
     "BRAND": "HotWheels",
@@ -14397,7 +14385,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1200
+    "ID": 1199
   },
   {
     "BRAND": "HotWheels",
@@ -14409,7 +14397,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1201
+    "ID": 1200
   },
   {
     "BRAND": "HotWheels",
@@ -14421,7 +14409,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1202
+    "ID": 1201
   },
   {
     "BRAND": "HotWheels",
@@ -14433,7 +14421,7 @@
     "COLOR": "Light Blue #2",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1203
+    "ID": 1202
   },
   {
     "BRAND": "HotWheels",
@@ -14445,7 +14433,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1204
+    "ID": 1203
   },
   {
     "BRAND": "HotWheels",
@@ -14457,7 +14445,7 @@
     "COLOR": "Pastel Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1205
+    "ID": 1204
   },
   {
     "BRAND": "HotWheels",
@@ -14469,7 +14457,7 @@
     "COLOR": "Orange #01",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1206
+    "ID": 1205
   },
   {
     "BRAND": "HotWheels",
@@ -14481,7 +14469,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1207
+    "ID": 1206
   },
   {
     "BRAND": "HotWheels",
@@ -14493,7 +14481,7 @@
     "COLOR": "Super Mario Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1208
+    "ID": 1207
   },
   {
     "BRAND": "HotWheels",
@@ -14505,7 +14493,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1209
+    "ID": 1208
   },
   {
     "BRAND": "HotWheels",
@@ -14517,7 +14505,7 @@
     "COLOR": "Red #20",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1210
+    "ID": 1209
   },
   {
     "BRAND": "HotWheels",
@@ -14529,7 +14517,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1211
+    "ID": 1210
   },
   {
     "BRAND": "HotWheels",
@@ -14541,7 +14529,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1212
+    "ID": 1211
   },
   {
     "BRAND": "HotWheels",
@@ -14553,7 +14541,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1213
+    "ID": 1212
   },
   {
     "BRAND": "HotWheels",
@@ -14565,7 +14553,7 @@
     "COLOR": "British Racing Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1214
+    "ID": 1213
   },
   {
     "BRAND": "HotWheels",
@@ -14577,7 +14565,7 @@
     "COLOR": "Red #11",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1215
+    "ID": 1214
   },
   {
     "BRAND": "HotWheels",
@@ -14589,7 +14577,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1216
+    "ID": 1215
   },
   {
     "BRAND": "HotWheels",
@@ -14601,7 +14589,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1217
+    "ID": 1216
   },
   {
     "BRAND": "HotWheels",
@@ -14613,7 +14601,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1218
+    "ID": 1217
   },
   {
     "BRAND": "HotWheels",
@@ -14625,7 +14613,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1219
+    "ID": 1218
   },
   {
     "BRAND": "HotWheels",
@@ -14637,7 +14625,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1220
+    "ID": 1219
   },
   {
     "BRAND": "HotWheels",
@@ -14649,7 +14637,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1221
+    "ID": 1220
   },
   {
     "BRAND": "HotWheels",
@@ -14661,7 +14649,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1222
+    "ID": 1221
   },
   {
     "BRAND": "HotWheels",
@@ -14673,7 +14661,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1223
+    "ID": 1222
   },
   {
     "BRAND": "HotWheels",
@@ -14685,7 +14673,7 @@
     "COLOR": "Gold",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1224
+    "ID": 1223
   },
   {
     "BRAND": "HotWheels",
@@ -14697,7 +14685,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1225
+    "ID": 1224
   },
   {
     "BRAND": "HotWheels",
@@ -14709,7 +14697,7 @@
     "COLOR": "Light Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1226
+    "ID": 1225
   },
   {
     "BRAND": "HotWheels",
@@ -14721,7 +14709,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1227
+    "ID": 1226
   },
   {
     "BRAND": "HotWheels",
@@ -14733,7 +14721,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1228
+    "ID": 1227
   },
   {
     "BRAND": "HotWheels",
@@ -14745,7 +14733,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1229
+    "ID": 1228
   },
   {
     "BRAND": "HotWheels",
@@ -14757,7 +14745,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1230
+    "ID": 1229
   },
   {
     "BRAND": "HotWheels",
@@ -14769,7 +14757,7 @@
     "COLOR": "Blue #13",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1231
+    "ID": 1230
   },
   {
     "BRAND": "HotWheels",
@@ -14781,7 +14769,7 @@
     "COLOR": "Yellow #04",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1232
+    "ID": 1231
   },
   {
     "BRAND": "HotWheels",
@@ -14793,7 +14781,7 @@
     "COLOR": "Black #03",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1233
+    "ID": 1232
   },
   {
     "BRAND": "HotWheels",
@@ -14805,7 +14793,7 @@
     "COLOR": "Silver",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1234
+    "ID": 1233
   },
   {
     "BRAND": "HotWheels",
@@ -14817,7 +14805,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": "Damaged",
-    "ID": 1235
+    "ID": 1234
   },
   {
     "BRAND": "HotWheels",
@@ -14829,7 +14817,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1236
+    "ID": 1235
   },
   {
     "BRAND": "HotWheels",
@@ -14841,7 +14829,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1237
+    "ID": 1236
   },
   {
     "BRAND": "HotWheels",
@@ -14853,7 +14841,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1238
+    "ID": 1237
   },
   {
     "BRAND": "HotWheels",
@@ -14865,7 +14853,7 @@
     "COLOR": "Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1239
+    "ID": 1238
   },
   {
     "BRAND": "HotWheels",
@@ -14877,7 +14865,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1240
+    "ID": 1239
   },
   {
     "BRAND": "HotWheels",
@@ -14889,7 +14877,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1241
+    "ID": 1240
   },
   {
     "BRAND": "HotWheels",
@@ -14901,7 +14889,7 @@
     "COLOR": "Red #31",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1242
+    "ID": 1241
   },
   {
     "BRAND": "HotWheels",
@@ -14913,7 +14901,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1243
+    "ID": 1242
   },
   {
     "BRAND": "HotWheels",
@@ -14925,7 +14913,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1244
+    "ID": 1243
   },
   {
     "BRAND": "HotWheels",
@@ -14937,7 +14925,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1245
+    "ID": 1244
   },
   {
     "BRAND": "HotWheels",
@@ -14949,7 +14937,7 @@
     "COLOR": "Silver #03",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1246
+    "ID": 1245
   },
   {
     "BRAND": "HotWheels",
@@ -14961,7 +14949,7 @@
     "COLOR": "Silver #04",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1247
+    "ID": 1246
   },
   {
     "BRAND": "HotWheels",
@@ -14973,7 +14961,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1248
+    "ID": 1247
   },
   {
     "BRAND": "HotWheels",
@@ -14985,7 +14973,7 @@
     "COLOR": "Chrome #03",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1249
+    "ID": 1248
   },
   {
     "BRAND": "HotWheels",
@@ -14997,7 +14985,7 @@
     "COLOR": "Silver",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1250
+    "ID": 1249
   },
   {
     "BRAND": "HotWheels",
@@ -15009,7 +14997,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1251
+    "ID": 1250
   },
   {
     "BRAND": "HotWheels",
@@ -15021,7 +15009,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1252
+    "ID": 1251
   },
   {
     "BRAND": "HotWheels",
@@ -15033,7 +15021,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1253
+    "ID": 1252
   },
   {
     "BRAND": "HotWheels",
@@ -15045,7 +15033,7 @@
     "COLOR": "Light Blue #333",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1254
+    "ID": 1253
   },
   {
     "BRAND": "HotWheels",
@@ -15057,7 +15045,7 @@
     "COLOR": "Dark Blue #333",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1255
+    "ID": 1254
   },
   {
     "BRAND": "HotWheels",
@@ -15069,7 +15057,7 @@
     "COLOR": "Blue #20",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1256
+    "ID": 1255
   },
   {
     "BRAND": "HotWheels",
@@ -15081,7 +15069,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1257
+    "ID": 1256
   },
   {
     "BRAND": "HotWheels",
@@ -15093,7 +15081,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1258
+    "ID": 1257
   },
   {
     "BRAND": "HotWheels",
@@ -15105,7 +15093,7 @@
     "COLOR": "Light Purple #8",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1259
+    "ID": 1258
   },
   {
     "BRAND": "HotWheels",
@@ -15117,7 +15105,7 @@
     "COLOR": "White #06",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1260
+    "ID": 1259
   },
   {
     "BRAND": "HotWheels",
@@ -15129,7 +15117,7 @@
     "COLOR": "Blue #4",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1261
+    "ID": 1260
   },
   {
     "BRAND": "HotWheels",
@@ -15141,7 +15129,7 @@
     "COLOR": "Red",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1262
+    "ID": 1261
   },
   {
     "BRAND": "HotWheels",
@@ -15153,7 +15141,7 @@
     "COLOR": "Pastel Green #822",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1263
+    "ID": 1262
   },
   {
     "BRAND": "HotWheels",
@@ -15165,7 +15153,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1264
+    "ID": 1263
   },
   {
     "BRAND": "HotWheels",
@@ -15177,7 +15165,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1265
+    "ID": 1264
   },
   {
     "BRAND": "HotWheels",
@@ -15189,7 +15177,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1266
+    "ID": 1265
   },
   {
     "BRAND": "HotWheels",
@@ -15201,7 +15189,7 @@
     "COLOR": "Dark Green #04",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1267
+    "ID": 1266
   },
   {
     "BRAND": "HotWheels",
@@ -15213,7 +15201,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1268
+    "ID": 1267
   },
   {
     "BRAND": "HotWheels",
@@ -15225,7 +15213,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1269
+    "ID": 1268
   },
   {
     "BRAND": "HotWheels",
@@ -15237,7 +15225,7 @@
     "COLOR": "Pink",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1270
+    "ID": 1269
   },
   {
     "BRAND": "HotWheels",
@@ -15249,7 +15237,7 @@
     "COLOR": "Red #4",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1271
+    "ID": 1270
   },
   {
     "BRAND": "HotWheels",
@@ -15261,7 +15249,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1272
+    "ID": 1271
   },
   {
     "BRAND": "HotWheels",
@@ -15273,7 +15261,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1273
+    "ID": 1272
   },
   {
     "BRAND": "HotWheels",
@@ -15285,7 +15273,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1274
+    "ID": 1273
   },
   {
     "BRAND": "HotWheels",
@@ -15297,7 +15285,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": "Damaged",
-    "ID": 1275
+    "ID": 1274
   },
   {
     "BRAND": "HotWheels",
@@ -15309,7 +15297,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1276
+    "ID": 1275
   },
   {
     "BRAND": "HotWheels",
@@ -15321,7 +15309,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1277
+    "ID": 1276
   },
   {
     "BRAND": "HotWheels",
@@ -15333,7 +15321,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1278
+    "ID": 1277
   },
   {
     "BRAND": "HotWheels",
@@ -15345,7 +15333,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1279
+    "ID": 1278
   },
   {
     "BRAND": "HotWheels",
@@ -15357,7 +15345,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1280
+    "ID": 1279
   },
   {
     "BRAND": "HotWheels",
@@ -15369,7 +15357,7 @@
     "COLOR": "Red #113",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1281
+    "ID": 1280
   },
   {
     "BRAND": "HotWheels",
@@ -15381,7 +15369,7 @@
     "COLOR": "Silver #03",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1282
+    "ID": 1281
   },
   {
     "BRAND": "HotWheels",
@@ -15393,7 +15381,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1283
+    "ID": 1282
   },
   {
     "BRAND": "Johnny Lightning",
@@ -15405,7 +15393,7 @@
     "COLOR": "Caribbean Pearl",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1284
+    "ID": 1283
   },
   {
     "BRAND": "HotWheels",
@@ -15417,7 +15405,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1285
+    "ID": 1284
   },
   {
     "BRAND": "HotWheels",
@@ -15429,7 +15417,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1286
+    "ID": 1285
   },
   {
     "BRAND": "HotWheels",
@@ -15441,7 +15429,7 @@
     "COLOR": "Purple",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1287
+    "ID": 1286
   },
   {
     "BRAND": "HotWheels",
@@ -15453,7 +15441,7 @@
     "COLOR": "Silver",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1288
+    "ID": 1287
   },
   {
     "BRAND": "Auto World",
@@ -15465,7 +15453,7 @@
     "COLOR": "Misty Turquoise Poly",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1289
+    "ID": 1288
   },
   {
     "BRAND": "Matchbox",
@@ -15477,7 +15465,7 @@
     "COLOR": "Dark Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1290
+    "ID": 1289
   },
   {
     "BRAND": "Matchbox",
@@ -15489,7 +15477,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1291
+    "ID": 1290
   },
   {
     "BRAND": "Matchbox",
@@ -15501,7 +15489,7 @@
     "COLOR": "Dark Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1292
+    "ID": 1291
   },
   {
     "BRAND": "Matchbox",
@@ -15513,7 +15501,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1293
+    "ID": 1292
   },
   {
     "BRAND": "Matchbox",
@@ -15525,7 +15513,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1294
+    "ID": 1293
   },
   {
     "BRAND": "HotWheels",
@@ -15537,7 +15525,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1295
+    "ID": 1294
   },
   {
     "BRAND": "HotWheels",
@@ -15549,7 +15537,7 @@
     "COLOR": "Silver",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1296
+    "ID": 1295
   },
   {
     "BRAND": "HotWheels",
@@ -15561,7 +15549,7 @@
     "COLOR": "Pink",
     "DUPE": "No",
     "SPECIAL": "Treasure Hunt",
-    "ID": 1297
+    "ID": 1296
   },
   {
     "BRAND": "HotWheels",
@@ -15573,7 +15561,7 @@
     "COLOR": "Pink",
     "DUPE": "Yes",
     "SPECIAL": "Treasure Hunt",
-    "ID": 1298
+    "ID": 1297
   },
   {
     "BRAND": "HotWheels",
@@ -15585,7 +15573,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1299
+    "ID": 1298
   },
   {
     "BRAND": "HotWheels",
@@ -15597,7 +15585,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1300
+    "ID": 1299
   },
   {
     "BRAND": "HotWheels",
@@ -15609,7 +15597,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1301
+    "ID": 1300
   },
   {
     "BRAND": "HotWheels",
@@ -15621,7 +15609,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1302
+    "ID": 1301
   },
   {
     "BRAND": "Johnny Lightning",
@@ -15633,7 +15621,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1303
+    "ID": 1302
   },
   {
     "BRAND": "M2",
@@ -15645,7 +15633,7 @@
     "COLOR": "Dark Green Millitary",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1304
+    "ID": 1303
   },
   {
     "BRAND": "HotWheels",
@@ -15657,7 +15645,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1305
+    "ID": 1304
   },
   {
     "BRAND": "HotWheels",
@@ -15669,7 +15657,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1306
+    "ID": 1305
   },
   {
     "BRAND": "HotWheels",
@@ -15681,7 +15669,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1307
+    "ID": 1306
   },
   {
     "BRAND": "HotWheels",
@@ -15693,7 +15681,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1308
+    "ID": 1307
   },
   {
     "BRAND": "HotWheels",
@@ -15705,7 +15693,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1309
+    "ID": 1308
   },
   {
     "BRAND": "HotWheels",
@@ -15717,7 +15705,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1310
+    "ID": 1309
   },
   {
     "BRAND": "Takara Tomy",
@@ -15729,7 +15717,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1311
+    "ID": 1310
   },
   {
     "BRAND": "HotWheels",
@@ -15741,7 +15729,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": "Damaged",
-    "ID": 1312
+    "ID": 1311
   },
   {
     "BRAND": "HotWheels",
@@ -15753,7 +15741,7 @@
     "COLOR": "Black",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1313
+    "ID": 1312
   },
   {
     "BRAND": "HotWheels",
@@ -15765,7 +15753,7 @@
     "COLOR": "Greenish Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1314
+    "ID": 1313
   },
   {
     "BRAND": "HotWheels",
@@ -15777,7 +15765,7 @@
     "COLOR": "Silver #11",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1315
+    "ID": 1314
   },
   {
     "BRAND": "HotWheels",
@@ -15789,7 +15777,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1316
+    "ID": 1315
   },
   {
     "BRAND": "HotWheels",
@@ -15801,7 +15789,7 @@
     "COLOR": "Orange",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1317
+    "ID": 1316
   },
   {
     "BRAND": "HotWheels",
@@ -15813,7 +15801,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1318
+    "ID": 1317
   },
   {
     "BRAND": "HotWheels",
@@ -15825,7 +15813,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1319
+    "ID": 1318
   },
   {
     "BRAND": "HotWheels",
@@ -15837,7 +15825,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1320
+    "ID": 1319
   },
   {
     "BRAND": "HotWheels",
@@ -15849,7 +15837,7 @@
     "COLOR": "Red",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1321
+    "ID": 1320
   },
   {
     "BRAND": "HotWheels",
@@ -15861,7 +15849,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1322
+    "ID": 1321
   },
   {
     "BRAND": "HotWheels",
@@ -15873,7 +15861,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1323
+    "ID": 1322
   },
   {
     "BRAND": "HotWheels",
@@ -15885,7 +15873,7 @@
     "COLOR": "Dark Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1324
+    "ID": 1323
   },
   {
     "BRAND": "HotWheels",
@@ -15897,7 +15885,7 @@
     "COLOR": "Brown",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1325
+    "ID": 1324
   },
   {
     "BRAND": "HotWheels",
@@ -15909,7 +15897,7 @@
     "COLOR": "Dark Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1326
+    "ID": 1325
   },
   {
     "BRAND": "HotWheels",
@@ -15921,7 +15909,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1327
+    "ID": 1326
   },
   {
     "BRAND": "HotWheels",
@@ -15933,7 +15921,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1328
+    "ID": 1327
   },
   {
     "BRAND": "HotWheels",
@@ -15945,7 +15933,7 @@
     "COLOR": "Blue #69",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1329
+    "ID": 1328
   },
   {
     "BRAND": "HotWheels",
@@ -15955,6 +15943,18 @@
     "MODEL": "Milano",
     "YEAR": 2018,
     "COLOR": "Gray",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1329
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2018,
+    "SET": "Mainline (G Case)",
+    "MAKE": "Pontiac",
+    "MODEL": "Firebird Custom",
+    "YEAR": 1968,
+    "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1330
@@ -15967,21 +15967,9 @@
     "MODEL": "Firebird Custom",
     "YEAR": 1968,
     "COLOR": "Red",
-    "DUPE": "No",
-    "SPECIAL": null,
-    "ID": 1331
-  },
-  {
-    "BRAND": "HotWheels",
-    "BYEAR": 2018,
-    "SET": "Mainline (G Case)",
-    "MAKE": "Pontiac",
-    "MODEL": "Firebird Custom",
-    "YEAR": 1968,
-    "COLOR": "Red",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1332
+    "ID": 1331
   },
   {
     "BRAND": "HotWheels",
@@ -15993,7 +15981,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1333
+    "ID": 1332
   },
   {
     "BRAND": "HotWheels",
@@ -16005,7 +15993,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1334
+    "ID": 1333
   },
   {
     "BRAND": "HotWheels",
@@ -16017,7 +16005,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1335
+    "ID": 1334
   },
   {
     "BRAND": "HotWheels",
@@ -16029,7 +16017,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1336
+    "ID": 1335
   },
   {
     "BRAND": "HotWheels",
@@ -16041,7 +16029,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1337
+    "ID": 1336
   },
   {
     "BRAND": "HotWheels",
@@ -16053,7 +16041,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1338
+    "ID": 1337
   },
   {
     "BRAND": "HotWheels",
@@ -16065,7 +16053,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1339
+    "ID": 1338
   },
   {
     "BRAND": "HotWheels",
@@ -16077,7 +16065,7 @@
     "COLOR": "Gold",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1340
+    "ID": 1339
   },
   {
     "BRAND": "HotWheels",
@@ -16089,7 +16077,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Dollar General)",
-    "ID": 1341
+    "ID": 1340
   },
   {
     "BRAND": "Matchbox",
@@ -16101,7 +16089,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1342
+    "ID": 1341
   },
   {
     "BRAND": "Matchbox",
@@ -16113,7 +16101,7 @@
     "COLOR": "Dark Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1343
+    "ID": 1342
   },
   {
     "BRAND": "HotWheels",
@@ -16125,7 +16113,7 @@
     "COLOR": "Black #1D",
     "DUPE": "No",
     "SPECIAL": "Boulevard #96",
-    "ID": 1344
+    "ID": 1343
   },
   {
     "BRAND": "HotWheels",
@@ -16137,7 +16125,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": "Boulevard #99",
-    "ID": 1345
+    "ID": 1344
   },
   {
     "BRAND": "HotWheels",
@@ -16149,7 +16137,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": "Boulevard #100",
-    "ID": 1346
+    "ID": 1345
   },
   {
     "BRAND": "HotWheels",
@@ -16161,7 +16149,7 @@
     "COLOR": "Black #16 | Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1347
+    "ID": 1346
   },
   {
     "BRAND": "Matchbox",
@@ -16173,7 +16161,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1348
+    "ID": 1347
   },
   {
     "BRAND": "HotWheels",
@@ -16185,7 +16173,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1349
+    "ID": 1348
   },
   {
     "BRAND": "Matchbox",
@@ -16197,7 +16185,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1350
+    "ID": 1349
   },
   {
     "BRAND": "Matchbox",
@@ -16209,7 +16197,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1351
+    "ID": 1350
   },
   {
     "BRAND": "Matchbox",
@@ -16221,7 +16209,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1352
+    "ID": 1351
   },
   {
     "BRAND": "Matchbox",
@@ -16233,7 +16221,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1353
+    "ID": 1352
   },
   {
     "BRAND": "HotWheels",
@@ -16245,7 +16233,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": "Boulevard Classic",
-    "ID": 1354
+    "ID": 1353
   },
   {
     "BRAND": "HotWheels",
@@ -16257,7 +16245,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": "Super Treasure Hunt",
-    "ID": 1355
+    "ID": 1354
   },
   {
     "BRAND": "HotWheels",
@@ -16269,7 +16257,7 @@
     "COLOR": "Blue #59",
     "DUPE": "No",
     "SPECIAL": "Japanese",
-    "ID": 1356
+    "ID": 1355
   },
   {
     "BRAND": "HotWheels",
@@ -16281,7 +16269,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1357
+    "ID": 1356
   },
   {
     "BRAND": "HotWheels",
@@ -16293,7 +16281,7 @@
     "COLOR": "Gold",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1358
+    "ID": 1357
   },
   {
     "BRAND": "Matchbox",
@@ -16305,7 +16293,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1359
+    "ID": 1358
   },
   {
     "BRAND": "Tomica",
@@ -16317,7 +16305,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1360
+    "ID": 1359
   },
   {
     "BRAND": "Officially Licensed",
@@ -16329,7 +16317,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1361
+    "ID": 1360
   },
   {
     "BRAND": "Johnny Lightning",
@@ -16341,7 +16329,7 @@
     "COLOR": "Bermuda Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1362
+    "ID": 1361
   },
   {
     "BRAND": "Mini GT",
@@ -16352,6 +16340,18 @@
     "YEAR": 2020,
     "COLOR": "Pepper Gray Metallic",
     "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1362
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (B Case)",
+    "MAKE": "Honda",
+    "MODEL": "Civic Si",
+    "YEAR": 1998,
+    "COLOR": "Gold",
+    "DUPE": "Yes",
     "SPECIAL": null,
     "ID": 1363
   },
@@ -16368,18 +16368,6 @@
     "ID": 1364
   },
   {
-    "BRAND": "HotWheels",
-    "BYEAR": 2024,
-    "SET": "Mainline (B Case)",
-    "MAKE": "Honda",
-    "MODEL": "Civic Si",
-    "YEAR": 1998,
-    "COLOR": "Gold",
-    "DUPE": "Yes",
-    "SPECIAL": null,
-    "ID": 1365
-  },
-  {
     "BRAND": "Matchbox",
     "BYEAR": 2023,
     "SET": "Mainline",
@@ -16389,7 +16377,7 @@
     "COLOR": "Pastel Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1366
+    "ID": 1365
   },
   {
     "BRAND": "HotWheels",
@@ -16401,7 +16389,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1367
+    "ID": 1366
   },
   {
     "BRAND": "HotWheels",
@@ -16413,7 +16401,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1368
+    "ID": 1367
   },
   {
     "BRAND": "HotWheels",
@@ -16425,7 +16413,7 @@
     "COLOR": "Pastel Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1369
+    "ID": 1368
   },
   {
     "BRAND": "HotWheels",
@@ -16437,7 +16425,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1370
+    "ID": 1369
   },
   {
     "BRAND": "HotWheels",
@@ -16449,7 +16437,7 @@
     "COLOR": "Silver #12",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1371
+    "ID": 1370
   },
   {
     "BRAND": "Matchbox",
@@ -16461,7 +16449,7 @@
     "COLOR": "Silver #6",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1372
+    "ID": 1371
   },
   {
     "BRAND": "HotWheels",
@@ -16473,7 +16461,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": "Redline",
-    "ID": 1373
+    "ID": 1372
   },
   {
     "BRAND": "HotWheels",
@@ -16485,7 +16473,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": "Boulevard Classic",
-    "ID": 1374
+    "ID": 1373
   },
   {
     "BRAND": "HotWheels",
@@ -16497,7 +16485,7 @@
     "COLOR": "Green #067",
     "DUPE": "No",
     "SPECIAL": "Boulevard #48",
-    "ID": 1375
+    "ID": 1374
   },
   {
     "BRAND": "HotWheels",
@@ -16509,7 +16497,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": "Boulevard #13",
-    "ID": 1376
+    "ID": 1375
   },
   {
     "BRAND": "HotWheels",
@@ -16521,7 +16509,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": "Treasure Hunt",
-    "ID": 1377
+    "ID": 1376
   },
   {
     "BRAND": "HotWheels",
@@ -16533,7 +16521,7 @@
     "COLOR": "Silver #12",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1378
+    "ID": 1377
   },
   {
     "BRAND": "HotWheels",
@@ -16545,7 +16533,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1379
+    "ID": 1378
   },
   {
     "BRAND": "HotWheels",
@@ -16557,7 +16545,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1380
+    "ID": 1379
   },
   {
     "BRAND": "HotWheels",
@@ -16569,7 +16557,7 @@
     "COLOR": "Blue #12",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1381
+    "ID": 1380
   },
   {
     "BRAND": "HotWheels",
@@ -16581,7 +16569,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1382
+    "ID": 1381
   },
   {
     "BRAND": "HotWheels",
@@ -16593,7 +16581,7 @@
     "COLOR": "Gold #32",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1383
+    "ID": 1382
   },
   {
     "BRAND": "HotWheels",
@@ -16605,7 +16593,7 @@
     "COLOR": "White #24",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1384
+    "ID": 1383
   },
   {
     "BRAND": "HotWheels",
@@ -16617,7 +16605,7 @@
     "COLOR": "Yellow #8",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1385
+    "ID": 1384
   },
   {
     "BRAND": "HotWheels",
@@ -16629,7 +16617,7 @@
     "COLOR": "Yellow #87",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1386
+    "ID": 1385
   },
   {
     "BRAND": "HotWheels",
@@ -16641,7 +16629,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1387
+    "ID": 1386
   },
   {
     "BRAND": "HotWheels",
@@ -16653,7 +16641,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1388
+    "ID": 1387
   },
   {
     "BRAND": "HotWheels",
@@ -16665,7 +16653,7 @@
     "COLOR": "Orange #55",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1389
+    "ID": 1388
   },
   {
     "BRAND": "HotWheels",
@@ -16677,7 +16665,7 @@
     "COLOR": "Teal",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1390
+    "ID": 1389
   },
   {
     "BRAND": "HotWheels",
@@ -16689,7 +16677,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1391
+    "ID": 1390
   },
   {
     "BRAND": "HotWheels",
@@ -16701,7 +16689,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1392
+    "ID": 1391
   },
   {
     "BRAND": "HotWheels",
@@ -16713,7 +16701,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1393
+    "ID": 1392
   },
   {
     "BRAND": "HotWheels",
@@ -16725,7 +16713,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1394
+    "ID": 1393
   },
   {
     "BRAND": "HotWheels",
@@ -16737,7 +16725,7 @@
     "COLOR": "Metal",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1395
+    "ID": 1394
   },
   {
     "BRAND": "HotWheels",
@@ -16749,7 +16737,7 @@
     "COLOR": "Tan",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1396
+    "ID": 1395
   },
   {
     "BRAND": "HotWheels",
@@ -16761,7 +16749,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1397
+    "ID": 1396
   },
   {
     "BRAND": "HotWheels",
@@ -16773,7 +16761,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1398
+    "ID": 1397
   },
   {
     "BRAND": "HotWheels",
@@ -16785,7 +16773,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1399
+    "ID": 1398
   },
   {
     "BRAND": "HotWheels",
@@ -16797,7 +16785,7 @@
     "COLOR": "Green #5",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1400
+    "ID": 1399
   },
   {
     "BRAND": "HotWheels",
@@ -16809,7 +16797,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1401
+    "ID": 1400
   },
   {
     "BRAND": "HotWheels",
@@ -16821,7 +16809,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1402
+    "ID": 1401
   },
   {
     "BRAND": "HotWheels",
@@ -16833,7 +16821,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1403
+    "ID": 1402
   },
   {
     "BRAND": "HotWheels",
@@ -16845,7 +16833,7 @@
     "COLOR": "Red #39",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1404
+    "ID": 1403
   },
   {
     "BRAND": "HotWheels",
@@ -16857,7 +16845,7 @@
     "COLOR": "Orange #70",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1405
+    "ID": 1404
   },
   {
     "BRAND": "Matchbox",
@@ -16869,7 +16857,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1406
+    "ID": 1405
   },
   {
     "BRAND": "Matchbox",
@@ -16881,7 +16869,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1407
+    "ID": 1406
   },
   {
     "BRAND": "HotWheels",
@@ -16893,7 +16881,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1408
+    "ID": 1407
   },
   {
     "BRAND": "HotWheels",
@@ -16905,7 +16893,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1409
+    "ID": 1408
   },
   {
     "BRAND": "Matchbox",
@@ -16917,7 +16905,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1410
+    "ID": 1409
   },
   {
     "BRAND": "Matchbox",
@@ -16929,7 +16917,7 @@
     "COLOR": "White #55",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1411
+    "ID": 1410
   },
   {
     "BRAND": "Matchbox",
@@ -16941,7 +16929,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1412
+    "ID": 1411
   },
   {
     "BRAND": "HotWheels",
@@ -16953,7 +16941,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": "Boulevard #67",
-    "ID": 1413
+    "ID": 1412
   },
   {
     "BRAND": "HotWheels",
@@ -16965,7 +16953,7 @@
     "COLOR": "Purple",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1414
+    "ID": 1413
   },
   {
     "BRAND": "HotWheels",
@@ -16977,7 +16965,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1415
+    "ID": 1414
   },
   {
     "BRAND": "HotWheels",
@@ -16989,7 +16977,7 @@
     "COLOR": "White",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Kroger)",
-    "ID": 1416
+    "ID": 1415
   },
   {
     "BRAND": "HotWheels",
@@ -17001,7 +16989,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1417
+    "ID": 1416
   },
   {
     "BRAND": "HotWheels",
@@ -17013,7 +17001,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1418
+    "ID": 1417
   },
   {
     "BRAND": "HotWheels",
@@ -17025,7 +17013,7 @@
     "COLOR": "Light Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1419
+    "ID": 1418
   },
   {
     "BRAND": "HotWheels",
@@ -17037,7 +17025,7 @@
     "COLOR": "Black #29",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Target)",
-    "ID": 1420
+    "ID": 1419
   },
   {
     "BRAND": "HotWheels",
@@ -17049,7 +17037,7 @@
     "COLOR": "Red #5",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Target)",
-    "ID": 1421
+    "ID": 1420
   },
   {
     "BRAND": "HotWheels",
@@ -17061,7 +17049,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Target)",
-    "ID": 1422
+    "ID": 1421
   },
   {
     "BRAND": "HotWheels",
@@ -17073,7 +17061,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1423
+    "ID": 1422
   },
   {
     "BRAND": "HotWheels",
@@ -17085,7 +17073,7 @@
     "COLOR": "Orange",
     "DUPE": "Yes",
     "SPECIAL": null,
-    "ID": 1424
+    "ID": 1423
   },
   {
     "BRAND": "HotWheels",
@@ -17097,7 +17085,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1425
+    "ID": 1424
   },
   {
     "BRAND": "HotWheels",
@@ -17109,7 +17097,7 @@
     "COLOR": "Orange #55",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1426
+    "ID": 1425
   },
   {
     "BRAND": "HotWheels",
@@ -17121,7 +17109,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1427
+    "ID": 1426
   },
   {
     "BRAND": "Matchbox",
@@ -17133,7 +17121,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1428
+    "ID": 1427
   },
   {
     "BRAND": "Matchbox",
@@ -17145,7 +17133,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1429
+    "ID": 1428
   },
   {
     "BRAND": "HotWheels",
@@ -17157,7 +17145,7 @@
     "COLOR": "Cream #99",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1430
+    "ID": 1429
   },
   {
     "BRAND": "HotWheels",
@@ -17169,7 +17157,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1431
+    "ID": 1430
   },
   {
     "BRAND": "HotWheels",
@@ -17181,7 +17169,7 @@
     "COLOR": "White Police",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1432
+    "ID": 1431
   },
   {
     "BRAND": "HotWheels",
@@ -17193,7 +17181,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": "Treasure Hunt",
-    "ID": 1433
+    "ID": 1432
   },
   {
     "BRAND": "HotWheels",
@@ -17205,7 +17193,7 @@
     "COLOR": "Light Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1434
+    "ID": 1433
   },
   {
     "BRAND": "HotWheels",
@@ -17217,7 +17205,7 @@
     "COLOR": "Yellow #5",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1435
+    "ID": 1434
   },
   {
     "BRAND": "Matchbox",
@@ -17229,7 +17217,7 @@
     "COLOR": "Dark Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1436
+    "ID": 1435
   },
   {
     "BRAND": "HotWheels",
@@ -17241,7 +17229,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1437
+    "ID": 1436
   },
   {
     "BRAND": "HotWheels",
@@ -17253,7 +17241,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1438
+    "ID": 1437
   },
   {
     "BRAND": "HotWheels",
@@ -17265,7 +17253,7 @@
     "COLOR": "White 'Godzilla'",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1439
+    "ID": 1438
   },
   {
     "BRAND": "HotWheels",
@@ -17277,7 +17265,7 @@
     "COLOR": "Yellow",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1440
+    "ID": 1439
   },
   {
     "BRAND": "HotWheels",
@@ -17289,7 +17277,7 @@
     "COLOR": "Black #79",
     "DUPE": "No",
     "SPECIAL": "Store Exclusive (Dollar General)",
-    "ID": 1441
+    "ID": 1440
   },
   {
     "BRAND": "HotWheels",
@@ -17301,7 +17289,7 @@
     "COLOR": "Lime Green",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1442
+    "ID": 1441
   },
   {
     "BRAND": "HotWheels",
@@ -17313,7 +17301,7 @@
     "COLOR": "Gold",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1443
+    "ID": 1442
   },
   {
     "BRAND": "HotWheels",
@@ -17325,7 +17313,7 @@
     "COLOR": "Metal",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1444
+    "ID": 1443
   },
   {
     "BRAND": "HotWheels",
@@ -17337,7 +17325,7 @@
     "COLOR": "Tan",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1445
+    "ID": 1444
   },
   {
     "BRAND": "HotWheels",
@@ -17349,7 +17337,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1446
+    "ID": 1445
   },
   {
     "BRAND": "HotWheels",
@@ -17361,7 +17349,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1447
+    "ID": 1446
   },
   {
     "BRAND": "HotWheels",
@@ -17373,7 +17361,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1448
+    "ID": 1447
   },
   {
     "BRAND": "Matchbox",
@@ -17385,7 +17373,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1449
+    "ID": 1448
   },
   {
     "BRAND": "HotWheels",
@@ -17397,7 +17385,7 @@
     "COLOR": "Purple",
     "DUPE": "No",
     "SPECIAL": "Boulevard #104",
-    "ID": 1450
+    "ID": 1449
   },
   {
     "BRAND": "HotWheels",
@@ -17409,7 +17397,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": "Boulevard #102",
-    "ID": 1451
+    "ID": 1450
   },
   {
     "BRAND": "HotWheels",
@@ -17421,7 +17409,7 @@
     "COLOR": "Brown",
     "DUPE": "No",
     "SPECIAL": "Boulevard #101",
-    "ID": 1452
+    "ID": 1451
   },
   {
     "BRAND": "HotWheels",
@@ -17433,7 +17421,7 @@
     "COLOR": "Cyan",
     "DUPE": "No",
     "SPECIAL": "Boulevard #103",
-    "ID": 1453
+    "ID": 1452
   },
   {
     "BRAND": "HotWheels",
@@ -17445,7 +17433,7 @@
     "COLOR": "Light Blue #95",
     "DUPE": "No",
     "SPECIAL": "Boulevard #105",
-    "ID": 1454
+    "ID": 1453
   },
   {
     "BRAND": "HotWheels",
@@ -17457,7 +17445,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1455
+    "ID": 1454
   },
   {
     "BRAND": "HotWheels",
@@ -17469,7 +17457,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1456
+    "ID": 1455
   },
   {
     "BRAND": "HotWheels",
@@ -17481,7 +17469,7 @@
     "COLOR": "Lime Green #17",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1457
+    "ID": 1456
   },
   {
     "BRAND": "HotWheels",
@@ -17493,7 +17481,7 @@
     "COLOR": "Blue #70",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1458
+    "ID": 1457
   },
   {
     "BRAND": "HotWheels",
@@ -17505,7 +17493,7 @@
     "COLOR": "Red",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1459
+    "ID": 1458
   },
   {
     "BRAND": "HotWheels",
@@ -17517,7 +17505,7 @@
     "COLOR": "Blue #953",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1460
+    "ID": 1459
   },
   {
     "BRAND": "HotWheels",
@@ -17529,7 +17517,7 @@
     "COLOR": "Dark Green #27",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1461
+    "ID": 1460
   },
   {
     "BRAND": "HotWheels",
@@ -17541,7 +17529,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1462
+    "ID": 1461
   },
   {
     "BRAND": "HotWheels",
@@ -17553,7 +17541,7 @@
     "COLOR": "Metal",
     "DUPE": "No",
     "SPECIAL": "Treasure Hunt",
-    "ID": 1463
+    "ID": 1462
   },
   {
     "BRAND": "HotWheels",
@@ -17565,7 +17553,7 @@
     "COLOR": "Purple #9",
     "DUPE": "No",
     "SPECIAL": "Super Treasure Hunt",
-    "ID": 1464
+    "ID": 1463
   },
   {
     "BRAND": "HotWheels",
@@ -17577,7 +17565,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1465
+    "ID": 1464
   },
   {
     "BRAND": "HotWheels",
@@ -17589,7 +17577,7 @@
     "COLOR": "Black",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1466
+    "ID": 1465
   },
   {
     "BRAND": "HotWheels",
@@ -17601,7 +17589,7 @@
     "COLOR": "Gray",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1467
+    "ID": 1466
   },
   {
     "BRAND": "HotWheels",
@@ -17613,7 +17601,7 @@
     "COLOR": "Silver",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1468
+    "ID": 1467
   },
   {
     "BRAND": "HotWheels",
@@ -17625,7 +17613,7 @@
     "COLOR": "Cream",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1469
+    "ID": 1468
   },
   {
     "BRAND": "HotWheels",
@@ -17637,7 +17625,7 @@
     "COLOR": "Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1470
+    "ID": 1469
   },
   {
     "BRAND": "HotWheels",
@@ -17649,7 +17637,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1471
+    "ID": 1470
   },
   {
     "BRAND": "HotWheels",
@@ -17661,7 +17649,7 @@
     "COLOR": "Blue #39",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1472
+    "ID": 1471
   },
   {
     "BRAND": "HotWheels",
@@ -17673,7 +17661,7 @@
     "COLOR": "Orange",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1473
+    "ID": 1472
   },
   {
     "BRAND": "HotWheels",
@@ -17685,7 +17673,7 @@
     "COLOR": "Dark Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1474
+    "ID": 1473
   },
   {
     "BRAND": "HotWheels",
@@ -17697,7 +17685,7 @@
     "COLOR": "Yellow #3",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1475
+    "ID": 1474
   },
   {
     "BRAND": "HotWheels",
@@ -17709,7 +17697,7 @@
     "COLOR": "Light Blue",
     "DUPE": "No",
     "SPECIAL": null,
-    "ID": 1476
+    "ID": 1475
   },
   {
     "BRAND": "HotWheels",
@@ -17721,6 +17709,6 @@
     "COLOR": "Dark Purple",
     "DUPE": "No",
     "SPECIAL": "Super Treasure Hunt",
-    "ID": 1477
+    "ID": 1476
   }
 ]
