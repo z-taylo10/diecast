@@ -17710,5 +17710,41 @@
     "DUPE": "No",
     "SPECIAL": "Super Treasure Hunt",
     "ID": 1476
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "Mercury",
+    "MODEL": "Eight (Drag)",
+    "YEAR": 1949,
+    "COLOR": "Metal",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1477
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2024,
+    "SET": "Moving Parts",
+    "MAKE": "Volkswagen",
+    "MODEL": "Golf MK3",
+    "YEAR": 1995,
+    "COLOR": "Dark Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1478
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Mainline (N Case)",
+    "MAKE": "DMC",
+    "MODEL": "Delorean",
+    "YEAR": 1982,
+    "COLOR": "Metal",
+    "DUPE": "Yes",
+    "SPECIAL": "Treasure Hunt",
+    "ID": 1479
   }
 ]
