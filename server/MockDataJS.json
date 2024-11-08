@@ -17890,5 +17890,77 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1491
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "Mercedes-Benz",
+    "MODEL": "E36 AMG",
+    "YEAR": 1993,
+    "COLOR": "White",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #113",
+    "ID": 1492
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "Volvo",
+    "MODEL": "142 GL",
+    "YEAR": 1973,
+    "COLOR": "Dark Blue #73",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #111",
+    "ID": 1493
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "Boulevard",
+    "MAKE": "BMW",
+    "MODEL": "M3",
+    "YEAR": 2003,
+    "COLOR": "Yellow",
+    "DUPE": "No",
+    "SPECIAL": "Boulevard #115",
+    "ID": 1494
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Fast & Furious",
+    "MAKE": "Nissan",
+    "MODEL": "180SX Type X",
+    "YEAR": 1996,
+    "COLOR": "Light Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1495
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Fast & Furious",
+    "MAKE": "Toyota",
+    "MODEL": "FJ Cruiser",
+    "YEAR": 2010,
+    "COLOR": "Dark Gray",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1496
+  },
+  {
+    "BRAND": "Matchbox",
+    "BYEAR": 2023,
+    "SET": "Collectors",
+    "MAKE": "BMW",
+    "MODEL": "M3",
+    "YEAR": 1993,
+    "COLOR": "White #58",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1497
   }
 ]
