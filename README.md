@@ -1,0 +1,8 @@
+A Personal Project that I built during the summer of 2024 to organize my partner & I's massive collection of diecast cars. This was my first site I have built on my own, went in with very little web development experience but came out of it with a functioning database!
+
+It was first made to solve a problem. We have so many cars that we quickly realized when going to flea markets, stores, etc that we weren't always sure if we had something or not. My initial solution was to simply put everything in an excel spreadsheet, which is what I started doing. However, I quickly realized that this wouldn't help my partner, unless I sent him the updated spreadsheet over and over again. Thus my solution was building this website, that way we could view and search through the database easily from anywhere.
+
+The site is mostly made in basic HTML & JS, & this was before I learned how to use React (I have considered rebuilding it with react, but that will be for another time). 
+Currently there is over 1500 documented items in our collection, I spent days going through boxes and boxes of stuff along with taking things off our walls to document them, etc.
+
+The way the site works is pretty simple, as mentioned before everything is kept in a excel spreadsheet that I update with new entries as we get them, and when I am ready I simply login to the admin account of the site and upload the updated excel to the website. I used a small python script to convert the spreadsheet into a json format that the site can easily read and styleize. Similar scripts are used to do the same thing in reverse (download the JSON as an excel).
