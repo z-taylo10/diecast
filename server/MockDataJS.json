@@ -22642,5 +22642,89 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1887
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2001,
+    "SET": "Mainline",
+    "MAKE": "Riley & Scott",
+    "MODEL": "Mk III",
+    "YEAR": 1995,
+    "COLOR": "Blue #1",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1888
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 1999,
+    "SET": "Mainline",
+    "MAKE": "Fake HotWheels Brand",
+    "MODEL": "500 (Indy)",
+    "YEAR": 1999,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1889
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 1999,
+    "SET": "Mainline",
+    "MAKE": "Thomassima",
+    "MODEL": "III",
+    "YEAR": 1969,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1890
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2025,
+    "SET": "Mainline (G Case)",
+    "MAKE": "McLaren",
+    "MODEL": "W1",
+    "YEAR": 2025,
+    "COLOR": "Orange",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1891
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2025,
+    "SET": "Mainline (G Case)",
+    "MAKE": "Dodge",
+    "MODEL": "Viper GTS",
+    "YEAR": 1996,
+    "COLOR": "Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1892
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Fast Wagons",
+    "MAKE": "Subaru",
+    "MODEL": "Forester STI",
+    "YEAR": 2004,
+    "COLOR": "Silver",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1893
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2024,
+    "SET": "HWP: Fast Wagons",
+    "MAKE": "Mercedes-Benz",
+    "MODEL": "E36 AMG",
+    "YEAR": 1993,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1894
   }
 ]
