@@ -22858,5 +22858,65 @@
     "DUPE": "No",
     "SPECIAL": null,
     "ID": 1905
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2025,
+    "SET": "Mainline (C Case)",
+    "MAKE": "Morgan",
+    "MODEL": "Super 3",
+    "YEAR": 2023,
+    "COLOR": "Gold #03",
+    "DUPE": "No",
+    "SPECIAL": "Store Exclusive (Kroger)",
+    "ID": 1906
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2025,
+    "SET": "Mainline (E Case)",
+    "MAKE": "Formula One",
+    "MODEL": "Williams Racing",
+    "YEAR": 2024,
+    "COLOR": "Dark Blue",
+    "DUPE": "Yes",
+    "SPECIAL": null,
+    "ID": 1907
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2025,
+    "SET": "Mainline (G Case)",
+    "MAKE": "Nissan",
+    "MODEL": "Skyline 2000GT-R LBWK",
+    "YEAR": 1973,
+    "COLOR": "Dark Blue POP",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1908
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2025,
+    "SET": "Mainline (H Case)",
+    "MAKE": "Ford",
+    "MODEL": "Mustang Funny Car",
+    "YEAR": 1971,
+    "COLOR": "Red",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1909
+  },
+  {
+    "BRAND": "HotWheels",
+    "BYEAR": 2025,
+    "SET": "Mainline (H Case)",
+    "MAKE": "Datsun",
+    "MODEL": "240Z",
+    "YEAR": 1970,
+    "COLOR": "Light Blue",
+    "DUPE": "No",
+    "SPECIAL": null,
+    "ID": 1910
   }
 ]
